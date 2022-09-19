@@ -15,24 +15,22 @@ When you download github files, you have this file in the github folder: https:/
 //// How to run a macro here
 //// I divide macro into many steps, you can run one by one step here
 //// And then when you don't see any error, you can try to run entire pipeline
-//// I tested macro in Windows systems and for tissue H1536_islet1
+//// Macros works well in Linux, Mac. I fix some bugs in Windows system before, so I think macro works well with Windows too. If you see any issue, pls inform me to fix it.
 
 
 
 
 
 //======================================================================================
-//// STEP1: Splitting composite images into different channels
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
+//// STEP1: Splitting composite images into different channels using Bio-Formats plugins
+//// Example of windows input directory
+//// dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/small_tissue/";
 
-composite_image_fn="H1536_islet1.tiff";
+dir="/Users/hoatran/Documents/jean_project/data/small_tissue/raw_channels/";
+composite_image_fn="Ms870_Co_MDA5C_D5_Lung1_Stich_Met01.czi";
 
-//// Gajana, Marcus
-////Need to choose an option split channels from biocimage tools automatic popup window
-//// in order to split images into different channels.
-//// I don't know how to write macro in order to split this composite image yet
-open(dir+composite_image_fn); 
 
+run("Bio-Formats Importer", "open="+dir+composite_image_fn+" autoscale color_mode=Default split_channels view=Hyperstack stack_order=XYCZT");
 
 
 //// From this part, I can run all steps in one run
