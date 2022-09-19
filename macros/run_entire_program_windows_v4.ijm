@@ -26,31 +26,43 @@ When you download github files, you have this file in the github folder: https:/
 //// Example of windows input directory
 //// dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/small_tissue/";
 
+//// Noted: I name the images as: "C1-BFP.tif", "C2-tSapphire.tif", "C3-venus.tif", "C4-tomato.tif", "C5-katushka.tif", "C6-NUC.tif"
+//// just a convention, easy to remember it. 
+//// 6 channels image with channel 1: BFP / 2: tSapphire / 3:Venus / 4:Tomato/ 5:Katushka/ 6:Draq5 (nuclei staining)**
+
+
+// Please modify the dir input directory parameter here
 dir="/Users/hoatran/Documents/jean_project/data/small_tissue/raw_channels/";
+//save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/"; // in case you want to set save_dir to other folder
+save_dir=File.getParent(dir)+"/testing_macros/";
+if(!File.exists(save_dir)) 
+      File.mkdir(save_dir);
+
 composite_image_fn="Ms870_Co_MDA5C_D5_Lung1_Stich_Met01.czi";
-
-
 run("Bio-Formats Importer", "open="+dir+composite_image_fn+" autoscale color_mode=Default split_channels view=Hyperstack stack_order=XYCZT");
 
-
-//// From this part, I can run all steps in one run
-//// Noted: I name the images as: "C1-delta.tif", "C2-beta.tif", "C4-dapi.tif", "C3-alpha.tif"
-//// Because in the results images, the values of intensity are: delta-1, beta-2, and alpha-3
-//// just a convention, easy to remember it. 
-
-composite_image_fn="H1536_islet1.tiff";
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
 selectWindow(composite_image_fn+" - C=0");
-saveAs("Tiff", dir+"C1-delta.tif");
+saveAs("Tiff", save_dir+"C1-BFP.tif");
 
 selectWindow(composite_image_fn+" - C=1");
-saveAs("Tiff", dir+"C2-beta.tif");
+saveAs("Tiff", save_dir+"C2-tSapphire.tif");
 
 selectWindow(composite_image_fn+" - C=2");
-saveAs("Tiff", dir+"C4-dapi.tif");
+saveAs("Tiff", save_dir+"C3-venus.tif");
 
 selectWindow(composite_image_fn+" - C=3");
-saveAs("Tiff", dir+"C3-alpha.tif");
+saveAs("Tiff", save_dir+"C4-tomato.tif");
+
+selectWindow(composite_image_fn+" - C=4");
+saveAs("Tiff", save_dir+"C5-katushka.tif");
+
+selectWindow(composite_image_fn+" - C=5");
+saveAs("Tiff", save_dir+"C6-NUC.tif");
+
+print("Splitting images and save into folders with the naming convention: ");
+print("1: BFP, 2: tSapphire, 3:Venus, 4:Tomato, 5:Katushka, 6:Draq5 (nuclei staining)");
+print("Save separated images into folder: "+save_dir);
+print("First step completed!");
 run("Close All"); 
 
 
@@ -67,97 +79,91 @@ run("Close All");
 //======================================================================================
 ////  STEP21: Hysteresis Threshold for background cut off 
 
-////Processing BETA marker channels, cut off background, background and intra tissue environment=0
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-low_thrs=70;
-high_thrs=100;
-observed_marker_fn1="C2-beta.tif"
-open(dir + observed_marker_fn1);  //open(dir+"C2-beta.tif");
-observed_marker1 = substring(observed_marker_fn1,0,lastIndexOf(observed_marker_fn1,".tif"));
-print("Removing background from image: "+observed_marker_fn1)
-
-selectWindow(observed_marker_fn1);
-run("Duplicate...", "duplicate title=["+observed_marker1+"_hysteresis_thresh]");
-selectWindow(observed_marker1+"_hysteresis_thresh");
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
+function remove_background_using_hysteresis_threshold(image_fn, low_thrs, high_thrs, save_dir) {
+open(save_dir + image_fn);  
+image_fn_short = substring(image_fn,0,lastIndexOf(image_fn,".tif"));
+print("Removing background using hysteresis threshold method from image: "+image_fn)
+print("Low threshold: "+low_thrs);
+print("High threshold: " + high_thrs);
+selectWindow(image_fn);
+run("Duplicate...", "duplicate title=["+image_fn_short+"_hysteresis_thresh]");
+selectWindow(image_fn_short+"_hysteresis_thresh");
+if (bitDepth > 8) {run("8-bit");}
+run("Median...", "radius=2");
 ////if you have same microscopy setting, you may need to define it once and reuse the set of parameters many times
 run("3D Hysteresis Thresholding", "high="+high_thrs+" low="+low_thrs+" connectivity"); 
 
-selectWindow(observed_marker_fn1);
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
-imageCalculator("AND create stack", observed_marker_fn1, observed_marker1+"_hysteresis_thresh");
-selectWindow("Result of "+observed_marker_fn1);
-saveAs("Tiff", dir+observed_marker1+"_filtered.tif");
-selectWindow(observed_marker_fn1);
-saveAs("Tiff", dir+observed_marker_fn1);
+selectWindow(image_fn);
+if (bitDepth > 8) {run("8-bit");}
+run("Median...", "radius=2");
+imageCalculator("AND create stack", image_fn, image_fn_short+"_hysteresis_thresh");
+selectWindow("Result of "+image_fn);
+saveAs("Tiff", save_dir+image_fn_short+"_filtered.tif");
+selectWindow(image_fn);
+saveAs("Tiff", save_dir+image_fn);
 run("Close All"); 
+print("Completed!");
 
+
+}
+
+
+////Processing BETA marker channels, cut off background, background and intra tissue environment=0
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
+low_thrs=70;
+high_thrs=100;
+observed_marker_fn="C1-BFP.tif"
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
 
 //======================================================================================
 ////  STEP22: Hysteresis Threshold for background cut off 
 
 ////Processing DELTA marker channels, cut off background, background and intra tissue environment=0
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
 low_thrs=30;
 high_thrs=40;
-observed_marker_fn2="C1-delta.tif";
-
-open(dir + observed_marker_fn2);
-observed_marker2 = substring(observed_marker_fn2,0,lastIndexOf(observed_marker_fn2,".tif"));
-print("Removing background from image: "+observed_marker_fn2)
-
-selectWindow(observed_marker_fn2);
-run("Duplicate...", "duplicate title=["+observed_marker2+"_hysteresis_thresh]");
-selectWindow(observed_marker2+"_hysteresis_thresh");
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
-////if you have same microscopy setting, you may need to define it once and reuse the set of parameters many times
-//// delta cells marker staining usually lower intensity compared to beta cells, so the threshold here is also lower
-run("3D Hysteresis Thresholding", "high="+high_thrs+" low="+low_thrs+" connectivity"); 
-
-selectWindow(observed_marker_fn2);
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
-imageCalculator("AND create stack", observed_marker_fn2, observed_marker2+"_hysteresis_thresh");
-selectWindow("Result of "+observed_marker_fn2);
-saveAs("Tiff", dir+observed_marker2+"_filtered.tif");
-selectWindow(observed_marker_fn2);
-saveAs("Tiff", dir+observed_marker_fn2);
-run("Close All"); 
+observed_marker_fn="C2-tSapphire.tif";
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
 
 
 //======================================================================================
 ////  STEP23: Hysteresis Threshold for background cut off 
 
-////Processing ALPHA marker channels, cut off background, background and intra tissue environment=0
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-low_thrs=60;
-high_thrs=90;
-observed_marker_fn3="C3-alpha.tif"
-open(dir + observed_marker_fn3);  // open(dir+"C3-alpha.tif");
-observed_marker3 = substring(observed_marker_fn3,0,lastIndexOf(observed_marker_fn3,".tif"));
-print("Removing background from image: "+observed_marker_fn3)
-selectWindow(observed_marker_fn3);
-run("Duplicate...", "duplicate title=["+observed_marker3+"_hysteresis_thresh]");
-selectWindow(observed_marker3+"_hysteresis_thresh");
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
-////if you have same microscopy setting, you may need to define it once and reuse the set of parameters many times
-//// alpha cells marker staining usually sightly lower intensity compared to beta cells, so the threshold here is also lower, also from my image observation
-run("3D Hysteresis Thresholding", "high="+high_thrs+" low="+low_thrs+" connectivity"); 
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
+low_thrs=30;
+high_thrs=40;
+observed_marker_fn="C3-venus.tif";
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
 
-selectWindow(observed_marker_fn3);
-run("8-bit");
-run("Median 3D...", "x=2 y=2 z=1");
-imageCalculator("AND create stack", observed_marker_fn3, observed_marker3+"_hysteresis_thresh");
-selectWindow("Result of "+observed_marker_fn3);
-saveAs("Tiff", dir+observed_marker3+"_filtered.tif");
-selectWindow(observed_marker_fn3);
-saveAs("Tiff", dir+observed_marker_fn3);
-run("Close All"); 
 
+//======================================================================================
+////  STEP24: Hysteresis Threshold for background cut off 
+
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
+low_thrs=30;
+high_thrs=40;
+observed_marker_fn="C4-tomato.tif";
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+
+
+//======================================================================================
+////  STEP25: Hysteresis Threshold for background cut off 
+
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
+low_thrs=30;
+high_thrs=40;
+observed_marker_fn="C5-katushka.tif";
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+
+
+//======================================================================================
+////  STEP26: Hysteresis Threshold for background cut off 
+
+save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
+low_thrs=30;
+high_thrs=40;
+observed_marker_fn="C6-NUC.tif";
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
 
 
 
