@@ -28,7 +28,8 @@ run("Median...", "radius=2");
 imageCalculator("AND create stack", image_fn, image_fn_short+"_hysteresis_thresh");
 
 selectWindow(image_fn_short+"_hysteresis_thresh");
-saveAs("Tiff", save_dir+image_fn_short+"_binary.tif");
+//saveAs("Tiff", save_dir+image_fn_short+"_binary.tif");
+saveAs("ZIP", save_dir+image_fn_short+"_binary.zip");
 
 selectWindow("Result of "+image_fn);
 saveAs("Tiff", save_dir+image_fn_short+"_filtered.tif");
