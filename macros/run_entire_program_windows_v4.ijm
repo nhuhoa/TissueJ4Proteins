@@ -32,8 +32,8 @@ When you download github files, you have this file in the github folder: https:/
 
 
 // Please modify the dir input directory parameter here
-dir="/Users/hoatran/Documents/jean_project/data/small_tissue/raw_channels/";
-//save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/"; // in case you want to set save_dir to other folder
+//dir="/Users/hoatran/Documents/jean_project/data/small_tissue/raw_channels/";
+dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/small_tissue/";
 save_dir=File.getParent(dir)+"/testing_macros/";
 if(!File.exists(save_dir)) 
       File.mkdir(save_dir);
@@ -79,7 +79,7 @@ run("Close All");
 //======================================================================================
 ////  STEP21: Hysteresis Threshold for background cut off 
 
-function remove_background_using_hysteresis_threshold(image_fn, low_thrs, high_thrs, save_dir) {
+function remove_background_using_hysteresis_threshold(image_fn, low_thrs, high_thrs, save_dir, normalize_img) {
 open(save_dir + image_fn);  
 image_fn_short = substring(image_fn,0,lastIndexOf(image_fn,".tif"));
 print("Removing background using hysteresis threshold method from image: "+image_fn)
@@ -97,10 +97,28 @@ selectWindow(image_fn);
 if (bitDepth > 8) {run("8-bit");}
 run("Median...", "radius=2");
 imageCalculator("AND create stack", image_fn, image_fn_short+"_hysteresis_thresh");
+
+selectWindow(image_fn_short+"_hysteresis_thresh");
+saveAs("Tiff", save_dir+image_fn_short+"_binary.tif");
+
 selectWindow("Result of "+image_fn);
 saveAs("Tiff", save_dir+image_fn_short+"_filtered.tif");
-selectWindow(image_fn);
-saveAs("Tiff", save_dir+image_fn);
+if( normalize_img=="yes"){
+print("Normalizing filtered image");
+run("NORMALIZING IMAGE", "save_dir="+save_dir+" input_image="+image_fn_short+"_filtered.tif threshold=5");
+selectWindow("normalized_"+image_fn_short+"_filtered.tif");
+saveAs("Tiff", save_dir+image_fn_short+"_filtered.tif");
+File.delete(save_dir+"normalized_"+image_fn_short+"_filtered.tif")
+
+
+} else{
+	print("Without normalizing step");
+	
+}
+
+	
+//selectWindow(image_fn);
+//saveAs("Tiff", save_dir+image_fn);
 run("Close All"); 
 print("Completed!");
 
@@ -108,62 +126,68 @@ print("Completed!");
 }
 
 
-////Processing BETA marker channels, cut off background, background and intra tissue environment=0
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=70;
-high_thrs=100;
+
+
+
+
+
+
+
+//======================================================================================
+////  STEP21: Hysteresis Threshold for background cut off 
+
+////Processing BFP marker channels, cut off background, background and intra tissue environment=0
+low_thrs=20;
+high_thrs=25;
 observed_marker_fn="C1-BFP.tif"
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
 //======================================================================================
 ////  STEP22: Hysteresis Threshold for background cut off 
 
-////Processing DELTA marker channels, cut off background, background and intra tissue environment=0
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=30;
-high_thrs=40;
+////Processing tSapphire marker channels, cut off background, background and intra tissue environment=0
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+low_thrs=15;
+high_thrs=25;
 observed_marker_fn="C2-tSapphire.tif";
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
 
 //======================================================================================
 ////  STEP23: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=30;
-high_thrs=40;
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+low_thrs=15;
+high_thrs=25;
 observed_marker_fn="C3-venus.tif";
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
+
 
 
 //======================================================================================
 ////  STEP24: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=30;
-high_thrs=40;
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+low_thrs=15;
+high_thrs=25;
 observed_marker_fn="C4-tomato.tif";
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
+
 
 
 //======================================================================================
 ////  STEP25: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=30;
-high_thrs=40;
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+low_thrs=5;
+high_thrs=10;
 observed_marker_fn="C5-katushka.tif";
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
 
-//======================================================================================
-////  STEP26: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/jean_project/data/small_tissue/testing_macros/";
-low_thrs=30;
-high_thrs=40;
-observed_marker_fn="C6-NUC.tif";
-remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir);
+
 
 
 
@@ -177,22 +201,38 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 //// You can run automatic mode and observe the results, if as not you expected --> increase or decrease threshold and use manual threshold mode. See the log file to have an idea here. 
 //// It take ~ 3 mins for this step
 
-small_nucleus_diameter_thrs=15;
-large_nucleus_diameter_thrs=36;
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-
-open(dir+"C4-dapi.tif");
+small_nucleus_diameter_thrs=8;
+large_nucleus_diameter_thrs=14;
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+nuc_image_fn="C6-NUC.tif";
+image_fn_short = substring(nuc_image_fn,0,lastIndexOf(nuc_image_fn,".tif"));
+open(save_dir+nuc_image_fn);
 
 //// Using automatic seeds selection mode
-run("NUCLEI SEGMENTATION", "save_dir=["+dir+"] dapi=C4-dapi.tif maximal="+large_nucleus_diameter_thrs+" minimal="+small_nucleus_diameter_thrs+" seed=29000 automatic");
-selectWindow("dapi-seg.tif"); //automatic save results into folder
+//run("SEGMENTING NUCLEUS", "save_dir=["+save_dir+"] dapi="+nuc_image_fn+" maximal="+large_nucleus_diameter_thrs+" minimal="+small_nucleus_diameter_thrs+" seed=20000 automatic");
+//selectWindow("dapi-seg.tif"); //automatic save results into folder
+// Automatic Seed Threshold estimated is: 18937 - capture many backgrounds as object, need to increase seed threshold here
+
+// Using manual seed threshold setting mode
+run("SEGMENTING NUCLEUS", "save_dir=["+save_dir+"] dapi="+nuc_image_fn+" maximal="+large_nucleus_diameter_thrs+" minimal="+small_nucleus_diameter_thrs+" seed=20000");
+
+
+// Functions for visualization, and facilitate validation step
+selectWindow("dapi-seg.tif"); //segmented results from above command
+rename(image_fn_short+"_SEG");
+//setOption("ScaleConversions", true);
+selectWindow(image_fn_short+"_SEG"); 
 run("Enhance Contrast", "saturated=0.35");
 run("3-3-2 RGB"); //color map for better visualization
+saveAs("Tiff", save_dir+image_fn_short+"_SEG.tif");
 
-run("3D Draw Rois", "raw=C4-dapi seg=dapi-seg");
-selectWindow("DUP_C4-dapi.tif"); //TO DO DOUBLE CHECK
+run("3D Draw Rois", "raw="+image_fn_short+" seg="+image_fn_short+"_SEG");
+selectWindow("DUP_"+nuc_image_fn); 
 run("Enhance Contrast", "saturated=0.35");
-saveAs("Tiff", dir+"DUP_C4-dapi_demo_only.tif"); // very useful for validation, and quick check accuracy of nucleus object detection
+saveAs("Tiff", save_dir+image_fn_short+"_ROI_"+"_demo_only.tif"); // very useful for validation, and quick check accuracy of nucleus object detection
+File.delete(save_dir+"BP_C4-dapi.tif"); //delete temporary files
+File.delete(save_dir+"dapi-seg.tif"); //delete temporary files
+print("Complete!!!");
 run("Close All"); 
 
 
@@ -202,151 +242,60 @@ run("Close All");
 
 
 //======================================================================================
-//// STEP4: cell zone estimation
+//// STEP31: cell zone estimation
 //// Estimating a cell zone for each cell, from each nucleus, extend into space a radius R, ex: R=5 here, then obtained region will be a cell zone. I observe image of dapi and markers to define a max radius for region growing. 
 //// Then later, program will look into each cell zone and check the amount of marker that cover this cell zone. 
 //// It take ~ 1 mins for this step
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-max_radius_extension_wat=5; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
-open(dir+"C4-dapi.tif");
-open(dir+"dapi-seg.tif");
-run("CELL ZONE ESTIMATION", "save_dir=["+dir+"] nuclei=dapi-seg.tif radius_max="+max_radius_extension_wat+" save");
-selectWindow("dapi-seg-wat.tif");
-run("3-3-2 RGB");
-saveAs("Tiff", dir+"dapi-seg-wat.tif"); //color map for better visualization
-run("Close All"); 
 
+//radius_extension_nuc_cellPeriphery = 3; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+//seg_nuc_image_fn="C6-NUC_SEG.tif";
+//image_fn_short = substring(seg_nuc_image_fn,0,lastIndexOf(seg_nuc_image_fn,".tif"));
+//open(save_dir+seg_nuc_image_fn);
+//run("DETECTING CELL ZONE", "save_dir="+save_dir+" nuclei="+seg_nuc_image_fn+" radius_max="+radius_extension_nuc_cellPeriphery+" save");
 
-
-
-
-
-//======================================================================================
-//// STEP5: Marker clustering
-//// It take ~ 3 mins for this step for one small testing image 
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-open(dir+"C1-delta_filtered.tif");
-open(dir+"C2-beta_filtered.tif");
-open(dir+"C3-alpha_filtered.tif");
-
-//// Note: the position of delta, alpha, beta is not important here, just need 3 channels. 
-run("SLIC 3D CLUSTERING", "save_dir=["+dir+"] marker_1=C1-delta_filtered.tif marker_2=C2-beta_filtered.tif marker_3=C3-alpha_filtered.tif marker_4=*None* min_size=80 max_size=300 nb_iterations=10");
-selectWindow("creator");
-close();
-
-selectWindow("combined_markers_SLIC.tif");
-run("SLIC 3D 3 CHANNELS", "save_dir=["+dir+"] alpha_image=C3-alpha_filtered.tif beta_image=C2-beta_filtered.tif delta_image=C1-delta_filtered.tif combined_slic_image=combined_markers_SLIC.tif intensity_threshold=0");
-
-
-//// Not important, just for visualization
-selectWindow("composite_label.tif");
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-open(dir+"cell_type_colormap.lut"); // I provide a color map for good visualization of different channels here
-run("Enhance Contrast", "saturated=0.35");
-saveAs("Tiff", dir+"composite_label.tif"); //color map for better visualization
-run("Close All"); 
-
-
-
-
-
-
-
-
-
-
-//======================================================================================
-//// STEP6: cell type detection
-
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-percent_marker_coverage=0.2;
-
-open(dir+"C1-delta_filtered.tif");
-open(dir+"C2-beta_filtered.tif");
-open(dir+"C3-alpha_filtered.tif");
-open(dir+"dapi-seg.tif");
-open(dir+"dapi-seg-wat.tif");
-open(dir+"composite_label.tif");
-run("CELL TYPE DETECTION", "save_dir=["+dir+"] slic_composite_img=composite_label.tif watershed_cellzone_img=dapi-seg-wat.tif nuclei_segmented_img=dapi-seg.tif filtered=C3-alpha_filtered.tif filtered_0=C2-beta_filtered.tif filtered_1=C1-delta_filtered.tif region_observed=[WATERSHED REGION] percent_marker_coverage="+percent_marker_coverage+" min_distance=0 max_distance_inside=2 max_distance_outside=3 save show");
-/// Just for better visualization and publication, demo, not important computation part
-selectWindow("TYPE_NUC");
-open(dir+"cell_type_colormap.lut"); // I provide a color map for good visualization of different channels here
-run("Enhance Contrast", "saturated=0.35");
-saveAs("Tiff", dir+"TYPE_NUC.tif"); 
-
-selectWindow("composite_label.tif");
-open(dir+"cell_type_colormap.lut"); // I provide a color map for good visualization of different channels here
-run("Enhance Contrast", "saturated=0.35");
-saveAs("Tiff", dir+"composite_label.tif"); 
-
-selectWindow("TYPE_WAT");
-open(dir+"cell_type_colormap.lut"); // I provide a color map for good visualization of different channels here
-run("Enhance Contrast", "saturated=0.35");
-saveAs("Tiff", dir+"TYPE_WAT.tif"); 
-selectWindow("Unlabelled");
-saveAs("Tiff", dir+"Unlabelled.tif"); 
-run("Close All");
-
-//// NOTED: save all results into Nuclei.zip and Regions.zip,
-//// for all downstream analysis, data will be read from these files, 
-//// so please point dir variable to this file as my example here, see more at Log window  
-//// the easy way is keeping all results for each islet in one folder.  
-
-
-//// Different cell type detection methods, just testing here
-//// percent_marker_coverage=0.25: at least 20% of a given cell zone area should be covered by a marker  
-//// Uncomment the part below if you want to use other cell type detection methods
-//percent_marker_coverage=0.25;
-//run("CELL TYPE DETECTION", "save_dir=["+dir+"] slic_composite_img=composite_label.tif watershed_cellzone_img=dapi-seg-wat.tif nuclei_segmented_img=dapi-seg.tif filtered=C3-alpha_filtered.tif filtered_0=C2-beta_filtered.tif filtered_1=C1-delta_filtered.tif region_observed=[INSIDE_OUTSIDE NUCLEUS] percent_marker_coverage="+percent_marker_coverage+" min_distance=0 max_distance_inside=2 max_distance_outside=3 save show");
-//selectWindow("TYPE_WAT");
-//open(dir+"cell_type_colormap.lut"); // I provide a predefined color map for good visualization of different channels here
-//run("Enhance Contrast", "saturated=0.35");
-//saveAs("Tiff", dir+"TYPE_WAT.tif"); 
-
-//selectWindow("TYPE_NUC");
-//open(dir+"cell_type_colormap.lut"); // I provide a predefined color map for good visualization of different channels here
-//run("Enhance Contrast", "saturated=0.35");
-//saveAs("Tiff", dir+"TYPE_NUC.tif"); 
+// Functions for visualization, and facilitate validation step
+//selectWindow("dapi-seg-wat.tif");
+//run("3-3-2 RGB");
+//saveAs("Tiff", save_dir+image_fn_short+ "__WAT.tif"); //color map for better visualization
+//File.delete(save_dir+"dapi-seg-wat.tif"); //delete temporary files
+//print("Complete!!!");
 //run("Close All"); 
 
 
 //======================================================================================
-//// STEP7: cell to cell interaction analysis
-//// NOTED: save all results into Nuclei.zip and Regions.zip,
-//// for all downstream analysis, data will be read from these files, 
-//// so please point dir variable to this file as my example here, see more at Log window  
-//// the easy way is keeping all results for each islet in one folder.  
-//// ~3 mins for this step
+//// STEP4: Extracting cell profiles
 
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-//// for all downstream analysis, data will be read from Nuclei.zip and Regions.zip files, 
-open(dir+"dapi-seg-wat.tif");
-open(dir+"C4-dapi.tif");
-run("CELLS INTERACTION ANALYSIS", "input="+dir+" save="+dir+" watershed_image=dapi-seg-wat.tif cell-cell_contact_analysis layer_contact histogram_contact cells_network_visualization save="+dir+"raw_data_stat/Log_Cellular_Interaction_Analysis.txt");
-run("CELLS LAYER CONTACT", "input="+dir+" watershed_image=dapi-seg-wat.tif dapi_raw_image=C4-dapi.tif target_cell=BETA source_cell=DELTA");
-selectWindow("LAYER_DISTANCE_BETA_DELTA.tif");
-run("Fire");
-saveAs("Tiff", dir+"layer_distance/LAYER_DISTANCE_BETA_DELTA.tif");
-run("CELLS LAYER CONTACT", "input="+dir+" watershed_image=dapi-seg-wat.tif dapi_raw_image=C4-dapi.tif target_cell=BETA source_cell=ALPHA");
-selectWindow("LAYER_DISTANCE_BETA_ALPHA.tif");
-run("Fire");
-saveAs("Tiff", dir+"layer_distance/LAYER_DISTANCE_BETA_ALPHA.tif");
-run("Close All");
+// Parameters
+save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
+percent_marker= 0.2;
+radius_extension_nuc_cellPeriphery = 3; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
+
+seg_nuc_image_fn="C6-NUC_SEG.tif";
+open(save_dir+seg_nuc_image_fn);
+
+// filtered marker channels
+open(save_dir+"C1-BFP_filtered.tif");
+open(save_dir+"C2-tSapphire_filtered.tif");
+open(save_dir+"C3-venus_filtered.tif");
+open(save_dir+"C4-tomato_filtered.tif");
+open(save_dir+"C5-katushka_filtered.tif");
+
+// binary image: object and background
+open(save_dir+"C1-BFP_binary.tif");
+open(save_dir+"C2-tSapphire_binary.tif");
+open(save_dir+"C3-venus_binary.tif");
+open(save_dir+"C4-tomato_binary.tif");
+open(save_dir+"C5-katushka_binary.tif");
 
 
-//======================================================================================
-//// STEP8: delta cell protrusion
-//// NOTED: save all results into Nuclei.zip and Regions.zip,
-//// for all downstream analysis, data will be read from these files, 
-//// so please point dir variable to this file as my example here, see more at Log window  
-//// ~3 mins for this step
-//// Noted: if you use graphical interface for this function, and tick on visualization options
-//// too many windows of images will pop up. So I use default setting without visualization of delta cell protrusion images display. 
-dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/H1536_islet1/";
-open(dir+"dapi-seg-wat.tif");
-open(dir+"C4-dapi.tif");
-run("DELTA CELL PROTRUSION", "save_dir=["+dir+"] watershed_image=dapi-seg-wat.tif dapi_image=C4-dapi.tif min_distance=0 max_distance=35 region_value=0 target_cell=BETA protrusion_cell=DELTA range_observe=ALL_CELLS_PROTRUSION region_observe=CELL_REGION save=["+dir+"/protrusion_DELTA/Log_protrusion_DELTA_ALL_CELLS_PROTRUSION.txt]");
-run("Close All");
+run("EXTRACTING CELL PROFILES", "save_dir="+save_dir+" segmeted="+seg_nuc_image_fn+" binary=C1-BFP_binary.tif raw=C1-BFP_filtered.tif binary_0=C2-tSapphire_binary.tif raw_0=C2-tSapphire_filtered.tif binary_1=C3-venus_binary.tif raw_1=C3-venus_filtered.tif binary_2=C4-tomato_binary.tif raw_2=C4-tomato_filtered.tif binary_3=C5-katushka_binary.tif raw_3=C5-katushka_filtered.tif percent_marker="+percent_marker+" watershed_cell_radius="+radius_extension_nuc_cellPeriphery);
+print("Complete!!!");
+run("Close All"); 
 
 
 
+
+
+
+[Macro interactive mode. Type "help" for info.]
