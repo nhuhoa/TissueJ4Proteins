@@ -6,8 +6,46 @@ library(ggplot2)
 library(viridis)
 
 
-datatag <- "lung_Ms876"
+script_dir <- '/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/Rscript/'
+input_dir <- '/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/analysis/'
+meta_clones_fn <- paste0(script_dir,'predefined_clones_v2.csv')
+datatag <- 'MultiPDXs_Ms1134'
+nodes_fn <- paste0(input_dir,datatag,'/cell_profiles.csv.gz')
 
+save_dir <- paste0(input_dir,datatag,'/results/')
+cell_profiles_fn <- paste0(save_dir,'filtered_cell_profiles.csv.gz')
+xmax=27864
+ymax=25920
+# edges_fn <- paste0(input_dir,datatag,'/cell_interactions.csv.gz')
+small_objs_area=50
+viz_cells <- function(nodes_fn, edges_fn, meta_clones_fn, datatag, small_objs_area=0){
+  meta_clones <- get_reference_clones(meta_clones_fn)
+  save_dir <- paste0(input_dir,'results/')
+  dir.create(save_dir)
+  nodes_df <- data.table::fread(nodes_fn) %>% as.data.frame()
+  print(dim(nodes_df))
+  # edges_df <- data.table::fread(edges_fn) %>% as.data.frame() ## To Do
+  # print(dim(edges_df))
+  
+  if(small_objs_area>0){
+    print(paste0("Filtering very small objects with size smalller than ",small_objs_area))
+    print(dim(nodes_df)[1])
+    nodes_df <- nodes_df %>%
+      dplyr::filter(pixvol>small_objs_area)
+    print(dim(nodes_df)[1])
+  }
+  
+  res <- get_celltype(nodes_df, edges_df, save_dir, datatag, 
+                      save_data=T, thres_vol_marker=0.2)
+  
+  viz_wholetissue(save_dir, datatag, xmax=NULL, ymax=NULL, 
+                  col=NULL, invert_coord=T)
+}
+
+
+
+
+datatag <- "lung_Ms876"
 # BiocManager::install("gtools")
 # ls_clones <- list(markers, combn(markers, 2),combn(markers, 3),combn(markers, 4))
 script_dir <- '/Users/hoatran/Documents/jean_project/data/script/'

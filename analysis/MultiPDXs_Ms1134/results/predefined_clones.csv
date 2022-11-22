@@ -1,0 +1,32 @@
+clone_desc,clone_id,cluster_color
+eBFP2,Clone_1,#fbeb14
+tSapphire,Clone_2,#e32636
+"eBFP2, tSapphire",Clone_3,#7fbf7f
+Venus,Clone_4,#008040
+"eBFP2, Venus",Clone_5,#c06000
+"tSapphire, Venus",Clone_6,#cc99a2
+"eBFP2, tSapphire, Venus",Clone_7,#ffc0cb
+tdTomato,Clone_8,#408000
+"eBFP2, tdTomato",Clone_9,#b266b2
+"tSapphire, tdTomato",Clone_10,#ffc04c
+"eBFP2, tSapphire, tdTomato",Clone_11,#ff6666
+"Venus, tdTomato",Clone_12,#198c19
+"eBFP2, Venus, tdTomato",Clone_13,#7f7fff
+"tSapphire, Venus, tdTomato",Clone_14,#ffe4b2
+"eBFP2, tSapphire, Venus, tdTomato",Clone_15,#540a87
+Katushka,Clone_16,#e31f50
+"eBFP2, Katushka",Clone_17,#af9210
+"tSapphire, Katushka",Clone_18,#7a660b
+"eBFP2, tSapphire, Katushka",Clone_19,#463a06
+"Venus, Katushka",Clone_20,#d7c887
+"eBFP2, Venus, Katushka",Clone_21,#8fe73e
+"tSapphire, Venus, Katushka",Clone_22,#e57617
+"eBFP2, tSapphire, Venus, Katushka",Clone_23,#db9eeb
+"tdTomato, Katushka",Clone_24,#400f4d
+"eBFP2, tdTomato, Katushka",Clone_25,#73c8da
+"tSapphire, tdTomato, Katushka",Clone_26,#9e1209
+"eBFP2, tSapphire, tdTomato, Katushka",Clone_27,#84ed7c
+"Venus, tdTomato, Katushka",Clone_28,#eb9710
+"eBFP2, Venus, tdTomato, Katushka",Clone_29,#9e6317
+"tSapphire, Venus, tdTomato, Katushka",Clone_30,#07a70b
+"eBFP2, tSapphire, Venus, tdTomato, Katushka",Clone_31,#1109d8
