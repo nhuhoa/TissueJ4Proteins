@@ -1,0 +1,4743 @@
+__________________________________
+
+Input directory is: 
+
+/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/NUC_raw_tiles/
+Segment images 
+
+___________________________________________
+Working dir: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/NUC_raw_tiles/
+
+Creating segmentation folder: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/SEG_temporary_files/
+
+_______________________________________
+
+C6-NUC.tif__1_0_0.tif
+Loading image: C6-NUC.tif__1_0_0.tif
+C6-NUC.tif__1_0_0.tif:   max:   0  min: 0  mean: 0  area: 16000000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_0_0.tif
+_______________________________________
+
+C6-NUC.tif__1_0_11850.tif
+Loading image: C6-NUC.tif__1_0_11850.tif
+C6-NUC.tif__1_0_11850.tif:   max:   255  min: 0  mean: 27.6075  area: 16000000  std:44.0858
+Segmenting...
+C6-NUC.tif__1_0_11850.tif  mean value: 20822.9181
+_________________________________________
+ATTENTION: seeds threshold value is:  21422
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 147915
+\Update:Voxels to process : 212108
+\Update:Voxels to process : 266596
+\Update:Voxels to process : 299585
+\Update:Voxels to process : 306364
+\Update:Voxels to process : 344843
+\Update:Voxels to process : 383121
+\Update:Voxels to process : 380954
+\Update:Voxels to process : 417716
+\Update:Voxels to process : 414567
+\Update:Voxels to process : 449509
+\Update:Voxels to process : 445449
+\Update:Voxels to process : 478738
+\Update:Voxels to process : 473705
+\Update:Voxels to process : 505345
+\Update:Voxels to process : 499067
+\Update:Voxels to process : 527486
+\Update:Voxels to process : 520446
+\Update:Voxels to process : 513179
+\Update:Voxels to process : 538513
+\Update:Voxels to process : 529964
+\Update:Voxels to process : 520150
+\Update:Voxels to process : 542280
+\Update:Voxels to process : 531553
+\Update:Voxels to process : 520119
+\Update:Voxels to process : 537882
+\Update:Voxels to process : 525214
+\Update:Voxels to process : 539303
+\Update:Voxels to process : 525041
+\Update:Voxels to process : 510290
+\Update:Voxels to process : 520098
+\Update:Voxels to process : 504177
+\Update:Voxels to process : 487253
+\Update:Voxels to process : 493178
+\Update:Voxels to process : 478992
+\Update:Voxels to process : 465654
+\Update:Voxels to process : 471716
+\Update:Voxels to process : 457014
+\Update:Voxels to process : 442708
+\Update:Voxels to process : 427970
+\Update:Voxels to process : 430767
+\Update:Voxels to process : 416332
+\Update:Voxels to process : 410386
+\Update:Voxels to process : 386629
+\Update:Voxels to process : 377354
+\Update:Voxels to process : 356537
+\Update:Voxels to process : 347166
+\Update:Voxels to process : 324108
+\Update:Voxels to process : 311239
+\Update:Voxels to process : 289308
+\Update:Voxels to process : 273791
+\Update:Voxels to process : 259529
+\Update:Voxels to process : 243830
+\Update:Voxels to process : 227626
+\Update:Voxels to process : 211909
+\Update:Voxels to process : 197069
+\Update:Voxels to process : 183033
+\Update:Voxels to process : 170224
+\Update:Voxels to process : 158622
+\Update:Voxels to process : 146111
+\Update:Voxels to process : 132307
+\Update:Voxels to process : 118219
+\Update:Voxels to process : 104945
+\Update:Voxels to process : 89588
+\Update:Voxels to process : 69489
+\Update:Voxels to process : 50837
+\Update:Voxels to process : 39011
+\Update:Voxels to process : 31839
+\Update:Voxels to process : 27655
+\Update:Voxels to process : 23375
+\Update:Voxels to process : 18078
+\Update:Voxels to process : 13415
+\Update:Voxels to process : 6824
+\Update:Voxels to process : 2127
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_0_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 5136
+Create label image with 5136 objects
+Finished
+Finished
+Time of execution is: 100.206 seconds
+_______________________________________
+
+C6-NUC.tif__1_0_15800.tif
+Loading image: C6-NUC.tif__1_0_15800.tif
+C6-NUC.tif__1_0_15800.tif:   max:   255  min: 0  mean: 33.8273  area: 16000000  std:49.9491
+Segmenting...
+C6-NUC.tif__1_0_15800.tif  mean value: 20358.1743
+_________________________________________
+ATTENTION: seeds threshold value is:  20958
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 203646
+\Update:Voxels to process : 249305
+\Update:Voxels to process : 292079
+\Update:Voxels to process : 334591
+\Update:Voxels to process : 337639
+\Update:Voxels to process : 375471
+\Update:Voxels to process : 374967
+\Update:Voxels to process : 415453
+\Update:Voxels to process : 453368
+\Update:Voxels to process : 451512
+\Update:Voxels to process : 468623
+\Update:Voxels to process : 484737
+\Update:Voxels to process : 480332
+\Update:Voxels to process : 515165
+\Update:Voxels to process : 509372
+\Update:Voxels to process : 542117
+\Update:Voxels to process : 535541
+\Update:Voxels to process : 565919
+\Update:Voxels to process : 558204
+\Update:Voxels to process : 549803
+\Update:Voxels to process : 576090
+\Update:Voxels to process : 567027
+\Update:Voxels to process : 556283
+\Update:Voxels to process : 578206
+\Update:Voxels to process : 566098
+\Update:Voxels to process : 552931
+\Update:Voxels to process : 569953
+\Update:Voxels to process : 555951
+\Update:Voxels to process : 540450
+\Update:Voxels to process : 553190
+\Update:Voxels to process : 536543
+\Update:Voxels to process : 527644
+\Update:Voxels to process : 527103
+\Update:Voxels to process : 508856
+\Update:Voxels to process : 512690
+\Update:Voxels to process : 493931
+\Update:Voxels to process : 474513
+\Update:Voxels to process : 472989
+\Update:Voxels to process : 451221
+\Update:Voxels to process : 436902
+\Update:Voxels to process : 422128
+\Update:Voxels to process : 397345
+\Update:Voxels to process : 386259
+\Update:Voxels to process : 360665
+\Update:Voxels to process : 347024
+\Update:Voxels to process : 330528
+\Update:Voxels to process : 304224
+\Update:Voxels to process : 286657
+\Update:Voxels to process : 268951
+\Update:Voxels to process : 249515
+\Update:Voxels to process : 231457
+\Update:Voxels to process : 213944
+\Update:Voxels to process : 198501
+\Update:Voxels to process : 187186
+\Update:Voxels to process : 172796
+\Update:Voxels to process : 162986
+\Update:Voxels to process : 153328
+\Update:Voxels to process : 144422
+\Update:Voxels to process : 136361
+\Update:Voxels to process : 125910
+\Update:Voxels to process : 113408
+\Update:Voxels to process : 101464
+\Update:Voxels to process : 88463
+\Update:Voxels to process : 74998
+\Update:Voxels to process : 62803
+\Update:Voxels to process : 51522
+\Update:Voxels to process : 44887
+\Update:Voxels to process : 40146
+\Update:Voxels to process : 36433
+\Update:Voxels to process : 32535
+\Update:Voxels to process : 28463
+\Update:Voxels to process : 25170
+\Update:Voxels to process : 19957
+\Update:Voxels to process : 9789
+\Update:Voxels to process : 4168
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_0_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 5471
+Create label image with 5471 objects
+Finished
+Finished
+Time of execution is: 98.001 seconds
+_______________________________________
+
+C6-NUC.tif__1_0_19750.tif
+Loading image: C6-NUC.tif__1_0_19750.tif
+C6-NUC.tif__1_0_19750.tif:   max:   255  min: 0  mean: 31.6855  area: 16000000  std:44.3448
+Segmenting...
+C6-NUC.tif__1_0_19750.tif  mean value: 24614.0419
+_________________________________________
+ATTENTION: seeds threshold value is:  25214
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 296384
+\Update:Voxels to process : 364832
+\Update:Voxels to process : 410094
+\Update:Voxels to process : 454952
+\Update:Voxels to process : 488746
+\Update:Voxels to process : 497731
+\Update:Voxels to process : 540907
+\Update:Voxels to process : 538635
+\Update:Voxels to process : 580056
+\Update:Voxels to process : 576851
+\Update:Voxels to process : 616234
+\Update:Voxels to process : 612334
+\Update:Voxels to process : 650103
+\Update:Voxels to process : 645076
+\Update:Voxels to process : 664921
+\Update:Voxels to process : 675084
+\Update:Voxels to process : 668517
+\Update:Voxels to process : 701404
+\Update:Voxels to process : 694296
+\Update:Voxels to process : 686203
+\Update:Voxels to process : 715715
+\Update:Voxels to process : 705950
+\Update:Voxels to process : 695708
+\Update:Voxels to process : 720791
+\Update:Voxels to process : 709816
+\Update:Voxels to process : 697852
+\Update:Voxels to process : 718441
+\Update:Voxels to process : 705372
+\Update:Voxels to process : 691666
+\Update:Voxels to process : 707819
+\Update:Voxels to process : 692253
+\Update:Voxels to process : 676565
+\Update:Voxels to process : 687676
+\Update:Voxels to process : 670866
+\Update:Voxels to process : 660455
+\Update:Voxels to process : 657848
+\Update:Voxels to process : 638566
+\Update:Voxels to process : 640784
+\Update:Voxels to process : 619663
+\Update:Voxels to process : 598214
+\Update:Voxels to process : 596120
+\Update:Voxels to process : 572782
+\Update:Voxels to process : 566949
+\Update:Voxels to process : 543254
+\Update:Voxels to process : 519618
+\Update:Voxels to process : 510736
+\Update:Voxels to process : 497686
+\Update:Voxels to process : 474078
+\Update:Voxels to process : 460963
+\Update:Voxels to process : 437375
+\Update:Voxels to process : 423902
+\Update:Voxels to process : 410000
+\Update:Voxels to process : 387673
+\Update:Voxels to process : 373215
+\Update:Voxels to process : 359342
+\Update:Voxels to process : 345936
+\Update:Voxels to process : 333059
+\Update:Voxels to process : 320936
+\Update:Voxels to process : 313374
+\Update:Voxels to process : 302287
+\Update:Voxels to process : 291741
+\Update:Voxels to process : 284549
+\Update:Voxels to process : 277029
+\Update:Voxels to process : 266752
+\Update:Voxels to process : 258207
+\Update:Voxels to process : 249050
+\Update:Voxels to process : 241058
+\Update:Voxels to process : 231602
+\Update:Voxels to process : 223342
+\Update:Voxels to process : 214790
+\Update:Voxels to process : 206796
+\Update:Voxels to process : 197776
+\Update:Voxels to process : 190028
+\Update:Voxels to process : 182279
+\Update:Voxels to process : 174892
+\Update:Voxels to process : 167963
+\Update:Voxels to process : 161347
+\Update:Voxels to process : 154264
+\Update:Voxels to process : 145903
+\Update:Voxels to process : 138328
+\Update:Voxels to process : 131533
+\Update:Voxels to process : 123698
+\Update:Voxels to process : 117436
+\Update:Voxels to process : 111298
+\Update:Voxels to process : 106071
+\Update:Voxels to process : 98722
+\Update:Voxels to process : 93176
+\Update:Voxels to process : 87852
+\Update:Voxels to process : 82022
+\Update:Voxels to process : 75385
+\Update:Voxels to process : 71181
+\Update:Voxels to process : 64682
+\Update:Voxels to process : 57990
+\Update:Voxels to process : 51229
+\Update:Voxels to process : 44231
+\Update:Voxels to process : 36765
+\Update:Voxels to process : 27764
+\Update:Voxels to process : 8560
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_0_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 5801
+Create label image with 5801 objects
+Finished
+Finished
+Time of execution is: 100.255 seconds
+_______________________________________
+
+C6-NUC.tif__1_0_23700.tif
+Loading image: C6-NUC.tif__1_0_23700.tif
+C6-NUC.tif__1_0_23700.tif:   max:   255  min: 0  mean: 12.6829  area: 8880000  std:29.8757
+Segmenting...
+C6-NUC.tif__1_0_23700.tif  mean value: 21088.6955
+_________________________________________
+ATTENTION: seeds threshold value is:  21688
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 258350
+\Update:Voxels to process : 308871
+\Update:Voxels to process : 341990
+\Update:Voxels to process : 370576
+\Update:Voxels to process : 389099
+\Update:Voxels to process : 402858
+\Update:Voxels to process : 415400
+\Update:Voxels to process : 426930
+\Update:Voxels to process : 437013
+\Update:Voxels to process : 445711
+\Update:Voxels to process : 452089
+\Update:Voxels to process : 445963
+\Update:Voxels to process : 451233
+\Update:Voxels to process : 455198
+\Update:Voxels to process : 457823
+\Update:Voxels to process : 447386
+\Update:Voxels to process : 448089
+\Update:Voxels to process : 447532
+\Update:Voxels to process : 445913
+\Update:Voxels to process : 433878
+\Update:Voxels to process : 430965
+\Update:Voxels to process : 427432
+\Update:Voxels to process : 422899
+\Update:Voxels to process : 417978
+\Update:Voxels to process : 405136
+\Update:Voxels to process : 398988
+\Update:Voxels to process : 392353
+\Update:Voxels to process : 385291
+\Update:Voxels to process : 377899
+\Update:Voxels to process : 370358
+\Update:Voxels to process : 362535
+\Update:Voxels to process : 354303
+\Update:Voxels to process : 345517
+\Update:Voxels to process : 340035
+\Update:Voxels to process : 330540
+\Update:Voxels to process : 320795
+\Update:Voxels to process : 312805
+\Update:Voxels to process : 300970
+\Update:Voxels to process : 290847
+\Update:Voxels to process : 279130
+\Update:Voxels to process : 265838
+\Update:Voxels to process : 251523
+\Update:Voxels to process : 237406
+\Update:Voxels to process : 222048
+\Update:Voxels to process : 205117
+\Update:Voxels to process : 190604
+\Update:Voxels to process : 172919
+\Update:Voxels to process : 152696
+\Update:Voxels to process : 129226
+\Update:Voxels to process : 103699
+\Update:Voxels to process : 74753
+\Update:Voxels to process : 37320
+\Update:Voxels to process : 13054
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_0_23700   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 2144
+Create label image with 2144 objects
+Finished
+Finished
+Time of execution is: 44.235 seconds
+_______________________________________
+
+C6-NUC.tif__1_0_3950.tif
+Loading image: C6-NUC.tif__1_0_3950.tif
+C6-NUC.tif__1_0_3950.tif:   max:   0  min: 0  mean: 0  area: 16000000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_0_3950.tif
+_______________________________________
+
+C6-NUC.tif__1_0_7900.tif
+Loading image: C6-NUC.tif__1_0_7900.tif
+C6-NUC.tif__1_0_7900.tif:   max:   255  min: 0  mean: 7.6634  area: 16000000  std:29.5205
+Segmenting...
+C6-NUC.tif__1_0_7900.tif  mean value: 21545.0172
+_________________________________________
+ATTENTION: seeds threshold value is:  22145
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 107142
+\Update:Voxels to process : 134051
+\Update:Voxels to process : 148046
+\Update:Voxels to process : 157327
+\Update:Voxels to process : 160517
+\Update:Voxels to process : 157289
+\Update:Voxels to process : 147366
+\Update:Voxels to process : 133014
+\Update:Voxels to process : 115381
+\Update:Voxels to process : 92550
+\Update:Voxels to process : 71490
+\Update:Voxels to process : 56430
+\Update:Voxels to process : 43041
+\Update:Voxels to process : 30895
+\Update:Voxels to process : 25551
+\Update:Voxels to process : 20940
+\Update:Voxels to process : 15460
+\Update:Voxels to process : 9520
+\Update:Voxels to process : 3701
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_0_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 1260
+Create label image with 1260 objects
+Finished
+Finished
+Time of execution is: 80.046 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_0.tif
+Loading image: C6-NUC.tif__1_11850_0.tif
+C6-NUC.tif__1_11850_0.tif:   max:   255  min: 0  mean: 43.8272  area: 16000000  std:49.6461
+Segmenting...
+C6-NUC.tif__1_11850_0.tif  mean value: 21872.3036
+_________________________________________
+ATTENTION: seeds threshold value is:  22472
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 264059
+\Update:Voxels to process : 328319
+\Update:Voxels to process : 384442
+\Update:Voxels to process : 384108
+\Update:Voxels to process : 439793
+\Update:Voxels to process : 448407
+\Update:Voxels to process : 493736
+\Update:Voxels to process : 531559
+\Update:Voxels to process : 545725
+\Update:Voxels to process : 543673
+\Update:Voxels to process : 595925
+\Update:Voxels to process : 593146
+\Update:Voxels to process : 590225
+\Update:Voxels to process : 640643
+\Update:Voxels to process : 637173
+\Update:Voxels to process : 633243
+\Update:Voxels to process : 681335
+\Update:Voxels to process : 676249
+\Update:Voxels to process : 670604
+\Update:Voxels to process : 715760
+\Update:Voxels to process : 709300
+\Update:Voxels to process : 702384
+\Update:Voxels to process : 744215
+\Update:Voxels to process : 736378
+\Update:Voxels to process : 728021
+\Update:Voxels to process : 718980
+\Update:Voxels to process : 756260
+\Update:Voxels to process : 746639
+\Update:Voxels to process : 735814
+\Update:Voxels to process : 729742
+\Update:Voxels to process : 757970
+\Update:Voxels to process : 746216
+\Update:Voxels to process : 733816
+\Update:Voxels to process : 734464
+\Update:Voxels to process : 746545
+\Update:Voxels to process : 732114
+\Update:Voxels to process : 716575
+\Update:Voxels to process : 737165
+\Update:Voxels to process : 720308
+\Update:Voxels to process : 703277
+\Update:Voxels to process : 692265
+\Update:Voxels to process : 699988
+\Update:Voxels to process : 680938
+\Update:Voxels to process : 660962
+\Update:Voxels to process : 669536
+\Update:Voxels to process : 648699
+\Update:Voxels to process : 626637
+\Update:Voxels to process : 616544
+\Update:Voxels to process : 606333
+\Update:Voxels to process : 583179
+\Update:Voxels to process : 560031
+\Update:Voxels to process : 557617
+\Update:Voxels to process : 531009
+\Update:Voxels to process : 522575
+\Update:Voxels to process : 494356
+\Update:Voxels to process : 465927
+\Update:Voxels to process : 450971
+\Update:Voxels to process : 420646
+\Update:Voxels to process : 401802
+\Update:Voxels to process : 380222
+\Update:Voxels to process : 349803
+\Update:Voxels to process : 325321
+\Update:Voxels to process : 297045
+\Update:Voxels to process : 264503
+\Update:Voxels to process : 236910
+\Update:Voxels to process : 206054
+\Update:Voxels to process : 177091
+\Update:Voxels to process : 150047
+\Update:Voxels to process : 125561
+\Update:Voxels to process : 110769
+\Update:Voxels to process : 100689
+\Update:Voxels to process : 93740
+\Update:Voxels to process : 89445
+\Update:Voxels to process : 86022
+\Update:Voxels to process : 82327
+\Update:Voxels to process : 78640
+\Update:Voxels to process : 75290
+\Update:Voxels to process : 71891
+\Update:Voxels to process : 68388
+\Update:Voxels to process : 64143
+\Update:Voxels to process : 59396
+\Update:Voxels to process : 54775
+\Update:Voxels to process : 50035
+\Update:Voxels to process : 44775
+\Update:Voxels to process : 39425
+\Update:Voxels to process : 35093
+\Update:Voxels to process : 27317
+\Update:Voxels to process : 18938
+\Update:Voxels to process : 7228
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_0   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 7142
+Create label image with 7142 objects
+Finished
+Finished
+Time of execution is: 102.145 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_11850.tif
+Loading image: C6-NUC.tif__1_11850_11850.tif
+C6-NUC.tif__1_11850_11850.tif:   max:   255  min: 0  mean: 68.3822  area: 16000000  std:37.0836
+Segmenting...
+C6-NUC.tif__1_11850_11850.tif  mean value: 19715.4202
+_________________________________________
+ATTENTION: seeds threshold value is:  20315
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 226196
+\Update:Voxels to process : 304882
+\Update:Voxels to process : 402209
+\Update:Voxels to process : 401876
+\Update:Voxels to process : 498939
+\Update:Voxels to process : 498438
+\Update:Voxels to process : 534908
+\Update:Voxels to process : 594155
+\Update:Voxels to process : 593193
+\Update:Voxels to process : 662863
+\Update:Voxels to process : 687344
+\Update:Voxels to process : 685783
+\Update:Voxels to process : 730191
+\Update:Voxels to process : 777969
+\Update:Voxels to process : 775841
+\Update:Voxels to process : 773726
+\Update:Voxels to process : 794448
+\Update:Voxels to process : 862955
+\Update:Voxels to process : 860244
+\Update:Voxels to process : 857282
+\Update:Voxels to process : 853969
+\Update:Voxels to process : 914075
+\Update:Voxels to process : 939590
+\Update:Voxels to process : 935631
+\Update:Voxels to process : 931646
+\Update:Voxels to process : 927450
+\Update:Voxels to process : 922983
+\Update:Voxels to process : 1008875
+\Update:Voxels to process : 1004251
+\Update:Voxels to process : 999245
+\Update:Voxels to process : 993703
+\Update:Voxels to process : 998291
+\Update:Voxels to process : 1070719
+\Update:Voxels to process : 1065020
+\Update:Voxels to process : 1058865
+\Update:Voxels to process : 1052469
+\Update:Voxels to process : 1046051
+\Update:Voxels to process : 1124089
+\Update:Voxels to process : 1117400
+\Update:Voxels to process : 1110248
+\Update:Voxels to process : 1103041
+\Update:Voxels to process : 1095621
+\Update:Voxels to process : 1087417
+\Update:Voxels to process : 1079292
+\Update:Voxels to process : 1151740
+\Update:Voxels to process : 1142591
+\Update:Voxels to process : 1133849
+\Update:Voxels to process : 1123412
+\Update:Voxels to process : 1112860
+\Update:Voxels to process : 1102214
+\Update:Voxels to process : 1167243
+\Update:Voxels to process : 1156593
+\Update:Voxels to process : 1144918
+\Update:Voxels to process : 1133980
+\Update:Voxels to process : 1121852
+\Update:Voxels to process : 1109349
+\Update:Voxels to process : 1096188
+\Update:Voxels to process : 1152683
+\Update:Voxels to process : 1139637
+\Update:Voxels to process : 1125437
+\Update:Voxels to process : 1111995
+\Update:Voxels to process : 1096868
+\Update:Voxels to process : 1081824
+\Update:Voxels to process : 1130127
+\Update:Voxels to process : 1114684
+\Update:Voxels to process : 1098606
+\Update:Voxels to process : 1080926
+\Update:Voxels to process : 1064105
+\Update:Voxels to process : 1046931
+\Update:Voxels to process : 1033740
+\Update:Voxels to process : 1068633
+\Update:Voxels to process : 1050583
+\Update:Voxels to process : 1031334
+\Update:Voxels to process : 1012556
+\Update:Voxels to process : 991874
+\Update:Voxels to process : 971784
+\Update:Voxels to process : 1002284
+\Update:Voxels to process : 981289
+\Update:Voxels to process : 959806
+\Update:Voxels to process : 937531
+\Update:Voxels to process : 915584
+\Update:Voxels to process : 893114
+\Update:Voxels to process : 913762
+\Update:Voxels to process : 889149
+\Update:Voxels to process : 865824
+\Update:Voxels to process : 842145
+\Update:Voxels to process : 817444
+\Update:Voxels to process : 805955
+\Update:Voxels to process : 802993
+\Update:Voxels to process : 776285
+\Update:Voxels to process : 749477
+\Update:Voxels to process : 721787
+\Update:Voxels to process : 726008
+\Update:Voxels to process : 697674
+\Update:Voxels to process : 668723
+\Update:Voxels to process : 639122
+\Update:Voxels to process : 631325
+\Update:Voxels to process : 604391
+\Update:Voxels to process : 573476
+\Update:Voxels to process : 542029
+\Update:Voxels to process : 530393
+\Update:Voxels to process : 503702
+\Update:Voxels to process : 468555
+\Update:Voxels to process : 449288
+\Update:Voxels to process : 410578
+\Update:Voxels to process : 373252
+\Update:Voxels to process : 348798
+\Update:Voxels to process : 310062
+\Update:Voxels to process : 279436
+\Update:Voxels to process : 239241
+\Update:Voxels to process : 202911
+\Update:Voxels to process : 164084
+\Update:Voxels to process : 120864
+\Update:Voxels to process : 75324
+\Update:Voxels to process : 29839
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 12349
+Create label image with 12349 objects
+Finished
+Finished
+Time of execution is: 113.836 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_15800.tif
+Loading image: C6-NUC.tif__1_11850_15800.tif
+C6-NUC.tif__1_11850_15800.tif:   max:   255  min: 0  mean: 73.2903  area: 16000000  std:36.2435
+Segmenting...
+C6-NUC.tif__1_11850_15800.tif  mean value: 20516.0729
+_________________________________________
+ATTENTION: seeds threshold value is:  21116
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 216716
+\Update:Voxels to process : 319782
+\Update:Voxels to process : 321476
+\Update:Voxels to process : 422479
+\Update:Voxels to process : 435607
+\Update:Voxels to process : 524838
+\Update:Voxels to process : 524432
+\Update:Voxels to process : 523966
+\Update:Voxels to process : 625833
+\Update:Voxels to process : 625082
+\Update:Voxels to process : 624086
+\Update:Voxels to process : 725087
+\Update:Voxels to process : 723840
+\Update:Voxels to process : 722470
+\Update:Voxels to process : 778025
+\Update:Voxels to process : 820468
+\Update:Voxels to process : 818706
+\Update:Voxels to process : 816721
+\Update:Voxels to process : 814543
+\Update:Voxels to process : 912237
+\Update:Voxels to process : 909739
+\Update:Voxels to process : 907193
+\Update:Voxels to process : 904434
+\Update:Voxels to process : 901531
+\Update:Voxels to process : 954174
+\Update:Voxels to process : 993296
+\Update:Voxels to process : 989655
+\Update:Voxels to process : 986190
+\Update:Voxels to process : 982569
+\Update:Voxels to process : 978784
+\Update:Voxels to process : 1029674
+\Update:Voxels to process : 1066423
+\Update:Voxels to process : 1062150
+\Update:Voxels to process : 1057680
+\Update:Voxels to process : 1052295
+\Update:Voxels to process : 1047459
+\Update:Voxels to process : 1135517
+\Update:Voxels to process : 1130206
+\Update:Voxels to process : 1124682
+\Update:Voxels to process : 1118440
+\Update:Voxels to process : 1112248
+\Update:Voxels to process : 1106016
+\Update:Voxels to process : 1188933
+\Update:Voxels to process : 1181468
+\Update:Voxels to process : 1174171
+\Update:Voxels to process : 1166778
+\Update:Voxels to process : 1159202
+\Update:Voxels to process : 1151552
+\Update:Voxels to process : 1142675
+\Update:Voxels to process : 1170710
+\Update:Voxels to process : 1210153
+\Update:Voxels to process : 1200981
+\Update:Voxels to process : 1191548
+\Update:Voxels to process : 1180830
+\Update:Voxels to process : 1170081
+\Update:Voxels to process : 1159361
+\Update:Voxels to process : 1180587
+\Update:Voxels to process : 1216553
+\Update:Voxels to process : 1204855
+\Update:Voxels to process : 1192456
+\Update:Voxels to process : 1179988
+\Update:Voxels to process : 1167390
+\Update:Voxels to process : 1153598
+\Update:Voxels to process : 1140032
+\Update:Voxels to process : 1198883
+\Update:Voxels to process : 1184710
+\Update:Voxels to process : 1170110
+\Update:Voxels to process : 1154931
+\Update:Voxels to process : 1139567
+\Update:Voxels to process : 1123190
+\Update:Voxels to process : 1122832
+\Update:Voxels to process : 1136880
+\Update:Voxels to process : 1154431
+\Update:Voxels to process : 1136577
+\Update:Voxels to process : 1116598
+\Update:Voxels to process : 1096811
+\Update:Voxels to process : 1077262
+\Update:Voxels to process : 1057027
+\Update:Voxels to process : 1095525
+\Update:Voxels to process : 1075543
+\Update:Voxels to process : 1055631
+\Update:Voxels to process : 1035961
+\Update:Voxels to process : 1015962
+\Update:Voxels to process : 994128
+\Update:Voxels to process : 982501
+\Update:Voxels to process : 1002346
+\Update:Voxels to process : 981074
+\Update:Voxels to process : 958192
+\Update:Voxels to process : 934558
+\Update:Voxels to process : 911506
+\Update:Voxels to process : 887828
+\Update:Voxels to process : 907790
+\Update:Voxels to process : 881178
+\Update:Voxels to process : 856151
+\Update:Voxels to process : 830135
+\Update:Voxels to process : 805367
+\Update:Voxels to process : 778519
+\Update:Voxels to process : 787047
+\Update:Voxels to process : 759927
+\Update:Voxels to process : 730652
+\Update:Voxels to process : 703356
+\Update:Voxels to process : 704772
+\Update:Voxels to process : 675899
+\Update:Voxels to process : 645280
+\Update:Voxels to process : 615537
+\Update:Voxels to process : 584617
+\Update:Voxels to process : 576591
+\Update:Voxels to process : 544690
+\Update:Voxels to process : 512281
+\Update:Voxels to process : 491820
+\Update:Voxels to process : 462821
+\Update:Voxels to process : 427481
+\Update:Voxels to process : 406297
+\Update:Voxels to process : 369155
+\Update:Voxels to process : 331281
+\Update:Voxels to process : 302424
+\Update:Voxels to process : 261111
+\Update:Voxels to process : 226247
+\Update:Voxels to process : 187271
+\Update:Voxels to process : 143088
+\Update:Voxels to process : 91377
+\Update:Voxels to process : 31280
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 13023
+Create label image with 13023 objects
+Finished
+Finished
+Time of execution is: 80.004 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_19750.tif
+Loading image: C6-NUC.tif__1_11850_19750.tif
+C6-NUC.tif__1_11850_19750.tif:   max:   255  min: 0  mean: 60.1384  area: 16000000  std:42.889
+Segmenting...
+C6-NUC.tif__1_11850_19750.tif  mean value: 22480.843
+_________________________________________
+ATTENTION: seeds threshold value is:  23080
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 287593
+\Update:Voxels to process : 373791
+\Update:Voxels to process : 459752
+\Update:Voxels to process : 484318
+\Update:Voxels to process : 545043
+\Update:Voxels to process : 544422
+\Update:Voxels to process : 629449
+\Update:Voxels to process : 628524
+\Update:Voxels to process : 677692
+\Update:Voxels to process : 711241
+\Update:Voxels to process : 709696
+\Update:Voxels to process : 792488
+\Update:Voxels to process : 790574
+\Update:Voxels to process : 788442
+\Update:Voxels to process : 786182
+\Update:Voxels to process : 866851
+\Update:Voxels to process : 864061
+\Update:Voxels to process : 861091
+\Update:Voxels to process : 857934
+\Update:Voxels to process : 936291
+\Update:Voxels to process : 932361
+\Update:Voxels to process : 928483
+\Update:Voxels to process : 924300
+\Update:Voxels to process : 919644
+\Update:Voxels to process : 994603
+\Update:Voxels to process : 989419
+\Update:Voxels to process : 983715
+\Update:Voxels to process : 980522
+\Update:Voxels to process : 1011570
+\Update:Voxels to process : 1046244
+\Update:Voxels to process : 1039918
+\Update:Voxels to process : 1033042
+\Update:Voxels to process : 1026043
+\Update:Voxels to process : 1093500
+\Update:Voxels to process : 1085879
+\Update:Voxels to process : 1078763
+\Update:Voxels to process : 1071400
+\Update:Voxels to process : 1063019
+\Update:Voxels to process : 1053847
+\Update:Voxels to process : 1116186
+\Update:Voxels to process : 1106653
+\Update:Voxels to process : 1097613
+\Update:Voxels to process : 1086561
+\Update:Voxels to process : 1076143
+\Update:Voxels to process : 1065380
+\Update:Voxels to process : 1120920
+\Update:Voxels to process : 1109135
+\Update:Voxels to process : 1097115
+\Update:Voxels to process : 1084896
+\Update:Voxels to process : 1071605
+\Update:Voxels to process : 1058282
+\Update:Voxels to process : 1105878
+\Update:Voxels to process : 1092079
+\Update:Voxels to process : 1077621
+\Update:Voxels to process : 1062193
+\Update:Voxels to process : 1046166
+\Update:Voxels to process : 1086453
+\Update:Voxels to process : 1069700
+\Update:Voxels to process : 1052206
+\Update:Voxels to process : 1034662
+\Update:Voxels to process : 1016577
+\Update:Voxels to process : 1019132
+\Update:Voxels to process : 1028925
+\Update:Voxels to process : 1010218
+\Update:Voxels to process : 990492
+\Update:Voxels to process : 969311
+\Update:Voxels to process : 948767
+\Update:Voxels to process : 972190
+\Update:Voxels to process : 950096
+\Update:Voxels to process : 928424
+\Update:Voxels to process : 905455
+\Update:Voxels to process : 883496
+\Update:Voxels to process : 897770
+\Update:Voxels to process : 872748
+\Update:Voxels to process : 848346
+\Update:Voxels to process : 823944
+\Update:Voxels to process : 798274
+\Update:Voxels to process : 803394
+\Update:Voxels to process : 777446
+\Update:Voxels to process : 749502
+\Update:Voxels to process : 722299
+\Update:Voxels to process : 720381
+\Update:Voxels to process : 691276
+\Update:Voxels to process : 662461
+\Update:Voxels to process : 632411
+\Update:Voxels to process : 622645
+\Update:Voxels to process : 592950
+\Update:Voxels to process : 561239
+\Update:Voxels to process : 545256
+\Update:Voxels to process : 510617
+\Update:Voxels to process : 489941
+\Update:Voxels to process : 453788
+\Update:Voxels to process : 416081
+\Update:Voxels to process : 389376
+\Update:Voxels to process : 358425
+\Update:Voxels to process : 317559
+\Update:Voxels to process : 281893
+\Update:Voxels to process : 243679
+\Update:Voxels to process : 204840
+\Update:Voxels to process : 164592
+\Update:Voxels to process : 132700
+\Update:Voxels to process : 118139
+\Update:Voxels to process : 98509
+\Update:Voxels to process : 40905
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10921
+Create label image with 10921 objects
+Finished
+Finished
+Time of execution is: 78.357 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_23700.tif
+Loading image: C6-NUC.tif__1_11850_23700.tif
+C6-NUC.tif__1_11850_23700.tif:   max:   255  min: 0  mean: 5.5202  area: 8880000  std:23.22
+Segmenting...
+C6-NUC.tif__1_11850_23700.tif  mean value: 22575.8095
+_________________________________________
+ATTENTION: seeds threshold value is:  23175
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 117011
+\Update:Voxels to process : 128732
+\Update:Voxels to process : 130429
+\Update:Voxels to process : 124138
+\Update:Voxels to process : 114654
+\Update:Voxels to process : 102317
+\Update:Voxels to process : 94045
+\Update:Voxels to process : 87080
+\Update:Voxels to process : 80476
+\Update:Voxels to process : 75082
+\Update:Voxels to process : 69730
+\Update:Voxels to process : 64289
+\Update:Voxels to process : 58205
+\Update:Voxels to process : 52628
+\Update:Voxels to process : 47757
+\Update:Voxels to process : 39943
+\Update:Voxels to process : 27229
+\Update:Voxels to process : 20082
+\Update:Voxels to process : 13946
+\Update:Voxels to process : 6858
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_23700   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 622
+Create label image with 622 objects
+Finished
+Finished
+Time of execution is: 24.868 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_3950.tif
+Loading image: C6-NUC.tif__1_11850_3950.tif
+C6-NUC.tif__1_11850_3950.tif:   max:   255  min: 0  mean: 49.7906  area: 16000000  std:44.3424
+Segmenting...
+C6-NUC.tif__1_11850_3950.tif  mean value: 20816.2301
+_________________________________________
+ATTENTION: seeds threshold value is:  21416
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 229320
+\Update:Voxels to process : 277249
+\Update:Voxels to process : 348834
+\Update:Voxels to process : 428140
+\Update:Voxels to process : 427705
+\Update:Voxels to process : 506009
+\Update:Voxels to process : 505779
+\Update:Voxels to process : 511217
+\Update:Voxels to process : 582977
+\Update:Voxels to process : 581779
+\Update:Voxels to process : 643166
+\Update:Voxels to process : 657507
+\Update:Voxels to process : 655692
+\Update:Voxels to process : 653861
+\Update:Voxels to process : 729273
+\Update:Voxels to process : 726966
+\Update:Voxels to process : 724576
+\Update:Voxels to process : 721867
+\Update:Voxels to process : 795406
+\Update:Voxels to process : 792066
+\Update:Voxels to process : 788818
+\Update:Voxels to process : 785604
+\Update:Voxels to process : 850977
+\Update:Voxels to process : 852713
+\Update:Voxels to process : 848576
+\Update:Voxels to process : 843894
+\Update:Voxels to process : 892670
+\Update:Voxels to process : 907292
+\Update:Voxels to process : 902182
+\Update:Voxels to process : 896934
+\Update:Voxels to process : 891328
+\Update:Voxels to process : 955421
+\Update:Voxels to process : 949271
+\Update:Voxels to process : 943122
+\Update:Voxels to process : 936749
+\Update:Voxels to process : 930119
+\Update:Voxels to process : 931909
+\Update:Voxels to process : 983146
+\Update:Voxels to process : 975203
+\Update:Voxels to process : 967256
+\Update:Voxels to process : 958161
+\Update:Voxels to process : 949412
+\Update:Voxels to process : 1004597
+\Update:Voxels to process : 995248
+\Update:Voxels to process : 985251
+\Update:Voxels to process : 975236
+\Update:Voxels to process : 964501
+\Update:Voxels to process : 953546
+\Update:Voxels to process : 1002375
+\Update:Voxels to process : 991660
+\Update:Voxels to process : 980174
+\Update:Voxels to process : 968471
+\Update:Voxels to process : 956417
+\Update:Voxels to process : 1000166
+\Update:Voxels to process : 987216
+\Update:Voxels to process : 973210
+\Update:Voxels to process : 959729
+\Update:Voxels to process : 945732
+\Update:Voxels to process : 931615
+\Update:Voxels to process : 967671
+\Update:Voxels to process : 952876
+\Update:Voxels to process : 937198
+\Update:Voxels to process : 921139
+\Update:Voxels to process : 904341
+\Update:Voxels to process : 933695
+\Update:Voxels to process : 915961
+\Update:Voxels to process : 898941
+\Update:Voxels to process : 880845
+\Update:Voxels to process : 862594
+\Update:Voxels to process : 845236
+\Update:Voxels to process : 865943
+\Update:Voxels to process : 847019
+\Update:Voxels to process : 827799
+\Update:Voxels to process : 808595
+\Update:Voxels to process : 788187
+\Update:Voxels to process : 803577
+\Update:Voxels to process : 783542
+\Update:Voxels to process : 762231
+\Update:Voxels to process : 741819
+\Update:Voxels to process : 752159
+\Update:Voxels to process : 730774
+\Update:Voxels to process : 709438
+\Update:Voxels to process : 687615
+\Update:Voxels to process : 666144
+\Update:Voxels to process : 671628
+\Update:Voxels to process : 648507
+\Update:Voxels to process : 625166
+\Update:Voxels to process : 603486
+\Update:Voxels to process : 601280
+\Update:Voxels to process : 576889
+\Update:Voxels to process : 552194
+\Update:Voxels to process : 548595
+\Update:Voxels to process : 523392
+\Update:Voxels to process : 498472
+\Update:Voxels to process : 489397
+\Update:Voxels to process : 464044
+\Update:Voxels to process : 438204
+\Update:Voxels to process : 427016
+\Update:Voxels to process : 400425
+\Update:Voxels to process : 374563
+\Update:Voxels to process : 360023
+\Update:Voxels to process : 351899
+\Update:Voxels to process : 334430
+\Update:Voxels to process : 305625
+\Update:Voxels to process : 287240
+\Update:Voxels to process : 260242
+\Update:Voxels to process : 240452
+\Update:Voxels to process : 218576
+\Update:Voxels to process : 196503
+\Update:Voxels to process : 173776
+\Update:Voxels to process : 149043
+\Update:Voxels to process : 123872
+\Update:Voxels to process : 100867
+\Update:Voxels to process : 77763
+\Update:Voxels to process : 51628
+\Update:Voxels to process : 27689
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10090
+Create label image with 10090 objects
+Finished
+Finished
+Time of execution is: 80.864 seconds
+_______________________________________
+
+C6-NUC.tif__1_11850_7900.tif
+Loading image: C6-NUC.tif__1_11850_7900.tif
+C6-NUC.tif__1_11850_7900.tif:   max:   255  min: 0  mean: 34.9292  area: 16000000  std:39.2345
+Segmenting...
+C6-NUC.tif__1_11850_7900.tif  mean value: 18503.8622
+_________________________________________
+ATTENTION: seeds threshold value is:  19103
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 235377
+\Update:Voxels to process : 280932
+\Update:Voxels to process : 361482
+\Update:Voxels to process : 441800
+\Update:Voxels to process : 441480
+\Update:Voxels to process : 495816
+\Update:Voxels to process : 520881
+\Update:Voxels to process : 520130
+\Update:Voxels to process : 599358
+\Update:Voxels to process : 598130
+\Update:Voxels to process : 668133
+\Update:Voxels to process : 675176
+\Update:Voxels to process : 673766
+\Update:Voxels to process : 672166
+\Update:Voxels to process : 749116
+\Update:Voxels to process : 746988
+\Update:Voxels to process : 744668
+\Update:Voxels to process : 741914
+\Update:Voxels to process : 816811
+\Update:Voxels to process : 813236
+\Update:Voxels to process : 809755
+\Update:Voxels to process : 806218
+\Update:Voxels to process : 872147
+\Update:Voxels to process : 874830
+\Update:Voxels to process : 870378
+\Update:Voxels to process : 865486
+\Update:Voxels to process : 900248
+\Update:Voxels to process : 930228
+\Update:Voxels to process : 925307
+\Update:Voxels to process : 919849
+\Update:Voxels to process : 914070
+\Update:Voxels to process : 979991
+\Update:Voxels to process : 973605
+\Update:Voxels to process : 967000
+\Update:Voxels to process : 960083
+\Update:Voxels to process : 953392
+\Update:Voxels to process : 945944
+\Update:Voxels to process : 1007449
+\Update:Voxels to process : 999931
+\Update:Voxels to process : 991716
+\Update:Voxels to process : 982575
+\Update:Voxels to process : 974250
+\Update:Voxels to process : 1016080
+\Update:Voxels to process : 1020872
+\Update:Voxels to process : 1011215
+\Update:Voxels to process : 1001191
+\Update:Voxels to process : 991027
+\Update:Voxels to process : 979795
+\Update:Voxels to process : 1012535
+\Update:Voxels to process : 1017472
+\Update:Voxels to process : 1005166
+\Update:Voxels to process : 992926
+\Update:Voxels to process : 979251
+\Update:Voxels to process : 989300
+\Update:Voxels to process : 1009256
+\Update:Voxels to process : 994735
+\Update:Voxels to process : 979645
+\Update:Voxels to process : 965233
+\Update:Voxels to process : 950242
+\Update:Voxels to process : 985977
+\Update:Voxels to process : 970316
+\Update:Voxels to process : 953987
+\Update:Voxels to process : 938582
+\Update:Voxels to process : 920579
+\Update:Voxels to process : 912235
+\Update:Voxels to process : 933245
+\Update:Voxels to process : 916095
+\Update:Voxels to process : 898221
+\Update:Voxels to process : 880500
+\Update:Voxels to process : 862784
+\Update:Voxels to process : 886347
+\Update:Voxels to process : 866594
+\Update:Voxels to process : 847661
+\Update:Voxels to process : 828766
+\Update:Voxels to process : 808624
+\Update:Voxels to process : 824285
+\Update:Voxels to process : 804408
+\Update:Voxels to process : 784323
+\Update:Voxels to process : 761978
+\Update:Voxels to process : 741123
+\Update:Voxels to process : 751838
+\Update:Voxels to process : 730024
+\Update:Voxels to process : 707347
+\Update:Voxels to process : 685581
+\Update:Voxels to process : 690563
+\Update:Voxels to process : 667524
+\Update:Voxels to process : 644951
+\Update:Voxels to process : 621111
+\Update:Voxels to process : 621277
+\Update:Voxels to process : 596874
+\Update:Voxels to process : 571420
+\Update:Voxels to process : 566882
+\Update:Voxels to process : 541272
+\Update:Voxels to process : 515673
+\Update:Voxels to process : 490875
+\Update:Voxels to process : 482233
+\Update:Voxels to process : 455261
+\Update:Voxels to process : 429470
+\Update:Voxels to process : 416565
+\Update:Voxels to process : 389854
+\Update:Voxels to process : 375112
+\Update:Voxels to process : 347301
+\Update:Voxels to process : 329264
+\Update:Voxels to process : 301743
+\Update:Voxels to process : 281978
+\Update:Voxels to process : 259544
+\Update:Voxels to process : 235116
+\Update:Voxels to process : 210599
+\Update:Voxels to process : 186041
+\Update:Voxels to process : 159815
+\Update:Voxels to process : 132969
+\Update:Voxels to process : 106473
+\Update:Voxels to process : 78318
+\Update:Voxels to process : 52496
+\Update:Voxels to process : 24576
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_11850_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10222
+Create label image with 10222 objects
+Finished
+Finished
+Time of execution is: 85.143 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_0.tif
+Loading image: C6-NUC.tif__1_15800_0.tif
+C6-NUC.tif__1_15800_0.tif:   max:   255  min: 0  mean: 58.9217  area: 16000000  std:43.9475
+Segmenting...
+C6-NUC.tif__1_15800_0.tif  mean value: 19923.8199
+_________________________________________
+ATTENTION: seeds threshold value is:  20523
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 245548
+\Update:Voxels to process : 290487
+\Update:Voxels to process : 371445
+\Update:Voxels to process : 452203
+\Update:Voxels to process : 451838
+\Update:Voxels to process : 511642
+\Update:Voxels to process : 531540
+\Update:Voxels to process : 530694
+\Update:Voxels to process : 610111
+\Update:Voxels to process : 608791
+\Update:Voxels to process : 683892
+\Update:Voxels to process : 685455
+\Update:Voxels to process : 683546
+\Update:Voxels to process : 681426
+\Update:Voxels to process : 757943
+\Update:Voxels to process : 755182
+\Update:Voxels to process : 752481
+\Update:Voxels to process : 749390
+\Update:Voxels to process : 823381
+\Update:Voxels to process : 819535
+\Update:Voxels to process : 815593
+\Update:Voxels to process : 811564
+\Update:Voxels to process : 882586
+\Update:Voxels to process : 878322
+\Update:Voxels to process : 873504
+\Update:Voxels to process : 868241
+\Update:Voxels to process : 888053
+\Update:Voxels to process : 931134
+\Update:Voxels to process : 925485
+\Update:Voxels to process : 918882
+\Update:Voxels to process : 914538
+\Update:Voxels to process : 963715
+\Update:Voxels to process : 971327
+\Update:Voxels to process : 963913
+\Update:Voxels to process : 955999
+\Update:Voxels to process : 947848
+\Update:Voxels to process : 938969
+\Update:Voxels to process : 997812
+\Update:Voxels to process : 988514
+\Update:Voxels to process : 979485
+\Update:Voxels to process : 968809
+\Update:Voxels to process : 958459
+\Update:Voxels to process : 967527
+\Update:Voxels to process : 1000352
+\Update:Voxels to process : 988941
+\Update:Voxels to process : 976891
+\Update:Voxels to process : 964955
+\Update:Voxels to process : 952019
+\Update:Voxels to process : 996235
+\Update:Voxels to process : 984100
+\Update:Voxels to process : 970292
+\Update:Voxels to process : 955898
+\Update:Voxels to process : 941061
+\Update:Voxels to process : 979606
+\Update:Voxels to process : 964914
+\Update:Voxels to process : 948268
+\Update:Voxels to process : 932349
+\Update:Voxels to process : 916753
+\Update:Voxels to process : 899975
+\Update:Voxels to process : 930522
+\Update:Voxels to process : 913319
+\Update:Voxels to process : 894639
+\Update:Voxels to process : 876412
+\Update:Voxels to process : 857148
+\Update:Voxels to process : 880861
+\Update:Voxels to process : 860896
+\Update:Voxels to process : 841079
+\Update:Voxels to process : 820306
+\Update:Voxels to process : 799317
+\Update:Voxels to process : 796349
+\Update:Voxels to process : 792019
+\Update:Voxels to process : 768721
+\Update:Voxels to process : 745838
+\Update:Voxels to process : 722959
+\Update:Voxels to process : 729741
+\Update:Voxels to process : 706016
+\Update:Voxels to process : 680205
+\Update:Voxels to process : 654966
+\Update:Voxels to process : 655271
+\Update:Voxels to process : 628968
+\Update:Voxels to process : 601653
+\Update:Voxels to process : 573807
+\Update:Voxels to process : 567385
+\Update:Voxels to process : 538094
+\Update:Voxels to process : 508327
+\Update:Voxels to process : 496716
+\Update:Voxels to process : 465089
+\Update:Voxels to process : 436470
+\Update:Voxels to process : 420687
+\Update:Voxels to process : 390327
+\Update:Voxels to process : 359242
+\Update:Voxels to process : 336652
+\Update:Voxels to process : 304214
+\Update:Voxels to process : 279686
+\Update:Voxels to process : 253362
+\Update:Voxels to process : 218439
+\Update:Voxels to process : 188655
+\Update:Voxels to process : 156931
+\Update:Voxels to process : 124232
+\Update:Voxels to process : 89721
+\Update:Voxels to process : 61593
+\Update:Voxels to process : 47288
+\Update:Voxels to process : 37881
+\Update:Voxels to process : 34135
+\Update:Voxels to process : 30711
+\Update:Voxels to process : 27289
+\Update:Voxels to process : 24858
+\Update:Voxels to process : 21098
+\Update:Voxels to process : 17361
+\Update:Voxels to process : 12990
+\Update:Voxels to process : 8747
+\Update:Voxels to process : 4415
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_0   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10250
+Create label image with 10250 objects
+Finished
+Finished
+Time of execution is: 78.585 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_11850.tif
+Loading image: C6-NUC.tif__1_15800_11850.tif
+C6-NUC.tif__1_15800_11850.tif:   max:   255  min: 0  mean: 75.557  area: 16000000  std:37.0535
+Segmenting...
+C6-NUC.tif__1_15800_11850.tif  mean value: 22687.4139
+_________________________________________
+ATTENTION: seeds threshold value is:  23287
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 225092
+\Update:Voxels to process : 308838
+\Update:Voxels to process : 407560
+\Update:Voxels to process : 407292
+\Update:Voxels to process : 505773
+\Update:Voxels to process : 505326
+\Update:Voxels to process : 517717
+\Update:Voxels to process : 602609
+\Update:Voxels to process : 601842
+\Update:Voxels to process : 613319
+\Update:Voxels to process : 698036
+\Update:Voxels to process : 696844
+\Update:Voxels to process : 695437
+\Update:Voxels to process : 791193
+\Update:Voxels to process : 789340
+\Update:Voxels to process : 787363
+\Update:Voxels to process : 785263
+\Update:Voxels to process : 865422
+\Update:Voxels to process : 876354
+\Update:Voxels to process : 873756
+\Update:Voxels to process : 870893
+\Update:Voxels to process : 867625
+\Update:Voxels to process : 953180
+\Update:Voxels to process : 954817
+\Update:Voxels to process : 950946
+\Update:Voxels to process : 947050
+\Update:Voxels to process : 943001
+\Update:Voxels to process : 938619
+\Update:Voxels to process : 1025926
+\Update:Voxels to process : 1021286
+\Update:Voxels to process : 1016662
+\Update:Voxels to process : 1011141
+\Update:Voxels to process : 1006131
+\Update:Voxels to process : 1090571
+\Update:Voxels to process : 1085206
+\Update:Voxels to process : 1079938
+\Update:Voxels to process : 1074305
+\Update:Voxels to process : 1068483
+\Update:Voxels to process : 1105933
+\Update:Voxels to process : 1142034
+\Update:Voxels to process : 1135897
+\Update:Voxels to process : 1129324
+\Update:Voxels to process : 1122493
+\Update:Voxels to process : 1115104
+\Update:Voxels to process : 1108218
+\Update:Voxels to process : 1100413
+\Update:Voxels to process : 1175118
+\Update:Voxels to process : 1166598
+\Update:Voxels to process : 1158559
+\Update:Voxels to process : 1149842
+\Update:Voxels to process : 1139549
+\Update:Voxels to process : 1129957
+\Update:Voxels to process : 1120440
+\Update:Voxels to process : 1187775
+\Update:Voxels to process : 1176618
+\Update:Voxels to process : 1164539
+\Update:Voxels to process : 1152633
+\Update:Voxels to process : 1140663
+\Update:Voxels to process : 1127409
+\Update:Voxels to process : 1114835
+\Update:Voxels to process : 1173693
+\Update:Voxels to process : 1160230
+\Update:Voxels to process : 1146130
+\Update:Voxels to process : 1132058
+\Update:Voxels to process : 1115895
+\Update:Voxels to process : 1100569
+\Update:Voxels to process : 1150805
+\Update:Voxels to process : 1134493
+\Update:Voxels to process : 1117047
+\Update:Voxels to process : 1099870
+\Update:Voxels to process : 1082754
+\Update:Voxels to process : 1069934
+\Update:Voxels to process : 1050525
+\Update:Voxels to process : 1088495
+\Update:Voxels to process : 1068758
+\Update:Voxels to process : 1047708
+\Update:Voxels to process : 1026680
+\Update:Voxels to process : 1003241
+\Update:Voxels to process : 980857
+\Update:Voxels to process : 1010271
+\Update:Voxels to process : 987254
+\Update:Voxels to process : 965768
+\Update:Voxels to process : 942130
+\Update:Voxels to process : 919176
+\Update:Voxels to process : 895931
+\Update:Voxels to process : 915252
+\Update:Voxels to process : 889938
+\Update:Voxels to process : 865210
+\Update:Voxels to process : 840499
+\Update:Voxels to process : 814997
+\Update:Voxels to process : 801260
+\Update:Voxels to process : 798097
+\Update:Voxels to process : 771007
+\Update:Voxels to process : 742928
+\Update:Voxels to process : 715111
+\Update:Voxels to process : 717073
+\Update:Voxels to process : 688349
+\Update:Voxels to process : 658861
+\Update:Voxels to process : 629190
+\Update:Voxels to process : 598925
+\Update:Voxels to process : 592326
+\Update:Voxels to process : 560488
+\Update:Voxels to process : 527413
+\Update:Voxels to process : 514107
+\Update:Voxels to process : 479765
+\Update:Voxels to process : 444677
+\Update:Voxels to process : 424794
+\Update:Voxels to process : 387419
+\Update:Voxels to process : 348452
+\Update:Voxels to process : 320432
+\Update:Voxels to process : 282935
+\Update:Voxels to process : 251186
+\Update:Voxels to process : 214398
+\Update:Voxels to process : 169769
+\Update:Voxels to process : 131130
+\Update:Voxels to process : 80806
+\Update:Voxels to process : 27082
+\Update:Voxels to process : 1139
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 12505
+Create label image with 12505 objects
+Finished
+Finished
+Time of execution is: 82.131 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_15800.tif
+Loading image: C6-NUC.tif__1_15800_15800.tif
+C6-NUC.tif__1_15800_15800.tif:   max:   255  min: 0  mean: 67.793  area: 16000000  std:36.9273
+Segmenting...
+C6-NUC.tif__1_15800_15800.tif  mean value: 20793.6252
+_________________________________________
+ATTENTION: seeds threshold value is:  21393
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 227518
+\Update:Voxels to process : 291548
+\Update:Voxels to process : 384310
+\Update:Voxels to process : 411187
+\Update:Voxels to process : 476424
+\Update:Voxels to process : 475860
+\Update:Voxels to process : 567568
+\Update:Voxels to process : 566630
+\Update:Voxels to process : 565723
+\Update:Voxels to process : 656566
+\Update:Voxels to process : 655290
+\Update:Voxels to process : 653714
+\Update:Voxels to process : 743331
+\Update:Voxels to process : 741267
+\Update:Voxels to process : 739267
+\Update:Voxels to process : 736847
+\Update:Voxels to process : 824306
+\Update:Voxels to process : 821701
+\Update:Voxels to process : 818835
+\Update:Voxels to process : 815853
+\Update:Voxels to process : 869181
+\Update:Voxels to process : 897599
+\Update:Voxels to process : 893812
+\Update:Voxels to process : 889853
+\Update:Voxels to process : 885986
+\Update:Voxels to process : 913322
+\Update:Voxels to process : 963183
+\Update:Voxels to process : 958590
+\Update:Voxels to process : 953523
+\Update:Voxels to process : 948231
+\Update:Voxels to process : 1025854
+\Update:Voxels to process : 1021207
+\Update:Voxels to process : 1015561
+\Update:Voxels to process : 1009268
+\Update:Voxels to process : 1003046
+\Update:Voxels to process : 1077897
+\Update:Voxels to process : 1070804
+\Update:Voxels to process : 1063640
+\Update:Voxels to process : 1056392
+\Update:Voxels to process : 1049300
+\Update:Voxels to process : 1041719
+\Update:Voxels to process : 1033852
+\Update:Voxels to process : 1103256
+\Update:Voxels to process : 1095314
+\Update:Voxels to process : 1087707
+\Update:Voxels to process : 1078481
+\Update:Voxels to process : 1069471
+\Update:Voxels to process : 1060256
+\Update:Voxels to process : 1121307
+\Update:Voxels to process : 1114172
+\Update:Voxels to process : 1104441
+\Update:Voxels to process : 1094373
+\Update:Voxels to process : 1084027
+\Update:Voxels to process : 1073132
+\Update:Voxels to process : 1062089
+\Update:Voxels to process : 1112920
+\Update:Voxels to process : 1106730
+\Update:Voxels to process : 1094747
+\Update:Voxels to process : 1082423
+\Update:Voxels to process : 1069394
+\Update:Voxels to process : 1060691
+\Update:Voxels to process : 1064129
+\Update:Voxels to process : 1094252
+\Update:Voxels to process : 1079216
+\Update:Voxels to process : 1062743
+\Update:Voxels to process : 1046803
+\Update:Voxels to process : 1030354
+\Update:Voxels to process : 1018127
+\Update:Voxels to process : 1054061
+\Update:Voxels to process : 1037864
+\Update:Voxels to process : 1020444
+\Update:Voxels to process : 1003605
+\Update:Voxels to process : 984883
+\Update:Voxels to process : 969192
+\Update:Voxels to process : 999621
+\Update:Voxels to process : 980593
+\Update:Voxels to process : 963046
+\Update:Voxels to process : 943805
+\Update:Voxels to process : 925050
+\Update:Voxels to process : 905597
+\Update:Voxels to process : 929875
+\Update:Voxels to process : 908391
+\Update:Voxels to process : 887485
+\Update:Voxels to process : 865313
+\Update:Voxels to process : 843718
+\Update:Voxels to process : 820463
+\Update:Voxels to process : 834599
+\Update:Voxels to process : 810223
+\Update:Voxels to process : 785148
+\Update:Voxels to process : 760811
+\Update:Voxels to process : 768103
+\Update:Voxels to process : 742312
+\Update:Voxels to process : 715849
+\Update:Voxels to process : 690299
+\Update:Voxels to process : 663919
+\Update:Voxels to process : 663917
+\Update:Voxels to process : 637661
+\Update:Voxels to process : 611475
+\Update:Voxels to process : 583593
+\Update:Voxels to process : 577628
+\Update:Voxels to process : 548069
+\Update:Voxels to process : 517959
+\Update:Voxels to process : 507511
+\Update:Voxels to process : 477139
+\Update:Voxels to process : 446198
+\Update:Voxels to process : 412901
+\Update:Voxels to process : 394794
+\Update:Voxels to process : 360181
+\Update:Voxels to process : 336485
+\Update:Voxels to process : 300461
+\Update:Voxels to process : 273086
+\Update:Voxels to process : 234332
+\Update:Voxels to process : 201092
+\Update:Voxels to process : 164413
+\Update:Voxels to process : 123209
+\Update:Voxels to process : 79636
+\Update:Voxels to process : 28460
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 11774
+Create label image with 11774 objects
+Finished
+Finished
+Time of execution is: 82.15 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_19750.tif
+Loading image: C6-NUC.tif__1_15800_19750.tif
+C6-NUC.tif__1_15800_19750.tif:   max:   255  min: 0  mean: 55.3421  area: 16000000  std:44.1799
+Segmenting...
+C6-NUC.tif__1_15800_19750.tif  mean value: 19413.3004
+_________________________________________
+ATTENTION: seeds threshold value is:  20013
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 237898
+\Update:Voxels to process : 285260
+\Update:Voxels to process : 350122
+\Update:Voxels to process : 425565
+\Update:Voxels to process : 425047
+\Update:Voxels to process : 500071
+\Update:Voxels to process : 499203
+\Update:Voxels to process : 552143
+\Update:Voxels to process : 572068
+\Update:Voxels to process : 570602
+\Update:Voxels to process : 643461
+\Update:Voxels to process : 641316
+\Update:Voxels to process : 639210
+\Update:Voxels to process : 710123
+\Update:Voxels to process : 707357
+\Update:Voxels to process : 704497
+\Update:Voxels to process : 701422
+\Update:Voxels to process : 770213
+\Update:Voxels to process : 766448
+\Update:Voxels to process : 762723
+\Update:Voxels to process : 758606
+\Update:Voxels to process : 824969
+\Update:Voxels to process : 820425
+\Update:Voxels to process : 815527
+\Update:Voxels to process : 810468
+\Update:Voxels to process : 874044
+\Update:Voxels to process : 868363
+\Update:Voxels to process : 862299
+\Update:Voxels to process : 856227
+\Update:Voxels to process : 915555
+\Update:Voxels to process : 908977
+\Update:Voxels to process : 901991
+\Update:Voxels to process : 894941
+\Update:Voxels to process : 887434
+\Update:Voxels to process : 943359
+\Update:Voxels to process : 935579
+\Update:Voxels to process : 927843
+\Update:Voxels to process : 918812
+\Update:Voxels to process : 910250
+\Update:Voxels to process : 939578
+\Update:Voxels to process : 950876
+\Update:Voxels to process : 940162
+\Update:Voxels to process : 929269
+\Update:Voxels to process : 918027
+\Update:Voxels to process : 906133
+\Update:Voxels to process : 949584
+\Update:Voxels to process : 937688
+\Update:Voxels to process : 925124
+\Update:Voxels to process : 911184
+\Update:Voxels to process : 920500
+\Update:Voxels to process : 934395
+\Update:Voxels to process : 919532
+\Update:Voxels to process : 904174
+\Update:Voxels to process : 888569
+\Update:Voxels to process : 872679
+\Update:Voxels to process : 903007
+\Update:Voxels to process : 885704
+\Update:Voxels to process : 868993
+\Update:Voxels to process : 850213
+\Update:Voxels to process : 835202
+\Update:Voxels to process : 856312
+\Update:Voxels to process : 837505
+\Update:Voxels to process : 818994
+\Update:Voxels to process : 800837
+\Update:Voxels to process : 782233
+\Update:Voxels to process : 798077
+\Update:Voxels to process : 778251
+\Update:Voxels to process : 758128
+\Update:Voxels to process : 736919
+\Update:Voxels to process : 716085
+\Update:Voxels to process : 723807
+\Update:Voxels to process : 700710
+\Update:Voxels to process : 676530
+\Update:Voxels to process : 680535
+\Update:Voxels to process : 656252
+\Update:Voxels to process : 630759
+\Update:Voxels to process : 605827
+\Update:Voxels to process : 603392
+\Update:Voxels to process : 577341
+\Update:Voxels to process : 550976
+\Update:Voxels to process : 533887
+\Update:Voxels to process : 514682
+\Update:Voxels to process : 485218
+\Update:Voxels to process : 472160
+\Update:Voxels to process : 442618
+\Update:Voxels to process : 412602
+\Update:Voxels to process : 394014
+\Update:Voxels to process : 362177
+\Update:Voxels to process : 338971
+\Update:Voxels to process : 305080
+\Update:Voxels to process : 296112
+\Update:Voxels to process : 267462
+\Update:Voxels to process : 236517
+\Update:Voxels to process : 204166
+\Update:Voxels to process : 167717
+\Update:Voxels to process : 132049
+\Update:Voxels to process : 97190
+\Update:Voxels to process : 65108
+\Update:Voxels to process : 45193
+\Update:Voxels to process : 34460
+\Update:Voxels to process : 28683
+\Update:Voxels to process : 24502
+\Update:Voxels to process : 20224
+\Update:Voxels to process : 14955
+\Update:Voxels to process : 9288
+\Update:Voxels to process : 1819
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 9629
+Create label image with 9629 objects
+Finished
+Finished
+Time of execution is: 74.845 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_23700.tif
+Loading image: C6-NUC.tif__1_15800_23700.tif
+C6-NUC.tif__1_15800_23700.tif:   max:   255  min: 0  mean: 3.1725  area: 8880000  std:14.3927
+Segmenting...
+C6-NUC.tif__1_15800_23700.tif  mean value: 24001.0215
+_________________________________________
+ATTENTION: seeds threshold value is:  24601
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 105601
+\Update:Voxels to process : 141630
+\Update:Voxels to process : 148045
+\Update:Voxels to process : 158163
+\Update:Voxels to process : 158530
+\Update:Voxels to process : 146319
+\Update:Voxels to process : 125065
+\Update:Voxels to process : 90684
+\Update:Voxels to process : 52041
+\Update:Voxels to process : 13237
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_23700   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 1850
+Create label image with 1850 objects
+Finished
+Finished
+Time of execution is: 28.226 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_3950.tif
+Loading image: C6-NUC.tif__1_15800_3950.tif
+C6-NUC.tif__1_15800_3950.tif:   max:   255  min: 0  mean: 77.5129  area: 16000000  std:33.5645
+Segmenting...
+C6-NUC.tif__1_15800_3950.tif  mean value: 20770.7448
+_________________________________________
+ATTENTION: seeds threshold value is:  21370
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 228773
+\Update:Voxels to process : 324644
+\Update:Voxels to process : 427154
+\Update:Voxels to process : 429175
+\Update:Voxels to process : 533657
+\Update:Voxels to process : 533219
+\Update:Voxels to process : 532613
+\Update:Voxels to process : 636452
+\Update:Voxels to process : 635614
+\Update:Voxels to process : 634635
+\Update:Voxels to process : 737455
+\Update:Voxels to process : 735977
+\Update:Voxels to process : 734288
+\Update:Voxels to process : 803084
+\Update:Voxels to process : 833479
+\Update:Voxels to process : 831182
+\Update:Voxels to process : 828801
+\Update:Voxels to process : 826222
+\Update:Voxels to process : 924951
+\Update:Voxels to process : 921986
+\Update:Voxels to process : 921102
+\Update:Voxels to process : 917813
+\Update:Voxels to process : 914394
+\Update:Voxels to process : 975383
+\Update:Voxels to process : 1006102
+\Update:Voxels to process : 1001655
+\Update:Voxels to process : 997196
+\Update:Voxels to process : 993016
+\Update:Voxels to process : 988162
+\Update:Voxels to process : 1080301
+\Update:Voxels to process : 1075583
+\Update:Voxels to process : 1069947
+\Update:Voxels to process : 1064235
+\Update:Voxels to process : 1058345
+\Update:Voxels to process : 1131269
+\Update:Voxels to process : 1140430
+\Update:Voxels to process : 1134205
+\Update:Voxels to process : 1126819
+\Update:Voxels to process : 1119818
+\Update:Voxels to process : 1112641
+\Update:Voxels to process : 1195430
+\Update:Voxels to process : 1187288
+\Update:Voxels to process : 1179382
+\Update:Voxels to process : 1170637
+\Update:Voxels to process : 1162476
+\Update:Voxels to process : 1153695
+\Update:Voxels to process : 1143859
+\Update:Voxels to process : 1213661
+\Update:Voxels to process : 1210894
+\Update:Voxels to process : 1200643
+\Update:Voxels to process : 1190927
+\Update:Voxels to process : 1179229
+\Update:Voxels to process : 1168413
+\Update:Voxels to process : 1156678
+\Update:Voxels to process : 1225021
+\Update:Voxels to process : 1213006
+\Update:Voxels to process : 1200246
+\Update:Voxels to process : 1188016
+\Update:Voxels to process : 1174528
+\Update:Voxels to process : 1160460
+\Update:Voxels to process : 1146002
+\Update:Voxels to process : 1201874
+\Update:Voxels to process : 1189747
+\Update:Voxels to process : 1174203
+\Update:Voxels to process : 1158383
+\Update:Voxels to process : 1142139
+\Update:Voxels to process : 1124859
+\Update:Voxels to process : 1142256
+\Update:Voxels to process : 1156981
+\Update:Voxels to process : 1139061
+\Update:Voxels to process : 1119869
+\Update:Voxels to process : 1100646
+\Update:Voxels to process : 1081587
+\Update:Voxels to process : 1062260
+\Update:Voxels to process : 1100754
+\Update:Voxels to process : 1079854
+\Update:Voxels to process : 1059562
+\Update:Voxels to process : 1038672
+\Update:Voxels to process : 1017517
+\Update:Voxels to process : 994145
+\Update:Voxels to process : 1006086
+\Update:Voxels to process : 999806
+\Update:Voxels to process : 976764
+\Update:Voxels to process : 952721
+\Update:Voxels to process : 927683
+\Update:Voxels to process : 903275
+\Update:Voxels to process : 888945
+\Update:Voxels to process : 893054
+\Update:Voxels to process : 866187
+\Update:Voxels to process : 839096
+\Update:Voxels to process : 812204
+\Update:Voxels to process : 784080
+\Update:Voxels to process : 790328
+\Update:Voxels to process : 762203
+\Update:Voxels to process : 732359
+\Update:Voxels to process : 702455
+\Update:Voxels to process : 701734
+\Update:Voxels to process : 669656
+\Update:Voxels to process : 641522
+\Update:Voxels to process : 607674
+\Update:Voxels to process : 572193
+\Update:Voxels to process : 559033
+\Update:Voxels to process : 521777
+\Update:Voxels to process : 484730
+\Update:Voxels to process : 466649
+\Update:Voxels to process : 427943
+\Update:Voxels to process : 390337
+\Update:Voxels to process : 362796
+\Update:Voxels to process : 321080
+\Update:Voxels to process : 288413
+\Update:Voxels to process : 242267
+\Update:Voxels to process : 201715
+\Update:Voxels to process : 156683
+\Update:Voxels to process : 104033
+\Update:Voxels to process : 41908
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 13275
+Create label image with 13275 objects
+Finished
+Finished
+Time of execution is: 80.903 seconds
+_______________________________________
+
+C6-NUC.tif__1_15800_7900.tif
+Loading image: C6-NUC.tif__1_15800_7900.tif
+C6-NUC.tif__1_15800_7900.tif:   max:   255  min: 0  mean: 68.1333  area: 16000000  std:38.9379
+Segmenting...
+C6-NUC.tif__1_15800_7900.tif  mean value: 18328.492
+_________________________________________
+ATTENTION: seeds threshold value is:  18928
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 229717
+\Update:Voxels to process : 313318
+\Update:Voxels to process : 412455
+\Update:Voxels to process : 412196
+\Update:Voxels to process : 511126
+\Update:Voxels to process : 510691
+\Update:Voxels to process : 522393
+\Update:Voxels to process : 608310
+\Update:Voxels to process : 607381
+\Update:Voxels to process : 643386
+\Update:Voxels to process : 703527
+\Update:Voxels to process : 702131
+\Update:Voxels to process : 707301
+\Update:Voxels to process : 796254
+\Update:Voxels to process : 794230
+\Update:Voxels to process : 792046
+\Update:Voxels to process : 789555
+\Update:Voxels to process : 883074
+\Update:Voxels to process : 880282
+\Update:Voxels to process : 877227
+\Update:Voxels to process : 873928
+\Update:Voxels to process : 870347
+\Update:Voxels to process : 960757
+\Update:Voxels to process : 956452
+\Update:Voxels to process : 952450
+\Update:Voxels to process : 947995
+\Update:Voxels to process : 943526
+\Update:Voxels to process : 1012537
+\Update:Voxels to process : 1025581
+\Update:Voxels to process : 1020066
+\Update:Voxels to process : 1014328
+\Update:Voxels to process : 1008346
+\Update:Voxels to process : 1070863
+\Update:Voxels to process : 1085456
+\Update:Voxels to process : 1078875
+\Update:Voxels to process : 1071748
+\Update:Voxels to process : 1064922
+\Update:Voxels to process : 1074074
+\Update:Voxels to process : 1135022
+\Update:Voxels to process : 1127850
+\Update:Voxels to process : 1120056
+\Update:Voxels to process : 1111682
+\Update:Voxels to process : 1102969
+\Update:Voxels to process : 1093889
+\Update:Voxels to process : 1105809
+\Update:Voxels to process : 1156692
+\Update:Voxels to process : 1147199
+\Update:Voxels to process : 1137356
+\Update:Voxels to process : 1125872
+\Update:Voxels to process : 1115336
+\Update:Voxels to process : 1104175
+\Update:Voxels to process : 1168461
+\Update:Voxels to process : 1156939
+\Update:Voxels to process : 1144005
+\Update:Voxels to process : 1131882
+\Update:Voxels to process : 1119205
+\Update:Voxels to process : 1105406
+\Update:Voxels to process : 1091961
+\Update:Voxels to process : 1147763
+\Update:Voxels to process : 1133658
+\Update:Voxels to process : 1118960
+\Update:Voxels to process : 1104250
+\Update:Voxels to process : 1088130
+\Update:Voxels to process : 1072805
+\Update:Voxels to process : 1120307
+\Update:Voxels to process : 1103846
+\Update:Voxels to process : 1086008
+\Update:Voxels to process : 1068565
+\Update:Voxels to process : 1051577
+\Update:Voxels to process : 1033550
+\Update:Voxels to process : 1071899
+\Update:Voxels to process : 1052925
+\Update:Voxels to process : 1034076
+\Update:Voxels to process : 1014517
+\Update:Voxels to process : 994096
+\Update:Voxels to process : 972681
+\Update:Voxels to process : 1001464
+\Update:Voxels to process : 981158
+\Update:Voxels to process : 958309
+\Update:Voxels to process : 935850
+\Update:Voxels to process : 912490
+\Update:Voxels to process : 890622
+\Update:Voxels to process : 909631
+\Update:Voxels to process : 884350
+\Update:Voxels to process : 859535
+\Update:Voxels to process : 834079
+\Update:Voxels to process : 809700
+\Update:Voxels to process : 783932
+\Update:Voxels to process : 793335
+\Update:Voxels to process : 766978
+\Update:Voxels to process : 738839
+\Update:Voxels to process : 710801
+\Update:Voxels to process : 713054
+\Update:Voxels to process : 683381
+\Update:Voxels to process : 653896
+\Update:Voxels to process : 623240
+\Update:Voxels to process : 613147
+\Update:Voxels to process : 585061
+\Update:Voxels to process : 553158
+\Update:Voxels to process : 519845
+\Update:Voxels to process : 505803
+\Update:Voxels to process : 471058
+\Update:Voxels to process : 436718
+\Update:Voxels to process : 417146
+\Update:Voxels to process : 382117
+\Update:Voxels to process : 348215
+\Update:Voxels to process : 321049
+\Update:Voxels to process : 291113
+\Update:Voxels to process : 257660
+\Update:Voxels to process : 221183
+\Update:Voxels to process : 182196
+\Update:Voxels to process : 138797
+\Update:Voxels to process : 93149
+\Update:Voxels to process : 47555
+\Update:Voxels to process : 9688
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_15800_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 12560
+Create label image with 12560 objects
+Finished
+Finished
+Time of execution is: 82.949 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_0.tif
+Loading image: C6-NUC.tif__1_19750_0.tif
+C6-NUC.tif__1_19750_0.tif:   max:   255  min: 0  mean: 22.4937  area: 16000000  std:40.1718
+Segmenting...
+C6-NUC.tif__1_19750_0.tif  mean value: 18761.8582
+_________________________________________
+ATTENTION: seeds threshold value is:  19361
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 223982
+\Update:Voxels to process : 288830
+\Update:Voxels to process : 320692
+\Update:Voxels to process : 351822
+\Update:Voxels to process : 381885
+\Update:Voxels to process : 410799
+\Update:Voxels to process : 436384
+\Update:Voxels to process : 434201
+\Update:Voxels to process : 433205
+\Update:Voxels to process : 458319
+\Update:Voxels to process : 481638
+\Update:Voxels to process : 475024
+\Update:Voxels to process : 496146
+\Update:Voxels to process : 488075
+\Update:Voxels to process : 506116
+\Update:Voxels to process : 495780
+\Update:Voxels to process : 510435
+\Update:Voxels to process : 498742
+\Update:Voxels to process : 509560
+\Update:Voxels to process : 496400
+\Update:Voxels to process : 504397
+\Update:Voxels to process : 488838
+\Update:Voxels to process : 491820
+\Update:Voxels to process : 474195
+\Update:Voxels to process : 472990
+\Update:Voxels to process : 452885
+\Update:Voxels to process : 447665
+\Update:Voxels to process : 425864
+\Update:Voxels to process : 416509
+\Update:Voxels to process : 403640
+\Update:Voxels to process : 377992
+\Update:Voxels to process : 360859
+\Update:Voxels to process : 341588
+\Update:Voxels to process : 320253
+\Update:Voxels to process : 296209
+\Update:Voxels to process : 270200
+\Update:Voxels to process : 241520
+\Update:Voxels to process : 215740
+\Update:Voxels to process : 190807
+\Update:Voxels to process : 168402
+\Update:Voxels to process : 154592
+\Update:Voxels to process : 145302
+\Update:Voxels to process : 135217
+\Update:Voxels to process : 127652
+\Update:Voxels to process : 119150
+\Update:Voxels to process : 113668
+\Update:Voxels to process : 109353
+\Update:Voxels to process : 104422
+\Update:Voxels to process : 100057
+\Update:Voxels to process : 95416
+\Update:Voxels to process : 89998
+\Update:Voxels to process : 85352
+\Update:Voxels to process : 81012
+\Update:Voxels to process : 76696
+\Update:Voxels to process : 71160
+\Update:Voxels to process : 63784
+\Update:Voxels to process : 57966
+\Update:Voxels to process : 51435
+\Update:Voxels to process : 44850
+\Update:Voxels to process : 38072
+\Update:Voxels to process : 28369
+\Update:Voxels to process : 16375
+\Update:Voxels to process : 4152
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_0   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 4122
+Create label image with 4122 objects
+Finished
+Finished
+Time of execution is: 58.354 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_11850.tif
+Loading image: C6-NUC.tif__1_19750_11850.tif
+C6-NUC.tif__1_19750_11850.tif:   max:   255  min: 0  mean: 87.6229  area: 16000000  std:36.3536
+Segmenting...
+C6-NUC.tif__1_19750_11850.tif  mean value: 20879.4516
+_________________________________________
+ATTENTION: seeds threshold value is:  21479
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 236945
+\Update:Voxels to process : 344226
+\Update:Voxels to process : 434158
+\Update:Voxels to process : 451094
+\Update:Voxels to process : 557894
+\Update:Voxels to process : 557428
+\Update:Voxels to process : 556794
+\Update:Voxels to process : 660533
+\Update:Voxels to process : 661767
+\Update:Voxels to process : 660694
+\Update:Voxels to process : 747884
+\Update:Voxels to process : 763930
+\Update:Voxels to process : 762202
+\Update:Voxels to process : 775591
+\Update:Voxels to process : 863190
+\Update:Voxels to process : 860919
+\Update:Voxels to process : 858530
+\Update:Voxels to process : 855843
+\Update:Voxels to process : 956473
+\Update:Voxels to process : 953397
+\Update:Voxels to process : 950207
+\Update:Voxels to process : 946695
+\Update:Voxels to process : 942948
+\Update:Voxels to process : 1016405
+\Update:Voxels to process : 1036413
+\Update:Voxels to process : 1031856
+\Update:Voxels to process : 1027259
+\Update:Voxels to process : 1022555
+\Update:Voxels to process : 1017557
+\Update:Voxels to process : 1110681
+\Update:Voxels to process : 1105498
+\Update:Voxels to process : 1099514
+\Update:Voxels to process : 1093743
+\Update:Voxels to process : 1087560
+\Update:Voxels to process : 1133485
+\Update:Voxels to process : 1169918
+\Update:Voxels to process : 1162897
+\Update:Voxels to process : 1155446
+\Update:Voxels to process : 1148349
+\Update:Voxels to process : 1140454
+\Update:Voxels to process : 1223857
+\Update:Voxels to process : 1214966
+\Update:Voxels to process : 1206147
+\Update:Voxels to process : 1197330
+\Update:Voxels to process : 1188629
+\Update:Voxels to process : 1179269
+\Update:Voxels to process : 1169172
+\Update:Voxels to process : 1197600
+\Update:Voxels to process : 1234388
+\Update:Voxels to process : 1223730
+\Update:Voxels to process : 1212709
+\Update:Voxels to process : 1200194
+\Update:Voxels to process : 1188065
+\Update:Voxels to process : 1175634
+\Update:Voxels to process : 1242323
+\Update:Voxels to process : 1229563
+\Update:Voxels to process : 1216284
+\Update:Voxels to process : 1202280
+\Update:Voxels to process : 1188043
+\Update:Voxels to process : 1173373
+\Update:Voxels to process : 1157292
+\Update:Voxels to process : 1177685
+\Update:Voxels to process : 1198823
+\Update:Voxels to process : 1183082
+\Update:Voxels to process : 1166334
+\Update:Voxels to process : 1148847
+\Update:Voxels to process : 1130278
+\Update:Voxels to process : 1112498
+\Update:Voxels to process : 1159257
+\Update:Voxels to process : 1140015
+\Update:Voxels to process : 1118681
+\Update:Voxels to process : 1098200
+\Update:Voxels to process : 1078265
+\Update:Voxels to process : 1057546
+\Update:Voxels to process : 1093395
+\Update:Voxels to process : 1070743
+\Update:Voxels to process : 1048366
+\Update:Voxels to process : 1025394
+\Update:Voxels to process : 1002800
+\Update:Voxels to process : 977986
+\Update:Voxels to process : 999891
+\Update:Voxels to process : 978719
+\Update:Voxels to process : 954475
+\Update:Voxels to process : 928498
+\Update:Voxels to process : 901660
+\Update:Voxels to process : 875780
+\Update:Voxels to process : 890153
+\Update:Voxels to process : 861655
+\Update:Voxels to process : 833132
+\Update:Voxels to process : 804201
+\Update:Voxels to process : 775577
+\Update:Voxels to process : 752661
+\Update:Voxels to process : 749223
+\Update:Voxels to process : 717801
+\Update:Voxels to process : 696938
+\Update:Voxels to process : 664050
+\Update:Voxels to process : 657582
+\Update:Voxels to process : 621703
+\Update:Voxels to process : 585121
+\Update:Voxels to process : 548424
+\Update:Voxels to process : 532915
+\Update:Voxels to process : 495903
+\Update:Voxels to process : 457872
+\Update:Voxels to process : 435387
+\Update:Voxels to process : 395492
+\Update:Voxels to process : 367426
+\Update:Voxels to process : 324257
+\Update:Voxels to process : 288031
+\Update:Voxels to process : 241237
+\Update:Voxels to process : 197145
+\Update:Voxels to process : 146368
+\Update:Voxels to process : 91286
+\Update:Voxels to process : 28224
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 13552
+Create label image with 13552 objects
+Finished
+Finished
+Time of execution is: 78.823 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_15800.tif
+Loading image: C6-NUC.tif__1_19750_15800.tif
+C6-NUC.tif__1_19750_15800.tif:   max:   255  min: 0  mean: 58.1385  area: 16000000  std:39.0014
+Segmenting...
+C6-NUC.tif__1_19750_15800.tif  mean value: 18892.4407
+_________________________________________
+ATTENTION: seeds threshold value is:  19492
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 230080
+\Update:Voxels to process : 278817
+\Update:Voxels to process : 365551
+\Update:Voxels to process : 444103
+\Update:Voxels to process : 451679
+\Update:Voxels to process : 451195
+\Update:Voxels to process : 537243
+\Update:Voxels to process : 536380
+\Update:Voxels to process : 621554
+\Update:Voxels to process : 620390
+\Update:Voxels to process : 618986
+\Update:Voxels to process : 702903
+\Update:Voxels to process : 701238
+\Update:Voxels to process : 699260
+\Update:Voxels to process : 721569
+\Update:Voxels to process : 779216
+\Update:Voxels to process : 776822
+\Update:Voxels to process : 774217
+\Update:Voxels to process : 771522
+\Update:Voxels to process : 851708
+\Update:Voxels to process : 848258
+\Update:Voxels to process : 844866
+\Update:Voxels to process : 841489
+\Update:Voxels to process : 852699
+\Update:Voxels to process : 915051
+\Update:Voxels to process : 911081
+\Update:Voxels to process : 906603
+\Update:Voxels to process : 901786
+\Update:Voxels to process : 976449
+\Update:Voxels to process : 971408
+\Update:Voxels to process : 966201
+\Update:Voxels to process : 960653
+\Update:Voxels to process : 954927
+\Update:Voxels to process : 1025629
+\Update:Voxels to process : 1019355
+\Update:Voxels to process : 1012753
+\Update:Voxels to process : 1006128
+\Update:Voxels to process : 999323
+\Update:Voxels to process : 991692
+\Update:Voxels to process : 1058116
+\Update:Voxels to process : 1050128
+\Update:Voxels to process : 1042359
+\Update:Voxels to process : 1033451
+\Update:Voxels to process : 1024624
+\Update:Voxels to process : 1015334
+\Update:Voxels to process : 1075869
+\Update:Voxels to process : 1065791
+\Update:Voxels to process : 1055117
+\Update:Voxels to process : 1045079
+\Update:Voxels to process : 1034490
+\Update:Voxels to process : 1022930
+\Update:Voxels to process : 1076173
+\Update:Voxels to process : 1065154
+\Update:Voxels to process : 1053023
+\Update:Voxels to process : 1041530
+\Update:Voxels to process : 1028010
+\Update:Voxels to process : 1014983
+\Update:Voxels to process : 1062119
+\Update:Voxels to process : 1048352
+\Update:Voxels to process : 1033708
+\Update:Voxels to process : 1019220
+\Update:Voxels to process : 1009974
+\Update:Voxels to process : 994172
+\Update:Voxels to process : 1032890
+\Update:Voxels to process : 1016029
+\Update:Voxels to process : 998933
+\Update:Voxels to process : 982326
+\Update:Voxels to process : 962909
+\Update:Voxels to process : 945083
+\Update:Voxels to process : 977474
+\Update:Voxels to process : 958843
+\Update:Voxels to process : 940988
+\Update:Voxels to process : 922001
+\Update:Voxels to process : 903161
+\Update:Voxels to process : 895662
+\Update:Voxels to process : 906273
+\Update:Voxels to process : 886107
+\Update:Voxels to process : 865711
+\Update:Voxels to process : 845412
+\Update:Voxels to process : 824214
+\Update:Voxels to process : 840821
+\Update:Voxels to process : 818676
+\Update:Voxels to process : 795965
+\Update:Voxels to process : 772901
+\Update:Voxels to process : 755308
+\Update:Voxels to process : 759414
+\Update:Voxels to process : 735548
+\Update:Voxels to process : 711286
+\Update:Voxels to process : 687353
+\Update:Voxels to process : 689482
+\Update:Voxels to process : 663999
+\Update:Voxels to process : 638975
+\Update:Voxels to process : 612091
+\Update:Voxels to process : 608888
+\Update:Voxels to process : 582966
+\Update:Voxels to process : 555154
+\Update:Voxels to process : 527318
+\Update:Voxels to process : 519185
+\Update:Voxels to process : 490661
+\Update:Voxels to process : 461100
+\Update:Voxels to process : 446772
+\Update:Voxels to process : 415763
+\Update:Voxels to process : 384232
+\Update:Voxels to process : 365247
+\Update:Voxels to process : 333043
+\Update:Voxels to process : 310527
+\Update:Voxels to process : 276889
+\Update:Voxels to process : 250757
+\Update:Voxels to process : 223013
+\Update:Voxels to process : 192615
+\Update:Voxels to process : 159929
+\Update:Voxels to process : 125569
+\Update:Voxels to process : 90308
+\Update:Voxels to process : 52603
+\Update:Voxels to process : 18331
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 11002
+Create label image with 11002 objects
+Finished
+Finished
+Time of execution is: 78.622 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_19750.tif
+Loading image: C6-NUC.tif__1_19750_19750.tif
+C6-NUC.tif__1_19750_19750.tif:   max:   255  min: 0  mean: 25.9758  area: 16000000  std:44.7301
+Segmenting...
+C6-NUC.tif__1_19750_19750.tif  mean value: 25061.9637
+_________________________________________
+ATTENTION: seeds threshold value is:  25661
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 200318
+\Update:Voxels to process : 229607
+\Update:Voxels to process : 287641
+\Update:Voxels to process : 315176
+\Update:Voxels to process : 341652
+\Update:Voxels to process : 338575
+\Update:Voxels to process : 363173
+\Update:Voxels to process : 386487
+\Update:Voxels to process : 384181
+\Update:Voxels to process : 405435
+\Update:Voxels to process : 425046
+\Update:Voxels to process : 417806
+\Update:Voxels to process : 434812
+\Update:Voxels to process : 425941
+\Update:Voxels to process : 440244
+\Update:Voxels to process : 429342
+\Update:Voxels to process : 438917
+\Update:Voxels to process : 425783
+\Update:Voxels to process : 431527
+\Update:Voxels to process : 415114
+\Update:Voxels to process : 415906
+\Update:Voxels to process : 396802
+\Update:Voxels to process : 394558
+\Update:Voxels to process : 373457
+\Update:Voxels to process : 364637
+\Update:Voxels to process : 352056
+\Update:Voxels to process : 324247
+\Update:Voxels to process : 305926
+\Update:Voxels to process : 284359
+\Update:Voxels to process : 259921
+\Update:Voxels to process : 232221
+\Update:Voxels to process : 199467
+\Update:Voxels to process : 164477
+\Update:Voxels to process : 124528
+\Update:Voxels to process : 91051
+\Update:Voxels to process : 81308
+\Update:Voxels to process : 77335
+\Update:Voxels to process : 73778
+\Update:Voxels to process : 69961
+\Update:Voxels to process : 66455
+\Update:Voxels to process : 62748
+\Update:Voxels to process : 58339
+\Update:Voxels to process : 54180
+\Update:Voxels to process : 50264
+\Update:Voxels to process : 46068
+\Update:Voxels to process : 41559
+\Update:Voxels to process : 36910
+\Update:Voxels to process : 32269
+\Update:Voxels to process : 26688
+\Update:Voxels to process : 21230
+\Update:Voxels to process : 12993
+\Update:Voxels to process : 4448
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 3779
+Create label image with 3779 objects
+Finished
+Finished
+Time of execution is: 56.644 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_23700.tif
+Loading image: C6-NUC.tif__1_19750_23700.tif
+C6-NUC.tif__1_19750_23700.tif:   max:   0  min: 0  mean: 0  area: 8880000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_19750_23700.tif
+_______________________________________
+
+C6-NUC.tif__1_19750_3950.tif
+Loading image: C6-NUC.tif__1_19750_3950.tif
+C6-NUC.tif__1_19750_3950.tif:   max:   255  min: 0  mean: 69.3746  area: 16000000  std:41.4178
+Segmenting...
+C6-NUC.tif__1_19750_3950.tif  mean value: 20370.5402
+_________________________________________
+ATTENTION: seeds threshold value is:  20970
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 231787
+\Update:Voxels to process : 303081
+\Update:Voxels to process : 394232
+\Update:Voxels to process : 421970
+\Update:Voxels to process : 484683
+\Update:Voxels to process : 484167
+\Update:Voxels to process : 574522
+\Update:Voxels to process : 573689
+\Update:Voxels to process : 572779
+\Update:Voxels to process : 662087
+\Update:Voxels to process : 660650
+\Update:Voxels to process : 663593
+\Update:Voxels to process : 747001
+\Update:Voxels to process : 745028
+\Update:Voxels to process : 742932
+\Update:Voxels to process : 771778
+\Update:Voxels to process : 826263
+\Update:Voxels to process : 823329
+\Update:Voxels to process : 820401
+\Update:Voxels to process : 816911
+\Update:Voxels to process : 900060
+\Update:Voxels to process : 895882
+\Update:Voxels to process : 891924
+\Update:Voxels to process : 887502
+\Update:Voxels to process : 882860
+\Update:Voxels to process : 962346
+\Update:Voxels to process : 957500
+\Update:Voxels to process : 952254
+\Update:Voxels to process : 946218
+\Update:Voxels to process : 965201
+\Update:Voxels to process : 1016659
+\Update:Voxels to process : 1010775
+\Update:Voxels to process : 1003958
+\Update:Voxels to process : 997623
+\Update:Voxels to process : 1033866
+\Update:Voxels to process : 1062381
+\Update:Voxels to process : 1054930
+\Update:Voxels to process : 1047337
+\Update:Voxels to process : 1039362
+\Update:Voxels to process : 1030879
+\Update:Voxels to process : 1021890
+\Update:Voxels to process : 1088184
+\Update:Voxels to process : 1079443
+\Update:Voxels to process : 1069862
+\Update:Voxels to process : 1058765
+\Update:Voxels to process : 1048506
+\Update:Voxels to process : 1038140
+\Update:Voxels to process : 1097938
+\Update:Voxels to process : 1086168
+\Update:Voxels to process : 1074043
+\Update:Voxels to process : 1061647
+\Update:Voxels to process : 1048742
+\Update:Voxels to process : 1035180
+\Update:Voxels to process : 1087121
+\Update:Voxels to process : 1073812
+\Update:Voxels to process : 1059765
+\Update:Voxels to process : 1045563
+\Update:Voxels to process : 1030040
+\Update:Voxels to process : 1033135
+\Update:Voxels to process : 1059560
+\Update:Voxels to process : 1043480
+\Update:Voxels to process : 1025997
+\Update:Voxels to process : 1009376
+\Update:Voxels to process : 991828
+\Update:Voxels to process : 988724
+\Update:Voxels to process : 1009222
+\Update:Voxels to process : 990438
+\Update:Voxels to process : 971302
+\Update:Voxels to process : 951808
+\Update:Voxels to process : 930778
+\Update:Voxels to process : 957584
+\Update:Voxels to process : 937813
+\Update:Voxels to process : 916381
+\Update:Voxels to process : 894010
+\Update:Voxels to process : 871733
+\Update:Voxels to process : 849741
+\Update:Voxels to process : 867906
+\Update:Voxels to process : 844387
+\Update:Voxels to process : 820845
+\Update:Voxels to process : 797214
+\Update:Voxels to process : 772240
+\Update:Voxels to process : 781335
+\Update:Voxels to process : 756349
+\Update:Voxels to process : 729486
+\Update:Voxels to process : 703000
+\Update:Voxels to process : 705772
+\Update:Voxels to process : 678657
+\Update:Voxels to process : 650104
+\Update:Voxels to process : 621324
+\Update:Voxels to process : 616998
+\Update:Voxels to process : 587008
+\Update:Voxels to process : 556825
+\Update:Voxels to process : 526434
+\Update:Voxels to process : 515486
+\Update:Voxels to process : 483083
+\Update:Voxels to process : 451527
+\Update:Voxels to process : 436100
+\Update:Voxels to process : 407229
+\Update:Voxels to process : 375643
+\Update:Voxels to process : 361557
+\Update:Voxels to process : 323935
+\Update:Voxels to process : 292955
+\Update:Voxels to process : 261038
+\Update:Voxels to process : 220264
+\Update:Voxels to process : 183171
+\Update:Voxels to process : 141463
+\Update:Voxels to process : 98805
+\Update:Voxels to process : 53572
+\Update:Voxels to process : 27635
+\Update:Voxels to process : 6532
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 11560
+Create label image with 11560 objects
+Finished
+Finished
+Time of execution is: 80.728 seconds
+_______________________________________
+
+C6-NUC.tif__1_19750_7900.tif
+Loading image: C6-NUC.tif__1_19750_7900.tif
+C6-NUC.tif__1_19750_7900.tif:   max:   255  min: 0  mean: 57.0746  area: 16000000  std:46.4661
+Segmenting...
+C6-NUC.tif__1_19750_7900.tif  mean value: 21388.2124
+_________________________________________
+ATTENTION: seeds threshold value is:  21988
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 239849
+\Update:Voxels to process : 295476
+\Update:Voxels to process : 349498
+\Update:Voxels to process : 421955
+\Update:Voxels to process : 421332
+\Update:Voxels to process : 493050
+\Update:Voxels to process : 491912
+\Update:Voxels to process : 562811
+\Update:Voxels to process : 561140
+\Update:Voxels to process : 622966
+\Update:Voxels to process : 628434
+\Update:Voxels to process : 626043
+\Update:Voxels to process : 681276
+\Update:Voxels to process : 690530
+\Update:Voxels to process : 687067
+\Update:Voxels to process : 683485
+\Update:Voxels to process : 748448
+\Update:Voxels to process : 744124
+\Update:Voxels to process : 739578
+\Update:Voxels to process : 735019
+\Update:Voxels to process : 796783
+\Update:Voxels to process : 791582
+\Update:Voxels to process : 785966
+\Update:Voxels to process : 811526
+\Update:Voxels to process : 839468
+\Update:Voxels to process : 833160
+\Update:Voxels to process : 826620
+\Update:Voxels to process : 878189
+\Update:Voxels to process : 874954
+\Update:Voxels to process : 867649
+\Update:Voxels to process : 860271
+\Update:Voxels to process : 852318
+\Update:Voxels to process : 876530
+\Update:Voxels to process : 895443
+\Update:Voxels to process : 886326
+\Update:Voxels to process : 876483
+\Update:Voxels to process : 867115
+\Update:Voxels to process : 913066
+\Update:Voxels to process : 902660
+\Update:Voxels to process : 891955
+\Update:Voxels to process : 880945
+\Update:Voxels to process : 868307
+\Update:Voxels to process : 908090
+\Update:Voxels to process : 896186
+\Update:Voxels to process : 883168
+\Update:Voxels to process : 869416
+\Update:Voxels to process : 855890
+\Update:Voxels to process : 890000
+\Update:Voxels to process : 874630
+\Update:Voxels to process : 858225
+\Update:Voxels to process : 842527
+\Update:Voxels to process : 835954
+\Update:Voxels to process : 851894
+\Update:Voxels to process : 834534
+\Update:Voxels to process : 816813
+\Update:Voxels to process : 797484
+\Update:Voxels to process : 817781
+\Update:Voxels to process : 798122
+\Update:Voxels to process : 777498
+\Update:Voxels to process : 755721
+\Update:Voxels to process : 735051
+\Update:Voxels to process : 745787
+\Update:Voxels to process : 723006
+\Update:Voxels to process : 700360
+\Update:Voxels to process : 675994
+\Update:Voxels to process : 681119
+\Update:Voxels to process : 655665
+\Update:Voxels to process : 629856
+\Update:Voxels to process : 628539
+\Update:Voxels to process : 602235
+\Update:Voxels to process : 574935
+\Update:Voxels to process : 547147
+\Update:Voxels to process : 538577
+\Update:Voxels to process : 509450
+\Update:Voxels to process : 478901
+\Update:Voxels to process : 463750
+\Update:Voxels to process : 429132
+\Update:Voxels to process : 408321
+\Update:Voxels to process : 372675
+\Update:Voxels to process : 346532
+\Update:Voxels to process : 309164
+\Update:Voxels to process : 277335
+\Update:Voxels to process : 242606
+\Update:Voxels to process : 205169
+\Update:Voxels to process : 163619
+\Update:Voxels to process : 117084
+\Update:Voxels to process : 68283
+\Update:Voxels to process : 50095
+\Update:Voxels to process : 17679
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_19750_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 9225
+Create label image with 9225 objects
+Finished
+Finished
+Time of execution is: 74.023 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_0.tif
+Loading image: C6-NUC.tif__1_23700_0.tif
+C6-NUC.tif__1_23700_0.tif:   max:   255  min: 0  mean: 0.2266  area: 16000000  std:5.6375
+Segmenting...
+C6-NUC.tif__1_23700_0.tif  mean value: 23976.9948
+_________________________________________
+ATTENTION: seeds threshold value is:  24576
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_0   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 219
+Create label image with 219 objects
+Finished
+Finished
+Time of execution is: 44.223 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_11850.tif
+Loading image: C6-NUC.tif__1_23700_11850.tif
+C6-NUC.tif__1_23700_11850.tif:   max:   255  min: 0  mean: 50.8132  area: 16000000  std:52.1464
+Segmenting...
+C6-NUC.tif__1_23700_11850.tif  mean value: 19407.3623
+_________________________________________
+ATTENTION: seeds threshold value is:  20007
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 257893
+\Update:Voxels to process : 344849
+\Update:Voxels to process : 397433
+\Update:Voxels to process : 404083
+\Update:Voxels to process : 463277
+\Update:Voxels to process : 462292
+\Update:Voxels to process : 520565
+\Update:Voxels to process : 540286
+\Update:Voxels to process : 576197
+\Update:Voxels to process : 573996
+\Update:Voxels to process : 629431
+\Update:Voxels to process : 626480
+\Update:Voxels to process : 623365
+\Update:Voxels to process : 677027
+\Update:Voxels to process : 673139
+\Update:Voxels to process : 669248
+\Update:Voxels to process : 720542
+\Update:Voxels to process : 715474
+\Update:Voxels to process : 711263
+\Update:Voxels to process : 757364
+\Update:Voxels to process : 753631
+\Update:Voxels to process : 746899
+\Update:Voxels to process : 788271
+\Update:Voxels to process : 784049
+\Update:Voxels to process : 776250
+\Update:Voxels to process : 768053
+\Update:Voxels to process : 783353
+\Update:Voxels to process : 799789
+\Update:Voxels to process : 790020
+\Update:Voxels to process : 779365
+\Update:Voxels to process : 814901
+\Update:Voxels to process : 803146
+\Update:Voxels to process : 790794
+\Update:Voxels to process : 777322
+\Update:Voxels to process : 804786
+\Update:Voxels to process : 792046
+\Update:Voxels to process : 777028
+\Update:Voxels to process : 760988
+\Update:Voxels to process : 784861
+\Update:Voxels to process : 768052
+\Update:Voxels to process : 751369
+\Update:Voxels to process : 733897
+\Update:Voxels to process : 750388
+\Update:Voxels to process : 731199
+\Update:Voxels to process : 711810
+\Update:Voxels to process : 690499
+\Update:Voxels to process : 699861
+\Update:Voxels to process : 675697
+\Update:Voxels to process : 651648
+\Update:Voxels to process : 653368
+\Update:Voxels to process : 627463
+\Update:Voxels to process : 600938
+\Update:Voxels to process : 594636
+\Update:Voxels to process : 567667
+\Update:Voxels to process : 538553
+\Update:Voxels to process : 527343
+\Update:Voxels to process : 496684
+\Update:Voxels to process : 464894
+\Update:Voxels to process : 448459
+\Update:Voxels to process : 416609
+\Update:Voxels to process : 394306
+\Update:Voxels to process : 368186
+\Update:Voxels to process : 330470
+\Update:Voxels to process : 298468
+\Update:Voxels to process : 262302
+\Update:Voxels to process : 221407
+\Update:Voxels to process : 179073
+\Update:Voxels to process : 136385
+\Update:Voxels to process : 115494
+\Update:Voxels to process : 105673
+\Update:Voxels to process : 91777
+\Update:Voxels to process : 83448
+\Update:Voxels to process : 77943
+\Update:Voxels to process : 67467
+\Update:Voxels to process : 40598
+\Update:Voxels to process : 27317
+\Update:Voxels to process : 21826
+\Update:Voxels to process : 13968
+\Update:Voxels to process : 5295
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 7603
+Create label image with 7603 objects
+Finished
+Finished
+Time of execution is: 65.301 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_15800.tif
+Loading image: C6-NUC.tif__1_23700_15800.tif
+C6-NUC.tif__1_23700_15800.tif:   max:   255  min: 0  mean: 33.9283  area: 16000000  std:45.3862
+Segmenting...
+C6-NUC.tif__1_23700_15800.tif  mean value: 23843.1707
+_________________________________________
+ATTENTION: seeds threshold value is:  24443
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 225813
+\Update:Voxels to process : 270119
+\Update:Voxels to process : 314223
+\Update:Voxels to process : 357914
+\Update:Voxels to process : 401117
+\Update:Voxels to process : 443471
+\Update:Voxels to process : 441646
+\Update:Voxels to process : 483466
+\Update:Voxels to process : 480887
+\Update:Voxels to process : 520647
+\Update:Voxels to process : 517362
+\Update:Voxels to process : 513939
+\Update:Voxels to process : 552272
+\Update:Voxels to process : 547917
+\Update:Voxels to process : 584414
+\Update:Voxels to process : 579141
+\Update:Voxels to process : 613041
+\Update:Voxels to process : 606275
+\Update:Voxels to process : 599112
+\Update:Voxels to process : 624762
+\Update:Voxels to process : 620996
+\Update:Voxels to process : 611598
+\Update:Voxels to process : 638039
+\Update:Voxels to process : 627168
+\Update:Voxels to process : 616209
+\Update:Voxels to process : 637199
+\Update:Voxels to process : 624546
+\Update:Voxels to process : 610675
+\Update:Voxels to process : 627601
+\Update:Voxels to process : 612232
+\Update:Voxels to process : 596434
+\Update:Voxels to process : 607599
+\Update:Voxels to process : 590147
+\Update:Voxels to process : 571227
+\Update:Voxels to process : 576281
+\Update:Voxels to process : 555412
+\Update:Voxels to process : 534993
+\Update:Voxels to process : 534924
+\Update:Voxels to process : 513229
+\Update:Voxels to process : 509086
+\Update:Voxels to process : 484364
+\Update:Voxels to process : 463020
+\Update:Voxels to process : 448785
+\Update:Voxels to process : 421125
+\Update:Voxels to process : 407056
+\Update:Voxels to process : 389086
+\Update:Voxels to process : 358506
+\Update:Voxels to process : 336619
+\Update:Voxels to process : 303393
+\Update:Voxels to process : 278569
+\Update:Voxels to process : 250513
+\Update:Voxels to process : 221031
+\Update:Voxels to process : 188966
+\Update:Voxels to process : 152718
+\Update:Voxels to process : 120243
+\Update:Voxels to process : 100787
+\Update:Voxels to process : 93200
+\Update:Voxels to process : 88290
+\Update:Voxels to process : 83578
+\Update:Voxels to process : 79171
+\Update:Voxels to process : 75588
+\Update:Voxels to process : 72026
+\Update:Voxels to process : 67945
+\Update:Voxels to process : 64353
+\Update:Voxels to process : 60702
+\Update:Voxels to process : 56951
+\Update:Voxels to process : 53291
+\Update:Voxels to process : 49642
+\Update:Voxels to process : 45844
+\Update:Voxels to process : 42127
+\Update:Voxels to process : 37470
+\Update:Voxels to process : 32815
+\Update:Voxels to process : 28616
+\Update:Voxels to process : 23862
+\Update:Voxels to process : 18920
+\Update:Voxels to process : 11871
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 5637
+Create label image with 5637 objects
+Finished
+Finished
+Time of execution is: 62.991 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_19750.tif
+Loading image: C6-NUC.tif__1_23700_19750.tif
+C6-NUC.tif__1_23700_19750.tif:   max:   192  min: 0  mean: 1.8557  area: 16000000  std:9.1856
+Segmenting...
+C6-NUC.tif__1_23700_19750.tif  mean value: 30204.0237
+_________________________________________
+ATTENTION: seeds threshold value is:  30804
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 88492
+\Update:Voxels to process : 120604
+\Update:Voxels to process : 125517
+\Update:Voxels to process : 113392
+\Update:Voxels to process : 81917
+\Update:Voxels to process : 32862
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 1773
+Create label image with 1773 objects
+Finished
+Finished
+Time of execution is: 46.406 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_23700.tif
+Loading image: C6-NUC.tif__1_23700_23700.tif
+C6-NUC.tif__1_23700_23700.tif:   max:   0  min: 0  mean: 0  area: 8880000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_23700_23700.tif
+_______________________________________
+
+C6-NUC.tif__1_23700_3950.tif
+Loading image: C6-NUC.tif__1_23700_3950.tif
+C6-NUC.tif__1_23700_3950.tif:   max:   255  min: 0  mean: 13.2013  area: 16000000  std:31.3051
+Segmenting...
+C6-NUC.tif__1_23700_3950.tif  mean value: 25137.8724
+_________________________________________
+ATTENTION: seeds threshold value is:  25737
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 172352
+\Update:Voxels to process : 221190
+\Update:Voxels to process : 239452
+\Update:Voxels to process : 269516
+\Update:Voxels to process : 291738
+\Update:Voxels to process : 306343
+\Update:Voxels to process : 319236
+\Update:Voxels to process : 322630
+\Update:Voxels to process : 322458
+\Update:Voxels to process : 330749
+\Update:Voxels to process : 337360
+\Update:Voxels to process : 342004
+\Update:Voxels to process : 344086
+\Update:Voxels to process : 330826
+\Update:Voxels to process : 330182
+\Update:Voxels to process : 327767
+\Update:Voxels to process : 323242
+\Update:Voxels to process : 311731
+\Update:Voxels to process : 304415
+\Update:Voxels to process : 294915
+\Update:Voxels to process : 283630
+\Update:Voxels to process : 270754
+\Update:Voxels to process : 257187
+\Update:Voxels to process : 241625
+\Update:Voxels to process : 225441
+\Update:Voxels to process : 208205
+\Update:Voxels to process : 194328
+\Update:Voxels to process : 175597
+\Update:Voxels to process : 160536
+\Update:Voxels to process : 147098
+\Update:Voxels to process : 135401
+\Update:Voxels to process : 125117
+\Update:Voxels to process : 115804
+\Update:Voxels to process : 106731
+\Update:Voxels to process : 97009
+\Update:Voxels to process : 88293
+\Update:Voxels to process : 79408
+\Update:Voxels to process : 70847
+\Update:Voxels to process : 63083
+\Update:Voxels to process : 54964
+\Update:Voxels to process : 44925
+\Update:Voxels to process : 35924
+\Update:Voxels to process : 26447
+\Update:Voxels to process : 16393
+\Update:Voxels to process : 8229
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 2511
+Create label image with 2511 objects
+Finished
+Finished
+Time of execution is: 54.301 seconds
+_______________________________________
+
+C6-NUC.tif__1_23700_7900.tif
+Loading image: C6-NUC.tif__1_23700_7900.tif
+C6-NUC.tif__1_23700_7900.tif:   max:   255  min: 0  mean: 11.4676  area: 16000000  std:27.0757
+Segmenting...
+C6-NUC.tif__1_23700_7900.tif  mean value: 20844.147
+_________________________________________
+ATTENTION: seeds threshold value is:  21444
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 208925
+\Update:Voxels to process : 251773
+\Update:Voxels to process : 293874
+\Update:Voxels to process : 313307
+\Update:Voxels to process : 331776
+\Update:Voxels to process : 349319
+\Update:Voxels to process : 365960
+\Update:Voxels to process : 381259
+\Update:Voxels to process : 375683
+\Update:Voxels to process : 388390
+\Update:Voxels to process : 399107
+\Update:Voxels to process : 390036
+\Update:Voxels to process : 397898
+\Update:Voxels to process : 404102
+\Update:Voxels to process : 402286
+\Update:Voxels to process : 396057
+\Update:Voxels to process : 397158
+\Update:Voxels to process : 395858
+\Update:Voxels to process : 380683
+\Update:Voxels to process : 376347
+\Update:Voxels to process : 370963
+\Update:Voxels to process : 363652
+\Update:Voxels to process : 345436
+\Update:Voxels to process : 335622
+\Update:Voxels to process : 324189
+\Update:Voxels to process : 311463
+\Update:Voxels to process : 298229
+\Update:Voxels to process : 283836
+\Update:Voxels to process : 268657
+\Update:Voxels to process : 252375
+\Update:Voxels to process : 238850
+\Update:Voxels to process : 221986
+\Update:Voxels to process : 208643
+\Update:Voxels to process : 195806
+\Update:Voxels to process : 183440
+\Update:Voxels to process : 173642
+\Update:Voxels to process : 164745
+\Update:Voxels to process : 156623
+\Update:Voxels to process : 148433
+\Update:Voxels to process : 140614
+\Update:Voxels to process : 132529
+\Update:Voxels to process : 123121
+\Update:Voxels to process : 112113
+\Update:Voxels to process : 97648
+\Update:Voxels to process : 82860
+\Update:Voxels to process : 67493
+\Update:Voxels to process : 51213
+\Update:Voxels to process : 35177
+\Update:Voxels to process : 14902
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_23700_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 2744
+Create label image with 2744 objects
+Finished
+Finished
+Time of execution is: 57.68 seconds
+_______________________________________
+
+C6-NUC.tif__1_27650_0.tif
+Loading image: C6-NUC.tif__1_27650_0.tif
+C6-NUC.tif__1_27650_0.tif:   max:   0  min: 0  mean: 0  area: 856000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_27650_0.tif
+_______________________________________
+
+C6-NUC.tif__1_27650_11850.tif
+Loading image: C6-NUC.tif__1_27650_11850.tif
+C6-NUC.tif__1_27650_11850.tif:   max:   106  min: 0  mean: 11.7133  area: 856000  std:14.3221
+Segmenting...
+C6-NUC.tif__1_27650_11850.tif  mean value: 27206.612
+_________________________________________
+ATTENTION: seeds threshold value is:  27806
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 70068
+\Update:Voxels to process : 66740
+\Update:Voxels to process : 26611
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_27650_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 948
+Create label image with 948 objects
+Finished
+Finished
+Time of execution is: 11.606 seconds
+_______________________________________
+
+C6-NUC.tif__1_27650_15800.tif
+Loading image: C6-NUC.tif__1_27650_15800.tif
+C6-NUC.tif__1_27650_15800.tif:   max:   113  min: 0  mean: 3.2353  area: 856000  std:9.9242
+Segmenting...
+C6-NUC.tif__1_27650_15800.tif  mean value: 26074.103
+_________________________________________
+ATTENTION: seeds threshold value is:  26674
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 18727
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_27650_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 385
+Create label image with 385 objects
+Finished
+Finished
+Time of execution is: 10.657 seconds
+_______________________________________
+
+C6-NUC.tif__1_27650_19750.tif
+Loading image: C6-NUC.tif__1_27650_19750.tif
+C6-NUC.tif__1_27650_19750.tif:   max:   0  min: 0  mean: 0  area: 856000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_27650_19750.tif
+_______________________________________
+
+C6-NUC.tif__1_27650_23700.tif
+Loading image: C6-NUC.tif__1_27650_23700.tif
+C6-NUC.tif__1_27650_23700.tif:   max:   0  min: 0  mean: 0  area: 475080  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_27650_23700.tif
+_______________________________________
+
+C6-NUC.tif__1_27650_3950.tif
+Loading image: C6-NUC.tif__1_27650_3950.tif
+C6-NUC.tif__1_27650_3950.tif:   max:   0  min: 0  mean: 0  area: 856000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_27650_3950.tif
+_______________________________________
+
+C6-NUC.tif__1_27650_7900.tif
+Loading image: C6-NUC.tif__1_27650_7900.tif
+C6-NUC.tif__1_27650_7900.tif:   max:   255  min: 0  mean: 7.3573  area: 856000  std:13.0473
+Segmenting...
+C6-NUC.tif__1_27650_7900.tif  mean value: 14625.0527
+_________________________________________
+ATTENTION: seeds threshold value is:  15225
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 49593
+\Update:Voxels to process : 26903
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_27650_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 708
+Create label image with 708 objects
+Finished
+Finished
+Time of execution is: 11.274 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_0.tif
+Loading image: C6-NUC.tif__1_3950_0.tif
+C6-NUC.tif__1_3950_0.tif:   max:   0  min: 0  mean: 0  area: 16000000  std:0
+******* Background image, low intensity, please verify your input image
+C6-NUC.tif__1_3950_0.tif
+_______________________________________
+
+C6-NUC.tif__1_3950_11850.tif
+Loading image: C6-NUC.tif__1_3950_11850.tif
+C6-NUC.tif__1_3950_11850.tif:   max:   255  min: 0  mean: 73.8526  area: 16000000  std:34.354
+Segmenting...
+C6-NUC.tif__1_3950_11850.tif  mean value: 24713.4538
+_________________________________________
+ATTENTION: seeds threshold value is:  25313
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 222566
+\Update:Voxels to process : 309148
+\Update:Voxels to process : 407458
+\Update:Voxels to process : 407167
+\Update:Voxels to process : 505199
+\Update:Voxels to process : 504731
+\Update:Voxels to process : 504143
+\Update:Voxels to process : 601509
+\Update:Voxels to process : 600563
+\Update:Voxels to process : 622130
+\Update:Voxels to process : 695825
+\Update:Voxels to process : 694277
+\Update:Voxels to process : 692674
+\Update:Voxels to process : 787643
+\Update:Voxels to process : 785649
+\Update:Voxels to process : 783525
+\Update:Voxels to process : 781361
+\Update:Voxels to process : 874213
+\Update:Voxels to process : 871605
+\Update:Voxels to process : 868837
+\Update:Voxels to process : 865828
+\Update:Voxels to process : 862664
+\Update:Voxels to process : 952993
+\Update:Voxels to process : 948935
+\Update:Voxels to process : 945360
+\Update:Voxels to process : 941561
+\Update:Voxels to process : 937477
+\Update:Voxels to process : 1011902
+\Update:Voxels to process : 1020231
+\Update:Voxels to process : 1015528
+\Update:Voxels to process : 1010584
+\Update:Voxels to process : 1005112
+\Update:Voxels to process : 1072883
+\Update:Voxels to process : 1083080
+\Update:Voxels to process : 1077433
+\Update:Voxels to process : 1070701
+\Update:Voxels to process : 1064303
+\Update:Voxels to process : 1078033
+\Update:Voxels to process : 1135987
+\Update:Voxels to process : 1129028
+\Update:Voxels to process : 1121369
+\Update:Voxels to process : 1113775
+\Update:Voxels to process : 1105487
+\Update:Voxels to process : 1097061
+\Update:Voxels to process : 1113300
+\Update:Voxels to process : 1160720
+\Update:Voxels to process : 1151476
+\Update:Voxels to process : 1141481
+\Update:Voxels to process : 1130753
+\Update:Voxels to process : 1120671
+\Update:Voxels to process : 1110068
+\Update:Voxels to process : 1175018
+\Update:Voxels to process : 1164222
+\Update:Voxels to process : 1152137
+\Update:Voxels to process : 1140601
+\Update:Voxels to process : 1128809
+\Update:Voxels to process : 1115719
+\Update:Voxels to process : 1103814
+\Update:Voxels to process : 1160239
+\Update:Voxels to process : 1145530
+\Update:Voxels to process : 1130489
+\Update:Voxels to process : 1115440
+\Update:Voxels to process : 1099507
+\Update:Voxels to process : 1083646
+\Update:Voxels to process : 1131965
+\Update:Voxels to process : 1115586
+\Update:Voxels to process : 1096841
+\Update:Voxels to process : 1079388
+\Update:Voxels to process : 1062705
+\Update:Voxels to process : 1045066
+\Update:Voxels to process : 1084147
+\Update:Voxels to process : 1064724
+\Update:Voxels to process : 1045775
+\Update:Voxels to process : 1026720
+\Update:Voxels to process : 1007041
+\Update:Voxels to process : 985457
+\Update:Voxels to process : 1015155
+\Update:Voxels to process : 994579
+\Update:Voxels to process : 973527
+\Update:Voxels to process : 951027
+\Update:Voxels to process : 927766
+\Update:Voxels to process : 904973
+\Update:Voxels to process : 911875
+\Update:Voxels to process : 900797
+\Update:Voxels to process : 875955
+\Update:Voxels to process : 851479
+\Update:Voxels to process : 826716
+\Update:Voxels to process : 800968
+\Update:Voxels to process : 810652
+\Update:Voxels to process : 784115
+\Update:Voxels to process : 756297
+\Update:Voxels to process : 728922
+\Update:Voxels to process : 731190
+\Update:Voxels to process : 702743
+\Update:Voxels to process : 672709
+\Update:Voxels to process : 642955
+\Update:Voxels to process : 612052
+\Update:Voxels to process : 605037
+\Update:Voxels to process : 572720
+\Update:Voxels to process : 539983
+\Update:Voxels to process : 525740
+\Update:Voxels to process : 491000
+\Update:Voxels to process : 454530
+\Update:Voxels to process : 433672
+\Update:Voxels to process : 395709
+\Update:Voxels to process : 357684
+\Update:Voxels to process : 329333
+\Update:Voxels to process : 287635
+\Update:Voxels to process : 252548
+\Update:Voxels to process : 213439
+\Update:Voxels to process : 169721
+\Update:Voxels to process : 120321
+\Update:Voxels to process : 59558
+\Update:Voxels to process : 5622
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 12469
+Create label image with 12469 objects
+Finished
+Finished
+Time of execution is: 121.973 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_15800.tif
+Loading image: C6-NUC.tif__1_3950_15800.tif
+C6-NUC.tif__1_3950_15800.tif:   max:   255  min: 0  mean: 80.5173  area: 16000000  std:36.0739
+Segmenting...
+C6-NUC.tif__1_3950_15800.tif  mean value: 21447.843
+_________________________________________
+ATTENTION: seeds threshold value is:  22047
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 225907
+\Update:Voxels to process : 309107
+\Update:Voxels to process : 408595
+\Update:Voxels to process : 408357
+\Update:Voxels to process : 507547
+\Update:Voxels to process : 507121
+\Update:Voxels to process : 506537
+\Update:Voxels to process : 604958
+\Update:Voxels to process : 604053
+\Update:Voxels to process : 630615
+\Update:Voxels to process : 700730
+\Update:Voxels to process : 699288
+\Update:Voxels to process : 697711
+\Update:Voxels to process : 793783
+\Update:Voxels to process : 791891
+\Update:Voxels to process : 789637
+\Update:Voxels to process : 787160
+\Update:Voxels to process : 880853
+\Update:Voxels to process : 877991
+\Update:Voxels to process : 874788
+\Update:Voxels to process : 871385
+\Update:Voxels to process : 867890
+\Update:Voxels to process : 958930
+\Update:Voxels to process : 954703
+\Update:Voxels to process : 950743
+\Update:Voxels to process : 946437
+\Update:Voxels to process : 942158
+\Update:Voxels to process : 1018897
+\Update:Voxels to process : 1024789
+\Update:Voxels to process : 1019950
+\Update:Voxels to process : 1014528
+\Update:Voxels to process : 1008936
+\Update:Voxels to process : 1077407
+\Update:Voxels to process : 1086989
+\Update:Voxels to process : 1081276
+\Update:Voxels to process : 1074459
+\Update:Voxels to process : 1067763
+\Update:Voxels to process : 1072462
+\Update:Voxels to process : 1139783
+\Update:Voxels to process : 1132293
+\Update:Voxels to process : 1124641
+\Update:Voxels to process : 1116871
+\Update:Voxels to process : 1108474
+\Update:Voxels to process : 1100233
+\Update:Voxels to process : 1095715
+\Update:Voxels to process : 1164631
+\Update:Voxels to process : 1155473
+\Update:Voxels to process : 1146022
+\Update:Voxels to process : 1135347
+\Update:Voxels to process : 1124777
+\Update:Voxels to process : 1114082
+\Update:Voxels to process : 1180173
+\Update:Voxels to process : 1169172
+\Update:Voxels to process : 1157136
+\Update:Voxels to process : 1145961
+\Update:Voxels to process : 1133340
+\Update:Voxels to process : 1119957
+\Update:Voxels to process : 1106645
+\Update:Voxels to process : 1164275
+\Update:Voxels to process : 1150890
+\Update:Voxels to process : 1136252
+\Update:Voxels to process : 1122357
+\Update:Voxels to process : 1106272
+\Update:Voxels to process : 1091009
+\Update:Voxels to process : 1139307
+\Update:Voxels to process : 1123140
+\Update:Voxels to process : 1106434
+\Update:Voxels to process : 1088693
+\Update:Voxels to process : 1071570
+\Update:Voxels to process : 1053847
+\Update:Voxels to process : 1036512
+\Update:Voxels to process : 1074729
+\Update:Voxels to process : 1055824
+\Update:Voxels to process : 1036824
+\Update:Voxels to process : 1017343
+\Update:Voxels to process : 995849
+\Update:Voxels to process : 975499
+\Update:Voxels to process : 1005732
+\Update:Voxels to process : 984720
+\Update:Voxels to process : 962936
+\Update:Voxels to process : 940053
+\Update:Voxels to process : 917355
+\Update:Voxels to process : 894138
+\Update:Voxels to process : 913920
+\Update:Voxels to process : 888563
+\Update:Voxels to process : 863798
+\Update:Voxels to process : 839190
+\Update:Voxels to process : 813075
+\Update:Voxels to process : 807997
+\Update:Voxels to process : 797855
+\Update:Voxels to process : 770072
+\Update:Voxels to process : 741941
+\Update:Voxels to process : 714240
+\Update:Voxels to process : 717420
+\Update:Voxels to process : 688247
+\Update:Voxels to process : 657690
+\Update:Voxels to process : 627094
+\Update:Voxels to process : 620882
+\Update:Voxels to process : 590185
+\Update:Voxels to process : 569089
+\Update:Voxels to process : 533295
+\Update:Voxels to process : 517377
+\Update:Voxels to process : 479108
+\Update:Voxels to process : 441830
+\Update:Voxels to process : 420079
+\Update:Voxels to process : 383384
+\Update:Voxels to process : 343897
+\Update:Voxels to process : 315640
+\Update:Voxels to process : 273396
+\Update:Voxels to process : 238633
+\Update:Voxels to process : 200090
+\Update:Voxels to process : 157308
+\Update:Voxels to process : 109987
+\Update:Voxels to process : 55065
+\Update:Voxels to process : 9017
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 12614
+Create label image with 12614 objects
+Finished
+Finished
+Time of execution is: 116.64 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_19750.tif
+Loading image: C6-NUC.tif__1_3950_19750.tif
+C6-NUC.tif__1_3950_19750.tif:   max:   255  min: 0  mean: 56.3942  area: 16000000  std:43.5218
+Segmenting...
+C6-NUC.tif__1_3950_19750.tif  mean value: 22369.8847
+_________________________________________
+ATTENTION: seeds threshold value is:  22969
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 243431
+\Update:Voxels to process : 293870
+\Update:Voxels to process : 374471
+\Update:Voxels to process : 454813
+\Update:Voxels to process : 454332
+\Update:Voxels to process : 506327
+\Update:Voxels to process : 533368
+\Update:Voxels to process : 532435
+\Update:Voxels to process : 611270
+\Update:Voxels to process : 609772
+\Update:Voxels to process : 678243
+\Update:Voxels to process : 685583
+\Update:Voxels to process : 683299
+\Update:Voxels to process : 680630
+\Update:Voxels to process : 755863
+\Update:Voxels to process : 752710
+\Update:Voxels to process : 749442
+\Update:Voxels to process : 746852
+\Update:Voxels to process : 818429
+\Update:Voxels to process : 813998
+\Update:Voxels to process : 809667
+\Update:Voxels to process : 805068
+\Update:Voxels to process : 874311
+\Update:Voxels to process : 869415
+\Update:Voxels to process : 863886
+\Update:Voxels to process : 857727
+\Update:Voxels to process : 923463
+\Update:Voxels to process : 917076
+\Update:Voxels to process : 910407
+\Update:Voxels to process : 903407
+\Update:Voxels to process : 928041
+\Update:Voxels to process : 957316
+\Update:Voxels to process : 949129
+\Update:Voxels to process : 940904
+\Update:Voxels to process : 932200
+\Update:Voxels to process : 923073
+\Update:Voxels to process : 979791
+\Update:Voxels to process : 969976
+\Update:Voxels to process : 960132
+\Update:Voxels to process : 948748
+\Update:Voxels to process : 938214
+\Update:Voxels to process : 985079
+\Update:Voxels to process : 977260
+\Update:Voxels to process : 965106
+\Update:Voxels to process : 952879
+\Update:Voxels to process : 940378
+\Update:Voxels to process : 927059
+\Update:Voxels to process : 970022
+\Update:Voxels to process : 956637
+\Update:Voxels to process : 942541
+\Update:Voxels to process : 927129
+\Update:Voxels to process : 912067
+\Update:Voxels to process : 948391
+\Update:Voxels to process : 932458
+\Update:Voxels to process : 914562
+\Update:Voxels to process : 897948
+\Update:Voxels to process : 880395
+\Update:Voxels to process : 908051
+\Update:Voxels to process : 889656
+\Update:Voxels to process : 870316
+\Update:Voxels to process : 850917
+\Update:Voxels to process : 830118
+\Update:Voxels to process : 850892
+\Update:Voxels to process : 830058
+\Update:Voxels to process : 808475
+\Update:Voxels to process : 786077
+\Update:Voxels to process : 763931
+\Update:Voxels to process : 775292
+\Update:Voxels to process : 751793
+\Update:Voxels to process : 727333
+\Update:Voxels to process : 703061
+\Update:Voxels to process : 707258
+\Update:Voxels to process : 681237
+\Update:Voxels to process : 653689
+\Update:Voxels to process : 627407
+\Update:Voxels to process : 625297
+\Update:Voxels to process : 597223
+\Update:Voxels to process : 569156
+\Update:Voxels to process : 560205
+\Update:Voxels to process : 530271
+\Update:Voxels to process : 499725
+\Update:Voxels to process : 485536
+\Update:Voxels to process : 452329
+\Update:Voxels to process : 419813
+\Update:Voxels to process : 400826
+\Update:Voxels to process : 367315
+\Update:Voxels to process : 342915
+\Update:Voxels to process : 308100
+\Update:Voxels to process : 280687
+\Update:Voxels to process : 251413
+\Update:Voxels to process : 221258
+\Update:Voxels to process : 190247
+\Update:Voxels to process : 159580
+\Update:Voxels to process : 135926
+\Update:Voxels to process : 115635
+\Update:Voxels to process : 103084
+\Update:Voxels to process : 92724
+\Update:Voxels to process : 82022
+\Update:Voxels to process : 70682
+\Update:Voxels to process : 60412
+\Update:Voxels to process : 52076
+\Update:Voxels to process : 42101
+\Update:Voxels to process : 34433
+\Update:Voxels to process : 27886
+\Update:Voxels to process : 22252
+\Update:Voxels to process : 15516
+\Update:Voxels to process : 9997
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10217
+Create label image with 10217 objects
+Finished
+Finished
+Time of execution is: 81.59 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_23700.tif
+Loading image: C6-NUC.tif__1_3950_23700.tif
+C6-NUC.tif__1_3950_23700.tif:   max:   255  min: 0  mean: 4.0751  area: 8880000  std:19.5516
+Segmenting...
+C6-NUC.tif__1_3950_23700.tif  mean value: 20157.9423
+_________________________________________
+ATTENTION: seeds threshold value is:  20757
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 141385
+\Update:Voxels to process : 155999
+\Update:Voxels to process : 155812
+\Update:Voxels to process : 146475
+\Update:Voxels to process : 134027
+\Update:Voxels to process : 121619
+\Update:Voxels to process : 111652
+\Update:Voxels to process : 105246
+\Update:Voxels to process : 99198
+\Update:Voxels to process : 94804
+\Update:Voxels to process : 89686
+\Update:Voxels to process : 85206
+\Update:Voxels to process : 78489
+\Update:Voxels to process : 68880
+\Update:Voxels to process : 53590
+\Update:Voxels to process : 40465
+\Update:Voxels to process : 30648
+\Update:Voxels to process : 19167
+\Update:Voxels to process : 4222
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_23700   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 449
+Create label image with 449 objects
+Finished
+Finished
+Time of execution is: 24.722 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_3950.tif
+Loading image: C6-NUC.tif__1_3950_3950.tif
+C6-NUC.tif__1_3950_3950.tif:   max:   255  min: 0  mean: 1.0876  area: 16000000  std:8.3508
+Segmenting...
+C6-NUC.tif__1_3950_3950.tif  mean value: 32250.9709
+_________________________________________
+ATTENTION: seeds threshold value is:  32850
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 99452
+\Update:Voxels to process : 139308
+\Update:Voxels to process : 158667
+\Update:Voxels to process : 156326
+\Update:Voxels to process : 156443
+\Update:Voxels to process : 142737
+\Update:Voxels to process : 115626
+\Update:Voxels to process : 75195
+\Update:Voxels to process : 24550
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 2015
+Create label image with 2015 objects
+Finished
+Finished
+Time of execution is: 53.565 seconds
+_______________________________________
+
+C6-NUC.tif__1_3950_7900.tif
+Loading image: C6-NUC.tif__1_3950_7900.tif
+C6-NUC.tif__1_3950_7900.tif:   max:   255  min: 0  mean: 18.0485  area: 16000000  std:36.0067
+Segmenting...
+C6-NUC.tif__1_3950_7900.tif  mean value: 20140.6306
+_________________________________________
+ATTENTION: seeds threshold value is:  20740
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 248094
+\Update:Voxels to process : 304642
+\Update:Voxels to process : 334365
+\Update:Voxels to process : 387252
+\Update:Voxels to process : 413185
+\Update:Voxels to process : 410606
+\Update:Voxels to process : 434926
+\Update:Voxels to process : 458015
+\Update:Voxels to process : 464548
+\Update:Voxels to process : 475047
+\Update:Voxels to process : 494574
+\Update:Voxels to process : 487733
+\Update:Voxels to process : 504238
+\Update:Voxels to process : 495442
+\Update:Voxels to process : 508604
+\Update:Voxels to process : 497751
+\Update:Voxels to process : 507698
+\Update:Voxels to process : 514993
+\Update:Voxels to process : 505596
+\Update:Voxels to process : 489322
+\Update:Voxels to process : 489599
+\Update:Voxels to process : 477804
+\Update:Voxels to process : 467672
+\Update:Voxels to process : 461212
+\Update:Voxels to process : 438773
+\Update:Voxels to process : 427807
+\Update:Voxels to process : 413588
+\Update:Voxels to process : 388511
+\Update:Voxels to process : 369838
+\Update:Voxels to process : 349125
+\Update:Voxels to process : 325517
+\Update:Voxels to process : 298007
+\Update:Voxels to process : 271526
+\Update:Voxels to process : 240591
+\Update:Voxels to process : 207223
+\Update:Voxels to process : 177405
+\Update:Voxels to process : 163031
+\Update:Voxels to process : 158245
+\Update:Voxels to process : 154625
+\Update:Voxels to process : 151020
+\Update:Voxels to process : 147657
+\Update:Voxels to process : 144097
+\Update:Voxels to process : 140435
+\Update:Voxels to process : 136812
+\Update:Voxels to process : 133238
+\Update:Voxels to process : 129148
+\Update:Voxels to process : 123784
+\Update:Voxels to process : 118868
+\Update:Voxels to process : 114790
+\Update:Voxels to process : 110993
+\Update:Voxels to process : 107235
+\Update:Voxels to process : 103212
+\Update:Voxels to process : 99413
+\Update:Voxels to process : 95257
+\Update:Voxels to process : 90591
+\Update:Voxels to process : 86442
+\Update:Voxels to process : 81952
+\Update:Voxels to process : 77179
+\Update:Voxels to process : 71729
+\Update:Voxels to process : 65559
+\Update:Voxels to process : 58568
+\Update:Voxels to process : 50081
+\Update:Voxels to process : 40814
+\Update:Voxels to process : 31604
+\Update:Voxels to process : 20427
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_3950_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 3616
+Create label image with 3616 objects
+Finished
+Finished
+Time of execution is: 56.516 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_0.tif
+Loading image: C6-NUC.tif__1_7900_0.tif
+C6-NUC.tif__1_7900_0.tif:   max:   255  min: 0  mean: 3.4467  area: 16000000  std:21.9718
+Segmenting...
+C6-NUC.tif__1_7900_0.tif  mean value: 24118.9764
+_________________________________________
+ATTENTION: seeds threshold value is:  24718
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 98803
+\Update:Voxels to process : 96419
+\Update:Voxels to process : 78177
+\Update:Voxels to process : 64208
+\Update:Voxels to process : 57689
+\Update:Voxels to process : 54506
+\Update:Voxels to process : 51214
+\Update:Voxels to process : 47900
+\Update:Voxels to process : 44277
+\Update:Voxels to process : 38965
+\Update:Voxels to process : 32032
+\Update:Voxels to process : 25271
+\Update:Voxels to process : 18190
+\Update:Voxels to process : 2871
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_0   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 468
+Create label image with 468 objects
+Finished
+Finished
+Time of execution is: 45.629 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_11850.tif
+Loading image: C6-NUC.tif__1_7900_11850.tif
+C6-NUC.tif__1_7900_11850.tif:   max:   255  min: 0  mean: 81.3676  area: 16000000  std:32.3815
+Segmenting...
+C6-NUC.tif__1_7900_11850.tif  mean value: 20942.3761
+_________________________________________
+ATTENTION: seeds threshold value is:  21542
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 187503
+\Update:Voxels to process : 296777
+\Update:Voxels to process : 319531
+\Update:Voxels to process : 422965
+\Update:Voxels to process : 422722
+\Update:Voxels to process : 500961
+\Update:Voxels to process : 525516
+\Update:Voxels to process : 525078
+\Update:Voxels to process : 524563
+\Update:Voxels to process : 627077
+\Update:Voxels to process : 626324
+\Update:Voxels to process : 625453
+\Update:Voxels to process : 688071
+\Update:Voxels to process : 725939
+\Update:Voxels to process : 724579
+\Update:Voxels to process : 723053
+\Update:Voxels to process : 801949
+\Update:Voxels to process : 821319
+\Update:Voxels to process : 819328
+\Update:Voxels to process : 817227
+\Update:Voxels to process : 815140
+\Update:Voxels to process : 876183
+\Update:Voxels to process : 910115
+\Update:Voxels to process : 907295
+\Update:Voxels to process : 904518
+\Update:Voxels to process : 901482
+\Update:Voxels to process : 898378
+\Update:Voxels to process : 966337
+\Update:Voxels to process : 989299
+\Update:Voxels to process : 985350
+\Update:Voxels to process : 981596
+\Update:Voxels to process : 977762
+\Update:Voxels to process : 973637
+\Update:Voxels to process : 969204
+\Update:Voxels to process : 1060034
+\Update:Voxels to process : 1055895
+\Update:Voxels to process : 1051188
+\Update:Voxels to process : 1046873
+\Update:Voxels to process : 1041919
+\Update:Voxels to process : 1037732
+\Update:Voxels to process : 1108626
+\Update:Voxels to process : 1119729
+\Update:Voxels to process : 1114085
+\Update:Voxels to process : 1108294
+\Update:Voxels to process : 1102116
+\Update:Voxels to process : 1095735
+\Update:Voxels to process : 1115454
+\Update:Voxels to process : 1171538
+\Update:Voxels to process : 1164607
+\Update:Voxels to process : 1157742
+\Update:Voxels to process : 1150413
+\Update:Voxels to process : 1143336
+\Update:Voxels to process : 1135510
+\Update:Voxels to process : 1127598
+\Update:Voxels to process : 1119107
+\Update:Voxels to process : 1194717
+\Update:Voxels to process : 1185540
+\Update:Voxels to process : 1177320
+\Update:Voxels to process : 1168330
+\Update:Voxels to process : 1157894
+\Update:Voxels to process : 1148159
+\Update:Voxels to process : 1137926
+\Update:Voxels to process : 1202961
+\Update:Voxels to process : 1196284
+\Update:Voxels to process : 1185461
+\Update:Voxels to process : 1173751
+\Update:Voxels to process : 1162688
+\Update:Voxels to process : 1150709
+\Update:Voxels to process : 1138753
+\Update:Voxels to process : 1125962
+\Update:Voxels to process : 1178993
+\Update:Voxels to process : 1173518
+\Update:Voxels to process : 1160399
+\Update:Voxels to process : 1147272
+\Update:Voxels to process : 1133463
+\Update:Voxels to process : 1118950
+\Update:Voxels to process : 1104293
+\Update:Voxels to process : 1154435
+\Update:Voxels to process : 1140735
+\Update:Voxels to process : 1125695
+\Update:Voxels to process : 1108811
+\Update:Voxels to process : 1091884
+\Update:Voxels to process : 1076466
+\Update:Voxels to process : 1059733
+\Update:Voxels to process : 1042791
+\Update:Voxels to process : 1082610
+\Update:Voxels to process : 1064874
+\Update:Voxels to process : 1047083
+\Update:Voxels to process : 1028753
+\Update:Voxels to process : 1009908
+\Update:Voxels to process : 989729
+\Update:Voxels to process : 969822
+\Update:Voxels to process : 1002021
+\Update:Voxels to process : 982102
+\Update:Voxels to process : 963020
+\Update:Voxels to process : 942726
+\Update:Voxels to process : 921730
+\Update:Voxels to process : 901152
+\Update:Voxels to process : 879699
+\Update:Voxels to process : 900975
+\Update:Voxels to process : 899698
+\Update:Voxels to process : 881223
+\Update:Voxels to process : 856392
+\Update:Voxels to process : 831929
+\Update:Voxels to process : 806764
+\Update:Voxels to process : 775613
+\Update:Voxels to process : 749080
+\Update:Voxels to process : 721322
+\Update:Voxels to process : 693510
+\Update:Voxels to process : 700940
+\Update:Voxels to process : 674193
+\Update:Voxels to process : 645643
+\Update:Voxels to process : 627062
+\Update:Voxels to process : 603586
+\Update:Voxels to process : 596696
+\Update:Voxels to process : 566344
+\Update:Voxels to process : 535084
+\Update:Voxels to process : 502141
+\Update:Voxels to process : 489079
+\Update:Voxels to process : 454301
+\Update:Voxels to process : 419965
+\Update:Voxels to process : 400487
+\Update:Voxels to process : 365080
+\Update:Voxels to process : 327156
+\Update:Voxels to process : 300865
+\Update:Voxels to process : 264606
+\Update:Voxels to process : 230581
+\Update:Voxels to process : 192343
+\Update:Voxels to process : 153123
+\Update:Voxels to process : 108577
+\Update:Voxels to process : 57441
+\Update:Voxels to process : 3043
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_11850   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 13119
+Create label image with 13119 objects
+Finished
+Finished
+Time of execution is: 3602.929 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_15800.tif
+Loading image: C6-NUC.tif__1_7900_15800.tif
+C6-NUC.tif__1_7900_15800.tif:   max:   255  min: 0  mean: 70.8581  area: 16000000  std:40.6635
+Segmenting...
+C6-NUC.tif__1_7900_15800.tif  mean value: 21955.2345
+_________________________________________
+ATTENTION: seeds threshold value is:  22555
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 218559
+\Update:Voxels to process : 296694
+\Update:Voxels to process : 391097
+\Update:Voxels to process : 390786
+\Update:Voxels to process : 484908
+\Update:Voxels to process : 484416
+\Update:Voxels to process : 495416
+\Update:Voxels to process : 577491
+\Update:Voxels to process : 576687
+\Update:Voxels to process : 617734
+\Update:Voxels to process : 668464
+\Update:Voxels to process : 667306
+\Update:Voxels to process : 678457
+\Update:Voxels to process : 757523
+\Update:Voxels to process : 755881
+\Update:Voxels to process : 754071
+\Update:Voxels to process : 751996
+\Update:Voxels to process : 841765
+\Update:Voxels to process : 839277
+\Update:Voxels to process : 836688
+\Update:Voxels to process : 833982
+\Update:Voxels to process : 846831
+\Update:Voxels to process : 918373
+\Update:Voxels to process : 914605
+\Update:Voxels to process : 911106
+\Update:Voxels to process : 907545
+\Update:Voxels to process : 903478
+\Update:Voxels to process : 987521
+\Update:Voxels to process : 983397
+\Update:Voxels to process : 978646
+\Update:Voxels to process : 973455
+\Update:Voxels to process : 968384
+\Update:Voxels to process : 1048626
+\Update:Voxels to process : 1042909
+\Update:Voxels to process : 1037173
+\Update:Voxels to process : 1030896
+\Update:Voxels to process : 1024392
+\Update:Voxels to process : 1100551
+\Update:Voxels to process : 1093562
+\Update:Voxels to process : 1085900
+\Update:Voxels to process : 1078329
+\Update:Voxels to process : 1070628
+\Update:Voxels to process : 1062870
+\Update:Voxels to process : 1054215
+\Update:Voxels to process : 1124899
+\Update:Voxels to process : 1116066
+\Update:Voxels to process : 1107615
+\Update:Voxels to process : 1097415
+\Update:Voxels to process : 1087374
+\Update:Voxels to process : 1077523
+\Update:Voxels to process : 1130145
+\Update:Voxels to process : 1129764
+\Update:Voxels to process : 1119216
+\Update:Voxels to process : 1108034
+\Update:Voxels to process : 1096378
+\Update:Voxels to process : 1084167
+\Update:Voxels to process : 1071392
+\Update:Voxels to process : 1125491
+\Update:Voxels to process : 1114522
+\Update:Voxels to process : 1100725
+\Update:Voxels to process : 1087088
+\Update:Voxels to process : 1072908
+\Update:Voxels to process : 1058336
+\Update:Voxels to process : 1104447
+\Update:Voxels to process : 1090837
+\Update:Voxels to process : 1075713
+\Update:Voxels to process : 1059249
+\Update:Voxels to process : 1042835
+\Update:Voxels to process : 1026161
+\Update:Voxels to process : 1009589
+\Update:Voxels to process : 1047782
+\Update:Voxels to process : 1030563
+\Update:Voxels to process : 1012943
+\Update:Voxels to process : 994913
+\Update:Voxels to process : 974557
+\Update:Voxels to process : 956131
+\Update:Voxels to process : 986200
+\Update:Voxels to process : 966169
+\Update:Voxels to process : 947449
+\Update:Voxels to process : 926640
+\Update:Voxels to process : 905026
+\Update:Voxels to process : 885504
+\Update:Voxels to process : 906935
+\Update:Voxels to process : 884151
+\Update:Voxels to process : 861982
+\Update:Voxels to process : 838782
+\Update:Voxels to process : 815416
+\Update:Voxels to process : 791438
+\Update:Voxels to process : 802966
+\Update:Voxels to process : 778506
+\Update:Voxels to process : 752417
+\Update:Voxels to process : 727579
+\Update:Voxels to process : 733057
+\Update:Voxels to process : 707425
+\Update:Voxels to process : 679456
+\Update:Voxels to process : 652899
+\Update:Voxels to process : 624438
+\Update:Voxels to process : 622548
+\Update:Voxels to process : 594103
+\Update:Voxels to process : 565687
+\Update:Voxels to process : 535151
+\Update:Voxels to process : 525953
+\Update:Voxels to process : 501255
+\Update:Voxels to process : 468720
+\Update:Voxels to process : 451933
+\Update:Voxels to process : 418619
+\Update:Voxels to process : 385321
+\Update:Voxels to process : 364551
+\Update:Voxels to process : 331111
+\Update:Voxels to process : 306950
+\Update:Voxels to process : 272029
+\Update:Voxels to process : 244349
+\Update:Voxels to process : 206631
+\Update:Voxels to process : 174919
+\Update:Voxels to process : 140136
+\Update:Voxels to process : 106631
+\Update:Voxels to process : 67663
+\Update:Voxels to process : 33834
+\Update:Voxels to process : 11731
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_15800   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 11985
+Create label image with 11985 objects
+Finished
+Finished
+Time of execution is: 83.974 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_19750.tif
+Loading image: C6-NUC.tif__1_7900_19750.tif
+C6-NUC.tif__1_7900_19750.tif:   max:   255  min: 0  mean: 56.8563  area: 16000000  std:43.7565
+Segmenting...
+C6-NUC.tif__1_7900_19750.tif  mean value: 21767.7277
+_________________________________________
+ATTENTION: seeds threshold value is:  22367
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 227571
+\Update:Voxels to process : 276094
+\Update:Voxels to process : 357630
+\Update:Voxels to process : 438905
+\Update:Voxels to process : 438533
+\Update:Voxels to process : 438252
+\Update:Voxels to process : 519105
+\Update:Voxels to process : 518332
+\Update:Voxels to process : 598341
+\Update:Voxels to process : 597219
+\Update:Voxels to process : 595946
+\Update:Voxels to process : 675141
+\Update:Voxels to process : 673583
+\Update:Voxels to process : 671885
+\Update:Voxels to process : 710314
+\Update:Voxels to process : 747236
+\Update:Voxels to process : 744756
+\Update:Voxels to process : 742064
+\Update:Voxels to process : 763266
+\Update:Voxels to process : 814289
+\Update:Voxels to process : 810848
+\Update:Voxels to process : 807128
+\Update:Voxels to process : 803341
+\Update:Voxels to process : 875585
+\Update:Voxels to process : 871686
+\Update:Voxels to process : 867290
+\Update:Voxels to process : 862332
+\Update:Voxels to process : 870146
+\Update:Voxels to process : 926606
+\Update:Voxels to process : 920728
+\Update:Voxels to process : 914442
+\Update:Voxels to process : 907878
+\Update:Voxels to process : 973072
+\Update:Voxels to process : 965788
+\Update:Voxels to process : 958443
+\Update:Voxels to process : 950964
+\Update:Voxels to process : 943340
+\Update:Voxels to process : 934601
+\Update:Voxels to process : 994196
+\Update:Voxels to process : 985064
+\Update:Voxels to process : 975961
+\Update:Voxels to process : 965337
+\Update:Voxels to process : 955170
+\Update:Voxels to process : 1003855
+\Update:Voxels to process : 998046
+\Update:Voxels to process : 986751
+\Update:Voxels to process : 975142
+\Update:Voxels to process : 963423
+\Update:Voxels to process : 950805
+\Update:Voxels to process : 997017
+\Update:Voxels to process : 984515
+\Update:Voxels to process : 971300
+\Update:Voxels to process : 957628
+\Update:Voxels to process : 942835
+\Update:Voxels to process : 982539
+\Update:Voxels to process : 968203
+\Update:Voxels to process : 952006
+\Update:Voxels to process : 935852
+\Update:Voxels to process : 920761
+\Update:Voxels to process : 904511
+\Update:Voxels to process : 936202
+\Update:Voxels to process : 919172
+\Update:Voxels to process : 900985
+\Update:Voxels to process : 883015
+\Update:Voxels to process : 863802
+\Update:Voxels to process : 889063
+\Update:Voxels to process : 869681
+\Update:Voxels to process : 850206
+\Update:Voxels to process : 829813
+\Update:Voxels to process : 809267
+\Update:Voxels to process : 826464
+\Update:Voxels to process : 804845
+\Update:Voxels to process : 783310
+\Update:Voxels to process : 761693
+\Update:Voxels to process : 739083
+\Update:Voxels to process : 749350
+\Update:Voxels to process : 726710
+\Update:Voxels to process : 702205
+\Update:Voxels to process : 678497
+\Update:Voxels to process : 682493
+\Update:Voxels to process : 657664
+\Update:Voxels to process : 631593
+\Update:Voxels to process : 606487
+\Update:Voxels to process : 604311
+\Update:Voxels to process : 578099
+\Update:Voxels to process : 552042
+\Update:Voxels to process : 525310
+\Update:Voxels to process : 518304
+\Update:Voxels to process : 490126
+\Update:Voxels to process : 462133
+\Update:Voxels to process : 450862
+\Update:Voxels to process : 422758
+\Update:Voxels to process : 407524
+\Update:Voxels to process : 378966
+\Update:Voxels to process : 350388
+\Update:Voxels to process : 331622
+\Update:Voxels to process : 303144
+\Update:Voxels to process : 282579
+\Update:Voxels to process : 260769
+\Update:Voxels to process : 232237
+\Update:Voxels to process : 210810
+\Update:Voxels to process : 188469
+\Update:Voxels to process : 167558
+\Update:Voxels to process : 152361
+\Update:Voxels to process : 134002
+\Update:Voxels to process : 119800
+\Update:Voxels to process : 107150
+\Update:Voxels to process : 94932
+\Update:Voxels to process : 83490
+\Update:Voxels to process : 72323
+\Update:Voxels to process : 60055
+\Update:Voxels to process : 48729
+\Update:Voxels to process : 35061
+\Update:Voxels to process : 20454
+\Update:Voxels to process : 3730
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_19750   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 10332
+Create label image with 10332 objects
+Finished
+Finished
+Time of execution is: 82.59 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_23700.tif
+Loading image: C6-NUC.tif__1_7900_23700.tif
+C6-NUC.tif__1_7900_23700.tif:   max:   255  min: 0  mean: 2.2814  area: 8880000  std:15.4376
+Segmenting...
+C6-NUC.tif__1_7900_23700.tif  mean value: 27043.9971
+_________________________________________
+ATTENTION: seeds threshold value is:  27643
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 56101
+\Update:Voxels to process : 54659
+\Update:Voxels to process : 47802
+\Update:Voxels to process : 40022
+\Update:Voxels to process : 29316
+\Update:Voxels to process : 20965
+\Update:Voxels to process : 10657
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_23700   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 322
+Create label image with 322 objects
+Finished
+Finished
+Time of execution is: 24.082 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_3950.tif
+Loading image: C6-NUC.tif__1_7900_3950.tif
+C6-NUC.tif__1_7900_3950.tif:   max:   255  min: 0  mean: 45.098  area: 16000000  std:47.1258
+Segmenting...
+C6-NUC.tif__1_7900_3950.tif  mean value: 21584.894
+_________________________________________
+ATTENTION: seeds threshold value is:  22184
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 253135
+\Update:Voxels to process : 327227
+\Update:Voxels to process : 360532
+\Update:Voxels to process : 395769
+\Update:Voxels to process : 457519
+\Update:Voxels to process : 456805
+\Update:Voxels to process : 517822
+\Update:Voxels to process : 516731
+\Update:Voxels to process : 576928
+\Update:Voxels to process : 575236
+\Update:Voxels to process : 573253
+\Update:Voxels to process : 631912
+\Update:Voxels to process : 629331
+\Update:Voxels to process : 626505
+\Update:Voxels to process : 683268
+\Update:Voxels to process : 679593
+\Update:Voxels to process : 676013
+\Update:Voxels to process : 691596
+\Update:Voxels to process : 726016
+\Update:Voxels to process : 721287
+\Update:Voxels to process : 715998
+\Update:Voxels to process : 767509
+\Update:Voxels to process : 761768
+\Update:Voxels to process : 755650
+\Update:Voxels to process : 804571
+\Update:Voxels to process : 797982
+\Update:Voxels to process : 790851
+\Update:Voxels to process : 783919
+\Update:Voxels to process : 776216
+\Update:Voxels to process : 820773
+\Update:Voxels to process : 812847
+\Update:Voxels to process : 803444
+\Update:Voxels to process : 794347
+\Update:Voxels to process : 834976
+\Update:Voxels to process : 824616
+\Update:Voxels to process : 814265
+\Update:Voxels to process : 803372
+\Update:Voxels to process : 791694
+\Update:Voxels to process : 825701
+\Update:Voxels to process : 813563
+\Update:Voxels to process : 800284
+\Update:Voxels to process : 787490
+\Update:Voxels to process : 815659
+\Update:Voxels to process : 801238
+\Update:Voxels to process : 787141
+\Update:Voxels to process : 772465
+\Update:Voxels to process : 795246
+\Update:Voxels to process : 779612
+\Update:Voxels to process : 763660
+\Update:Voxels to process : 745677
+\Update:Voxels to process : 763705
+\Update:Voxels to process : 745833
+\Update:Voxels to process : 727862
+\Update:Voxels to process : 709064
+\Update:Voxels to process : 706670
+\Update:Voxels to process : 700185
+\Update:Voxels to process : 679844
+\Update:Voxels to process : 659687
+\Update:Voxels to process : 655553
+\Update:Voxels to process : 643172
+\Update:Voxels to process : 620843
+\Update:Voxels to process : 598483
+\Update:Voxels to process : 601009
+\Update:Voxels to process : 594514
+\Update:Voxels to process : 569703
+\Update:Voxels to process : 544260
+\Update:Voxels to process : 538199
+\Update:Voxels to process : 513306
+\Update:Voxels to process : 489404
+\Update:Voxels to process : 479364
+\Update:Voxels to process : 452283
+\Update:Voxels to process : 438639
+\Update:Voxels to process : 410523
+\Update:Voxels to process : 391087
+\Update:Voxels to process : 364328
+\Update:Voxels to process : 344851
+\Update:Voxels to process : 314979
+\Update:Voxels to process : 292419
+\Update:Voxels to process : 267410
+\Update:Voxels to process : 241510
+\Update:Voxels to process : 214574
+\Update:Voxels to process : 186781
+\Update:Voxels to process : 160562
+\Update:Voxels to process : 134616
+\Update:Voxels to process : 108979
+\Update:Voxels to process : 90361
+\Update:Voxels to process : 78443
+\Update:Voxels to process : 72584
+\Update:Voxels to process : 68368
+\Update:Voxels to process : 64635
+\Update:Voxels to process : 60983
+\Update:Voxels to process : 57308
+\Update:Voxels to process : 53470
+\Update:Voxels to process : 49681
+\Update:Voxels to process : 45473
+\Update:Voxels to process : 41244
+\Update:Voxels to process : 36351
+\Update:Voxels to process : 30175
+\Update:Voxels to process : 24440
+\Update:Voxels to process : 18182
+\Update:Voxels to process : 3583
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_3950   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 7903
+Create label image with 7903 objects
+Finished
+Finished
+Time of execution is: 74.241 seconds
+_______________________________________
+
+C6-NUC.tif__1_7900_7900.tif
+Loading image: C6-NUC.tif__1_7900_7900.tif
+C6-NUC.tif__1_7900_7900.tif:   max:   255  min: 0  mean: 46.6837  area: 16000000  std:38.3282
+Segmenting...
+C6-NUC.tif__1_7900_7900.tif  mean value: 24598.5491
+_________________________________________
+ATTENTION: seeds threshold value is:  25198
+3D spots segmentation
+Initial.....
+Spot segmentation.....
+Labelling 
+Watershed...
+
+\Update:Voxels to process : 216877
+\Update:Voxels to process : 260059
+\Update:Voxels to process : 337735
+\Update:Voxels to process : 415218
+\Update:Voxels to process : 414832
+\Update:Voxels to process : 433920
+\Update:Voxels to process : 491043
+\Update:Voxels to process : 490238
+\Update:Voxels to process : 566303
+\Update:Voxels to process : 565148
+\Update:Voxels to process : 574464
+\Update:Voxels to process : 638960
+\Update:Voxels to process : 637241
+\Update:Voxels to process : 635403
+\Update:Voxels to process : 708989
+\Update:Voxels to process : 706828
+\Update:Voxels to process : 704470
+\Update:Voxels to process : 702029
+\Update:Voxels to process : 773865
+\Update:Voxels to process : 770813
+\Update:Voxels to process : 767939
+\Update:Voxels to process : 764725
+\Update:Voxels to process : 772406
+\Update:Voxels to process : 829969
+\Update:Voxels to process : 825927
+\Update:Voxels to process : 821477
+\Update:Voxels to process : 817151
+\Update:Voxels to process : 883815
+\Update:Voxels to process : 879002
+\Update:Voxels to process : 873717
+\Update:Voxels to process : 868641
+\Update:Voxels to process : 932140
+\Update:Voxels to process : 926021
+\Update:Voxels to process : 920456
+\Update:Voxels to process : 914393
+\Update:Voxels to process : 908109
+\Update:Voxels to process : 900985
+\Update:Voxels to process : 960333
+\Update:Voxels to process : 953221
+\Update:Voxels to process : 945899
+\Update:Voxels to process : 937420
+\Update:Voxels to process : 929742
+\Update:Voxels to process : 972171
+\Update:Voxels to process : 976428
+\Update:Voxels to process : 967294
+\Update:Voxels to process : 958317
+\Update:Voxels to process : 949129
+\Update:Voxels to process : 939133
+\Update:Voxels to process : 988088
+\Update:Voxels to process : 977790
+\Update:Voxels to process : 967025
+\Update:Voxels to process : 956347
+\Update:Voxels to process : 943944
+\Update:Voxels to process : 970453
+\Update:Voxels to process : 975231
+\Update:Voxels to process : 962802
+\Update:Voxels to process : 949488
+\Update:Voxels to process : 937004
+\Update:Voxels to process : 923307
+\Update:Voxels to process : 960185
+\Update:Voxels to process : 946426
+\Update:Voxels to process : 932059
+\Update:Voxels to process : 918600
+\Update:Voxels to process : 902633
+\Update:Voxels to process : 887918
+\Update:Voxels to process : 919105
+\Update:Voxels to process : 903276
+\Update:Voxels to process : 887622
+\Update:Voxels to process : 871772
+\Update:Voxels to process : 854500
+\Update:Voxels to process : 868144
+\Update:Voxels to process : 861184
+\Update:Voxels to process : 843268
+\Update:Voxels to process : 825553
+\Update:Voxels to process : 807784
+\Update:Voxels to process : 789447
+\Update:Voxels to process : 807605
+\Update:Voxels to process : 789368
+\Update:Voxels to process : 768733
+\Update:Voxels to process : 749836
+\Update:Voxels to process : 762876
+\Update:Voxels to process : 743291
+\Update:Voxels to process : 722613
+\Update:Voxels to process : 702989
+\Update:Voxels to process : 682030
+\Update:Voxels to process : 688986
+\Update:Voxels to process : 667377
+\Update:Voxels to process : 646645
+\Update:Voxels to process : 625859
+\Update:Voxels to process : 628941
+\Update:Voxels to process : 606622
+\Update:Voxels to process : 583553
+\Update:Voxels to process : 562071
+\Update:Voxels to process : 559899
+\Update:Voxels to process : 537144
+\Update:Voxels to process : 514740
+\Update:Voxels to process : 491045
+\Update:Voxels to process : 493058
+\Update:Voxels to process : 467620
+\Update:Voxels to process : 442380
+\Update:Voxels to process : 431781
+\Update:Voxels to process : 406454
+\Update:Voxels to process : 384189
+\Update:Voxels to process : 370423
+\Update:Voxels to process : 345457
+\Update:Voxels to process : 330837
+\Update:Voxels to process : 305322
+\Update:Voxels to process : 288811
+\Update:Voxels to process : 263281
+\Update:Voxels to process : 245348
+\Update:Voxels to process : 226761
+\Update:Voxels to process : 206260
+\Update:Voxels to process : 180370
+\Update:Voxels to process : 158988
+\Update:Voxels to process : 140438
+\Update:Voxels to process : 116214
+\Update:Voxels to process : 94252
+\Update:Voxels to process : 72681
+\Update:Voxels to process : 49424
+\Update:Voxels to process : 28407
+\Update:Voxels to process : 4975
+\Update:Voxels to process : 0
+Watershed completed.
+Spot Image: C6-NUC.tif__1_7900_7900   Seed Image : Image
+Vol min: 15   Vol max: 1000000
+Number of labelled objects: 9859
+Create label image with 9859 objects
+Finished
+Finished
+Time of execution is: 88.219 seconds
+Segmented nuc images results are saved into folder: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/SEG_temporary_files/
+
+Hura, completed!!!
+Nucleus Segmentation Completed!
+__________________________________
+
