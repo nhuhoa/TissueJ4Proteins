@@ -1,5 +1,3 @@
-//dir=getDirectory("mouse");
-//print(dir)
 setBatchMode(true);
 print("___________________________________________");
 

@@ -1,0 +1,81 @@
+setBatchMode(true);
+print("___________________________________________");
+
+suffixe="_SEG.tif"; // change this setting if your image ends with .tiff
+radius_extension_nuc_cellPeriphery = 3; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
+
+
+dir = getArgument;
+//dir = "/Users/hoatran/Documents/BCCRC_projects/IMC/XP1487/testing/XP1487_IMCpipeline/raw/";  // for testing purpose, you can disable line above, and use this
+if (dir=="") 
+	exit ("No argument!");
+
+
+
+
+if(!File.exists(dir)) 
+      print("Input dir is not correct, please double check!!!");
+print("Working dir: "+dir+"\n");
+save_dir=File.getParent(dir)+"/CELL_ZONE/";
+if(!File.exists(save_dir)) 
+      File.mkdir(save_dir);
+
+
+print("Creating results folder: "+save_dir+"\n");
+
+files=getFileList(dir);
+
+//print("Nb of processing images: "+files.length+"\n");
+
+for(f=0;f<files.length;f++)
+{
+     if(!File.isDirectory(dir+files[f])) {
+				name=files[f];
+				// NUC image ends with NUC.tif or NUC.tiff, nuc seg file ends with _SEG.tif
+				if(endsWith(name, suffixe)){
+					//print("Get the right channel : "+name);
+					short_name = substring(name,0,lastIndexOf(name,suffixe));  			
+					print("_______________________________________\n");
+					print(name);
+					//print(short_name);
+          start = getTime();
+					print("Loading image: "+name);
+					open(dir+name);
+					h=getHeight();
+					w=getWidth();
+					//print(' t: '+title+"   h:   "+h+"w:   "+w);
+					setOption("ScaleConversions", true);
+					selectWindow(name);
+					getStatistics(area, mean, min, max, std);
+					print(getTitle+":   max:   "+max+"  min: "+min+"  mean: "+mean+"  area: "+area+"  std:"+std);
+					if(max==0){
+						print("******* Background image, no object in this image");
+						//print(""+name);
+						run("Close All"); 
+					} else{
+					  
+            //run("DETECT CELL ZONE", "save_dir="+save_dir+" nuclei="+name+" radius_max="+radius_extension_nuc_cellPeriphery+" save");
+            run("DETECT CELL ZONE", "save_dir="+save_dir+" nuclei="+name+" radius_max="+radius_extension_nuc_cellPeriphery);
+            selectWindow("dapi-seg-wat");
+            run("3-3-2 RGB");
+            saveAs("Tiff", save_dir+short_name+ "_WAT"+suffixe); //color map for better visualization
+            print("Cell zone detection, completed!");
+			      run("Close All"); 
+
+					}
+					
+           }
+           
+    }
+
+}
+
+print("Hura, completed!!!");
+
+//if(!File.exists(dir+"log")) File.mkdir(dir+"log");
+//selectWindow("Log");
+//saveAs("Text", dir+ "segment_log.txt");
+setBatchMode(false);
+
+
+//run("DETECT CELL ZONE", "save_dir=/Users/hoatran/Documents/others/jean_project/data///MultiPDXs_Ms1134/results/testing/ nuclei=C6-NUC.tif__1_7900_7900_SEG.tif radius_max=3 //save");

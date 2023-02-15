@@ -1,0 +1,3077 @@
+__________________________________
+
+Input directory is: 
+
+/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134//results/SEG_temporary_files/
+Segment images 
+
+___________________________________________
+Working dir: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134//results/SEG_temporary_files/
+
+Creating results folder: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/results/CELL_ZONE/
+
+_______________________________________
+
+C6-NUC.tif__1_0_11850_SEG.tif
+Loading image: C6-NUC.tif__1_0_11850_SEG.tif
+C6-NUC.tif__1_0_11850_SEG.tif:   max:   5136  min: 0  mean: 586.6091  area: 16000000  std:1290.3599
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 665321
+\Update:Voxels to process : 652420
+\Update:Voxels to process : 629378
+\Update:Voxels to process : 602712
+\Update:Voxels to process : 580207
+\Update:Voxels to process : 565874
+\Update:Voxels to process : 555134
+\Update:Voxels to process : 539605
+\Update:Voxels to process : 514762
+\Update:Voxels to process : 496717
+\Update:Voxels to process : 485100
+\Update:Voxels to process : 453019
+\Update:Voxels to process : 435586
+\Update:Voxels to process : 412566
+\Update:Voxels to process : 382457
+\Update:Voxels to process : 367823
+\Update:Voxels to process : 337608
+\Update:Voxels to process : 320542
+\Update:Voxels to process : 289272
+\Update:Voxels to process : 269821
+\Update:Voxels to process : 242195
+\Update:Voxels to process : 220458
+\Update:Voxels to process : 198896
+\Update:Voxels to process : 176562
+\Update:Voxels to process : 159466
+\Update:Voxels to process : 146630
+\Update:Voxels to process : 130141
+\Update:Voxels to process : 115590
+\Update:Voxels to process : 101781
+\Update:Voxels to process : 87971
+\Update:Voxels to process : 76319
+\Update:Voxels to process : 64511
+\Update:Voxels to process : 53227
+\Update:Voxels to process : 45276
+\Update:Voxels to process : 38817
+\Update:Voxels to process : 34190
+\Update:Voxels to process : 30215
+\Update:Voxels to process : 27075
+\Update:Voxels to process : 24675
+\Update:Voxels to process : 23185
+\Update:Voxels to process : 21059
+\Update:Voxels to process : 20298
+\Update:Voxels to process : 19581
+\Update:Voxels to process : 19069
+\Update:Voxels to process : 18487
+\Update:Voxels to process : 17697
+\Update:Voxels to process : 16835
+\Update:Voxels to process : 15442
+\Update:Voxels to process : 14574
+\Update:Voxels to process : 13751
+\Update:Voxels to process : 12140
+\Update:Voxels to process : 10809
+\Update:Voxels to process : 10128
+\Update:Voxels to process : 9478
+\Update:Voxels to process : 9126
+\Update:Voxels to process : 8903
+\Update:Voxels to process : 8662
+\Update:Voxels to process : 8247
+\Update:Voxels to process : 7113
+\Update:Voxels to process : 6357
+\Update:Voxels to process : 6111
+\Update:Voxels to process : 6133
+\Update:Voxels to process : 6122
+\Update:Voxels to process : 6098
+\Update:Voxels to process : 6069
+\Update:Voxels to process : 6071
+\Update:Voxels to process : 6031
+\Update:Voxels to process : 6022
+\Update:Voxels to process : 5993
+\Update:Voxels to process : 5971
+\Update:Voxels to process : 5970
+\Update:Voxels to process : 5960
+\Update:Voxels to process : 5951
+\Update:Voxels to process : 5945
+\Update:Voxels to process : 5927
+\Update:Voxels to process : 5928
+\Update:Voxels to process : 3292
+\Update:Voxels to process : 2326
+\Update:Voxels to process : 1149
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Save the result as dapi-seg-wat.tif
+Save the result into the folder : /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/results/CELL_ZONE/
+Finished in 68651 ms.
+====================================================================
+No window with the title "dapi-seg-wat" found.
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_15800_SEG.tif
+Loading image: C6-NUC.tif__1_0_15800_SEG.tif
+C6-NUC.tif__1_0_15800_SEG.tif:   max:   5471  min: 0  mean: 632.1772  area: 16000000  std:1371.5087
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 694849
+\Update:Voxels to process : 677073
+\Update:Voxels to process : 657278
+\Update:Voxels to process : 640290
+\Update:Voxels to process : 637752
+\Update:Voxels to process : 609706
+\Update:Voxels to process : 576461
+\Update:Voxels to process : 556148
+\Update:Voxels to process : 519801
+\Update:Voxels to process : 489275
+\Update:Voxels to process : 468921
+\Update:Voxels to process : 431275
+\Update:Voxels to process : 414690
+\Update:Voxels to process : 376662
+\Update:Voxels to process : 344459
+\Update:Voxels to process : 315839
+\Update:Voxels to process : 291345
+\Update:Voxels to process : 253823
+\Update:Voxels to process : 227615
+\Update:Voxels to process : 199286
+\Update:Voxels to process : 172306
+\Update:Voxels to process : 149070
+\Update:Voxels to process : 132967
+\Update:Voxels to process : 117499
+\Update:Voxels to process : 108320
+\Update:Voxels to process : 100111
+\Update:Voxels to process : 90988
+\Update:Voxels to process : 83312
+\Update:Voxels to process : 73958
+\Update:Voxels to process : 65110
+\Update:Voxels to process : 55927
+\Update:Voxels to process : 49507
+\Update:Voxels to process : 39916
+\Update:Voxels to process : 30846
+\Update:Voxels to process : 21655
+\Update:Voxels to process : 15379
+\Update:Voxels to process : 10583
+\Update:Voxels to process : 8715
+\Update:Voxels to process : 7773
+\Update:Voxels to process : 7000
+\Update:Voxels to process : 6463
+\Update:Voxels to process : 6103
+\Update:Voxels to process : 5894
+\Update:Voxels to process : 5702
+\Update:Voxels to process : 5450
+\Update:Voxels to process : 5221
+\Update:Voxels to process : 5038
+\Update:Voxels to process : 4987
+\Update:Voxels to process : 4957
+\Update:Voxels to process : 4957
+\Update:Voxels to process : 4915
+\Update:Voxels to process : 4903
+\Update:Voxels to process : 4888
+\Update:Voxels to process : 4888
+\Update:Voxels to process : 4884
+\Update:Voxels to process : 4855
+\Update:Voxels to process : 4847
+\Update:Voxels to process : 4824
+\Update:Voxels to process : 4806
+\Update:Voxels to process : 4784
+\Update:Voxels to process : 4775
+\Update:Voxels to process : 4753
+\Update:Voxels to process : 4756
+\Update:Voxels to process : 4741
+\Update:Voxels to process : 4733
+\Update:Voxels to process : 4730
+\Update:Voxels to process : 4721
+\Update:Voxels to process : 4709
+\Update:Voxels to process : 4706
+\Update:Voxels to process : 4706
+\Update:Voxels to process : 4700
+\Update:Voxels to process : 3709
+\Update:Voxels to process : 3417
+\Update:Voxels to process : 1655
+\Update:Voxels to process : 1028
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Save the result as dapi-seg-wat.tif
+Save the result into the folder : /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/results/CELL_ZONE/
+Finished in 67975 ms.
+====================================================================
+No window with the title "dapi-seg-wat" found.
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_19750_SEG.tif
+Loading image: C6-NUC.tif__1_0_19750_SEG.tif
+C6-NUC.tif__1_0_19750_SEG.tif:   max:   5801  min: 0  mean: 754.2912  area: 16000000  std:1553.102
+====================================================================
+
+Computing EDT
+Nucleus Segmentation Completed!
+__________________________________
+
+
+C6-NUC.tif__1_0_19750_SEG.tif
+Loading image: C6-NUC.tif__1_0_19750_SEG.tif
+C6-NUC.tif__1_0_19750_SEG.tif:   max:   5801  min: 0  mean: 754.2912  area: 16000000  std:1553.102
+====================================================================
+
+Computing EDT
+Nucleus Segmentation Completed!
+__________________________________
+
+__________________________________
+
+Input directory is: 
+
+/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134//results/SEG_temporary_files/
+Segment images 
+
+___________________________________________
+Working dir: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134//results/SEG_temporary_files/
+
+Creating results folder: /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/CELL_ZONE/
+
+_______________________________________
+
+C6-NUC.tif__1_0_11850_SEG.tif
+Loading image: C6-NUC.tif__1_0_11850_SEG.tif
+C6-NUC.tif__1_0_11850_SEG.tif:   max:   5136  min: 0  mean: 586.6091  area: 16000000  std:1290.3599
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 665320
+\Update:Voxels to process : 652432
+\Update:Voxels to process : 628889
+\Update:Voxels to process : 601399
+\Update:Voxels to process : 576616
+\Update:Voxels to process : 564027
+\Update:Voxels to process : 550666
+\Update:Voxels to process : 531194
+\Update:Voxels to process : 507605
+\Update:Voxels to process : 493465
+\Update:Voxels to process : 480894
+\Update:Voxels to process : 445342
+\Update:Voxels to process : 433504
+\Update:Voxels to process : 402266
+\Update:Voxels to process : 368910
+\Update:Voxels to process : 354121
+\Update:Voxels to process : 320899
+\Update:Voxels to process : 303049
+\Update:Voxels to process : 280856
+\Update:Voxels to process : 248101
+\Update:Voxels to process : 226898
+\Update:Voxels to process : 203463
+\Update:Voxels to process : 175661
+\Update:Voxels to process : 160147
+\Update:Voxels to process : 141811
+\Update:Voxels to process : 123599
+\Update:Voxels to process : 109577
+\Update:Voxels to process : 93494
+\Update:Voxels to process : 82927
+\Update:Voxels to process : 69307
+\Update:Voxels to process : 56147
+\Update:Voxels to process : 47528
+\Update:Voxels to process : 40092
+\Update:Voxels to process : 34477
+\Update:Voxels to process : 30325
+\Update:Voxels to process : 26629
+\Update:Voxels to process : 24643
+\Update:Voxels to process : 22656
+\Update:Voxels to process : 20701
+\Update:Voxels to process : 19765
+\Update:Voxels to process : 19314
+\Update:Voxels to process : 18516
+\Update:Voxels to process : 18088
+\Update:Voxels to process : 17314
+\Update:Voxels to process : 15987
+\Update:Voxels to process : 14815
+\Update:Voxels to process : 14005
+\Update:Voxels to process : 12642
+\Update:Voxels to process : 10895
+\Update:Voxels to process : 10240
+\Update:Voxels to process : 9393
+\Update:Voxels to process : 9152
+\Update:Voxels to process : 8850
+\Update:Voxels to process : 8650
+\Update:Voxels to process : 8246
+\Update:Voxels to process : 7133
+\Update:Voxels to process : 6315
+\Update:Voxels to process : 6120
+\Update:Voxels to process : 6090
+\Update:Voxels to process : 6119
+\Update:Voxels to process : 6064
+\Update:Voxels to process : 6085
+\Update:Voxels to process : 6040
+\Update:Voxels to process : 6030
+\Update:Voxels to process : 5999
+\Update:Voxels to process : 5998
+\Update:Voxels to process : 5999
+\Update:Voxels to process : 5954
+\Update:Voxels to process : 5925
+\Update:Voxels to process : 5940
+\Update:Voxels to process : 5923
+\Update:Voxels to process : 5931
+\Update:Voxels to process : 4615
+\Update:Voxels to process : 2851
+\Update:Voxels to process : 1554
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 66764 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_15800_SEG.tif
+Loading image: C6-NUC.tif__1_0_15800_SEG.tif
+C6-NUC.tif__1_0_15800_SEG.tif:   max:   5471  min: 0  mean: 632.1772  area: 16000000  std:1371.5087
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 694848
+\Update:Voxels to process : 677249
+\Update:Voxels to process : 657551
+\Update:Voxels to process : 640419
+\Update:Voxels to process : 634592
+\Update:Voxels to process : 605986
+\Update:Voxels to process : 573758
+\Update:Voxels to process : 555944
+\Update:Voxels to process : 517110
+\Update:Voxels to process : 487714
+\Update:Voxels to process : 467625
+\Update:Voxels to process : 430365
+\Update:Voxels to process : 413927
+\Update:Voxels to process : 376163
+\Update:Voxels to process : 344366
+\Update:Voxels to process : 315195
+\Update:Voxels to process : 289688
+\Update:Voxels to process : 249776
+\Update:Voxels to process : 222543
+\Update:Voxels to process : 193982
+\Update:Voxels to process : 168386
+\Update:Voxels to process : 145909
+\Update:Voxels to process : 127414
+\Update:Voxels to process : 116498
+\Update:Voxels to process : 103627
+\Update:Voxels to process : 95929
+\Update:Voxels to process : 87545
+\Update:Voxels to process : 80927
+\Update:Voxels to process : 70933
+\Update:Voxels to process : 61702
+\Update:Voxels to process : 53556
+\Update:Voxels to process : 43702
+\Update:Voxels to process : 33983
+\Update:Voxels to process : 24159
+\Update:Voxels to process : 17408
+\Update:Voxels to process : 11387
+\Update:Voxels to process : 8999
+\Update:Voxels to process : 7998
+\Update:Voxels to process : 7172
+\Update:Voxels to process : 6596
+\Update:Voxels to process : 6130
+\Update:Voxels to process : 5911
+\Update:Voxels to process : 5714
+\Update:Voxels to process : 5467
+\Update:Voxels to process : 5228
+\Update:Voxels to process : 5033
+\Update:Voxels to process : 5003
+\Update:Voxels to process : 4980
+\Update:Voxels to process : 4956
+\Update:Voxels to process : 4935
+\Update:Voxels to process : 4911
+\Update:Voxels to process : 4886
+\Update:Voxels to process : 4883
+\Update:Voxels to process : 4871
+\Update:Voxels to process : 4852
+\Update:Voxels to process : 4834
+\Update:Voxels to process : 4814
+\Update:Voxels to process : 4785
+\Update:Voxels to process : 4796
+\Update:Voxels to process : 4773
+\Update:Voxels to process : 4760
+\Update:Voxels to process : 4765
+\Update:Voxels to process : 4754
+\Update:Voxels to process : 4750
+\Update:Voxels to process : 4729
+\Update:Voxels to process : 4728
+\Update:Voxels to process : 4713
+\Update:Voxels to process : 4713
+\Update:Voxels to process : 4697
+\Update:Voxels to process : 4601
+\Update:Voxels to process : 3671
+\Update:Voxels to process : 3376
+\Update:Voxels to process : 1551
+\Update:Voxels to process : 891
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 69511 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_19750_SEG.tif
+Loading image: C6-NUC.tif__1_0_19750_SEG.tif
+C6-NUC.tif__1_0_19750_SEG.tif:   max:   5801  min: 0  mean: 754.2912  area: 16000000  std:1553.102
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 740127
+\Update:Voxels to process : 728354
+\Update:Voxels to process : 693718
+\Update:Voxels to process : 662227
+\Update:Voxels to process : 635853
+\Update:Voxels to process : 621495
+\Update:Voxels to process : 595168
+\Update:Voxels to process : 561366
+\Update:Voxels to process : 549001
+\Update:Voxels to process : 520765
+\Update:Voxels to process : 490226
+\Update:Voxels to process : 474263
+\Update:Voxels to process : 438172
+\Update:Voxels to process : 415538
+\Update:Voxels to process : 387442
+\Update:Voxels to process : 359545
+\Update:Voxels to process : 333302
+\Update:Voxels to process : 309669
+\Update:Voxels to process : 274895
+\Update:Voxels to process : 250137
+\Update:Voxels to process : 226632
+\Update:Voxels to process : 199696
+\Update:Voxels to process : 181280
+\Update:Voxels to process : 166161
+\Update:Voxels to process : 153378
+\Update:Voxels to process : 145287
+\Update:Voxels to process : 139209
+\Update:Voxels to process : 133324
+\Update:Voxels to process : 125643
+\Update:Voxels to process : 122316
+\Update:Voxels to process : 116723
+\Update:Voxels to process : 111943
+\Update:Voxels to process : 106803
+\Update:Voxels to process : 101957
+\Update:Voxels to process : 99237
+\Update:Voxels to process : 94278
+\Update:Voxels to process : 89369
+\Update:Voxels to process : 85429
+\Update:Voxels to process : 81820
+\Update:Voxels to process : 75905
+\Update:Voxels to process : 72055
+\Update:Voxels to process : 68384
+\Update:Voxels to process : 64438
+\Update:Voxels to process : 61152
+\Update:Voxels to process : 56692
+\Update:Voxels to process : 53622
+\Update:Voxels to process : 50287
+\Update:Voxels to process : 46560
+\Update:Voxels to process : 43215
+\Update:Voxels to process : 40308
+\Update:Voxels to process : 37590
+\Update:Voxels to process : 34834
+\Update:Voxels to process : 32455
+\Update:Voxels to process : 29827
+\Update:Voxels to process : 26911
+\Update:Voxels to process : 23858
+\Update:Voxels to process : 21042
+\Update:Voxels to process : 19068
+\Update:Voxels to process : 16884
+\Update:Voxels to process : 14761
+\Update:Voxels to process : 12438
+\Update:Voxels to process : 10875
+\Update:Voxels to process : 10324
+\Update:Voxels to process : 8814
+\Update:Voxels to process : 8140
+\Update:Voxels to process : 6017
+\Update:Voxels to process : 5762
+\Update:Voxels to process : 5584
+\Update:Voxels to process : 5446
+\Update:Voxels to process : 4828
+\Update:Voxels to process : 4496
+\Update:Voxels to process : 4288
+\Update:Voxels to process : 4124
+\Update:Voxels to process : 3978
+\Update:Voxels to process : 3814
+\Update:Voxels to process : 3641
+\Update:Voxels to process : 3483
+\Update:Voxels to process : 3025
+\Update:Voxels to process : 1343
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 41851 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_23700_SEG.tif
+Loading image: C6-NUC.tif__1_0_23700_SEG.tif
+C6-NUC.tif__1_0_23700_SEG.tif:   max:   2144  min: 0  mean: 207.0495  area: 8880000  std:502.7261
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 298511
+\Update:Voxels to process : 290072
+\Update:Voxels to process : 291695
+\Update:Voxels to process : 282576
+\Update:Voxels to process : 277340
+\Update:Voxels to process : 276638
+\Update:Voxels to process : 262300
+\Update:Voxels to process : 258337
+\Update:Voxels to process : 254020
+\Update:Voxels to process : 247724
+\Update:Voxels to process : 228997
+\Update:Voxels to process : 219789
+\Update:Voxels to process : 210356
+\Update:Voxels to process : 201418
+\Update:Voxels to process : 193216
+\Update:Voxels to process : 186458
+\Update:Voxels to process : 175894
+\Update:Voxels to process : 168042
+\Update:Voxels to process : 161256
+\Update:Voxels to process : 157119
+\Update:Voxels to process : 152267
+\Update:Voxels to process : 144503
+\Update:Voxels to process : 137155
+\Update:Voxels to process : 132682
+\Update:Voxels to process : 124368
+\Update:Voxels to process : 116793
+\Update:Voxels to process : 110545
+\Update:Voxels to process : 104798
+\Update:Voxels to process : 97494
+\Update:Voxels to process : 89836
+\Update:Voxels to process : 85538
+\Update:Voxels to process : 78755
+\Update:Voxels to process : 72229
+\Update:Voxels to process : 68985
+\Update:Voxels to process : 61141
+\Update:Voxels to process : 52775
+\Update:Voxels to process : 44520
+\Update:Voxels to process : 36904
+\Update:Voxels to process : 29687
+\Update:Voxels to process : 23020
+\Update:Voxels to process : 17879
+\Update:Voxels to process : 11218
+\Update:Voxels to process : 6926
+\Update:Voxels to process : 2273
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 16130 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_0_7900_SEG.tif
+Loading image: C6-NUC.tif__1_0_7900_SEG.tif
+C6-NUC.tif__1_0_7900_SEG.tif:   max:   1260  min: 0  mean: 35.9668  area: 16000000  std:168.7563
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 154040
+\Update:Voxels to process : 133508
+\Update:Voxels to process : 111510
+\Update:Voxels to process : 86135
+\Update:Voxels to process : 55854
+\Update:Voxels to process : 31511
+\Update:Voxels to process : 19909
+\Update:Voxels to process : 16450
+\Update:Voxels to process : 13685
+\Update:Voxels to process : 12281
+\Update:Voxels to process : 11720
+\Update:Voxels to process : 11135
+\Update:Voxels to process : 10421
+\Update:Voxels to process : 9295
+\Update:Voxels to process : 8666
+\Update:Voxels to process : 7674
+\Update:Voxels to process : 6801
+\Update:Voxels to process : 5992
+\Update:Voxels to process : 5924
+\Update:Voxels to process : 5904
+\Update:Voxels to process : 5893
+\Update:Voxels to process : 5885
+\Update:Voxels to process : 5925
+\Update:Voxels to process : 5990
+\Update:Voxels to process : 6037
+\Update:Voxels to process : 6098
+\Update:Voxels to process : 6042
+\Update:Voxels to process : 5963
+\Update:Voxels to process : 6000
+\Update:Voxels to process : 6057
+\Update:Voxels to process : 6050
+\Update:Voxels to process : 6079
+\Update:Voxels to process : 6119
+\Update:Voxels to process : 6160
+\Update:Voxels to process : 6205
+\Update:Voxels to process : 6252
+\Update:Voxels to process : 6288
+\Update:Voxels to process : 6332
+\Update:Voxels to process : 6419
+\Update:Voxels to process : 6401
+\Update:Voxels to process : 6447
+\Update:Voxels to process : 6502
+\Update:Voxels to process : 6600
+\Update:Voxels to process : 6640
+\Update:Voxels to process : 6693
+\Update:Voxels to process : 6768
+\Update:Voxels to process : 6837
+\Update:Voxels to process : 6901
+\Update:Voxels to process : 6967
+\Update:Voxels to process : 7025
+\Update:Voxels to process : 7081
+\Update:Voxels to process : 7155
+\Update:Voxels to process : 7207
+\Update:Voxels to process : 7289
+\Update:Voxels to process : 7334
+\Update:Voxels to process : 7408
+\Update:Voxels to process : 7471
+\Update:Voxels to process : 7542
+\Update:Voxels to process : 7582
+\Update:Voxels to process : 7672
+\Update:Voxels to process : 7719
+\Update:Voxels to process : 7793
+\Update:Voxels to process : 7823
+\Update:Voxels to process : 7881
+\Update:Voxels to process : 6784
+\Update:Voxels to process : 5804
+\Update:Voxels to process : 5658
+\Update:Voxels to process : 5556
+\Update:Voxels to process : 5473
+\Update:Voxels to process : 5405
+\Update:Voxels to process : 5346
+\Update:Voxels to process : 3118
+\Update:Voxels to process : 1906
+\Update:Voxels to process : 1031
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 36113 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_0_SEG.tif
+Loading image: C6-NUC.tif__1_11850_0_SEG.tif
+C6-NUC.tif__1_11850_0_SEG.tif:   max:   7142  min: 0  mean: 1090.0005  area: 16000000  std:1999.3887
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 914065
+\Update:Voxels to process : 882351
+\Update:Voxels to process : 851447
+\Update:Voxels to process : 820324
+\Update:Voxels to process : 787512
+\Update:Voxels to process : 761019
+\Update:Voxels to process : 741132
+\Update:Voxels to process : 711249
+\Update:Voxels to process : 673819
+\Update:Voxels to process : 647136
+\Update:Voxels to process : 626019
+\Update:Voxels to process : 585315
+\Update:Voxels to process : 556712
+\Update:Voxels to process : 533106
+\Update:Voxels to process : 492099
+\Update:Voxels to process : 450446
+\Update:Voxels to process : 424183
+\Update:Voxels to process : 377497
+\Update:Voxels to process : 344862
+\Update:Voxels to process : 292816
+\Update:Voxels to process : 254597
+\Update:Voxels to process : 210153
+\Update:Voxels to process : 164150
+\Update:Voxels to process : 119217
+\Update:Voxels to process : 79682
+\Update:Voxels to process : 47284
+\Update:Voxels to process : 26345
+\Update:Voxels to process : 14910
+\Update:Voxels to process : 9197
+\Update:Voxels to process : 6298
+\Update:Voxels to process : 6159
+\Update:Voxels to process : 6117
+\Update:Voxels to process : 6080
+\Update:Voxels to process : 6063
+\Update:Voxels to process : 6047
+\Update:Voxels to process : 6028
+\Update:Voxels to process : 6018
+\Update:Voxels to process : 6002
+\Update:Voxels to process : 5998
+\Update:Voxels to process : 5975
+\Update:Voxels to process : 5957
+\Update:Voxels to process : 5944
+\Update:Voxels to process : 5922
+\Update:Voxels to process : 5909
+\Update:Voxels to process : 5646
+\Update:Voxels to process : 5154
+\Update:Voxels to process : 4748
+\Update:Voxels to process : 4497
+\Update:Voxels to process : 4136
+\Update:Voxels to process : 3789
+\Update:Voxels to process : 3517
+\Update:Voxels to process : 3221
+\Update:Voxels to process : 2781
+\Update:Voxels to process : 2323
+\Update:Voxels to process : 1777
+\Update:Voxels to process : 987
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 37950 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_11850_SEG.tif
+Loading image: C6-NUC.tif__1_11850_11850_SEG.tif
+C6-NUC.tif__1_11850_11850_SEG.tif:   max:   12349  min: 0  mean: 3387.3453  area: 16000000  std:4071.552
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1578246
+\Update:Voxels to process : 1555610
+\Update:Voxels to process : 1523625
+\Update:Voxels to process : 1491876
+\Update:Voxels to process : 1457902
+\Update:Voxels to process : 1425361
+\Update:Voxels to process : 1393049
+\Update:Voxels to process : 1359950
+\Update:Voxels to process : 1321933
+\Update:Voxels to process : 1304288
+\Update:Voxels to process : 1281779
+\Update:Voxels to process : 1257973
+\Update:Voxels to process : 1228975
+\Update:Voxels to process : 1185945
+\Update:Voxels to process : 1148509
+\Update:Voxels to process : 1110489
+\Update:Voxels to process : 1095997
+\Update:Voxels to process : 1075719
+\Update:Voxels to process : 1071332
+\Update:Voxels to process : 1026889
+\Update:Voxels to process : 980390
+\Update:Voxels to process : 933374
+\Update:Voxels to process : 922596
+\Update:Voxels to process : 883979
+\Update:Voxels to process : 838798
+\Update:Voxels to process : 791943
+\Update:Voxels to process : 739963
+\Update:Voxels to process : 720848
+\Update:Voxels to process : 677145
+\Update:Voxels to process : 626874
+\Update:Voxels to process : 581811
+\Update:Voxels to process : 544756
+\Update:Voxels to process : 490958
+\Update:Voxels to process : 449077
+\Update:Voxels to process : 398813
+\Update:Voxels to process : 341552
+\Update:Voxels to process : 293775
+\Update:Voxels to process : 235072
+\Update:Voxels to process : 185243
+\Update:Voxels to process : 130677
+\Update:Voxels to process : 77049
+\Update:Voxels to process : 26810
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38831 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_15800_SEG.tif
+Loading image: C6-NUC.tif__1_11850_15800_SEG.tif
+C6-NUC.tif__1_11850_15800_SEG.tif:   max:   13023  min: 0  mean: 3613.9669  area: 16000000  std:4253.9697
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1641964
+\Update:Voxels to process : 1607495
+\Update:Voxels to process : 1571324
+\Update:Voxels to process : 1537504
+\Update:Voxels to process : 1503567
+\Update:Voxels to process : 1468720
+\Update:Voxels to process : 1440466
+\Update:Voxels to process : 1400667
+\Update:Voxels to process : 1362342
+\Update:Voxels to process : 1335375
+\Update:Voxels to process : 1310425
+\Update:Voxels to process : 1285921
+\Update:Voxels to process : 1259401
+\Update:Voxels to process : 1213999
+\Update:Voxels to process : 1171755
+\Update:Voxels to process : 1130855
+\Update:Voxels to process : 1103518
+\Update:Voxels to process : 1080265
+\Update:Voxels to process : 1050190
+\Update:Voxels to process : 1004191
+\Update:Voxels to process : 953259
+\Update:Voxels to process : 915027
+\Update:Voxels to process : 900078
+\Update:Voxels to process : 856486
+\Update:Voxels to process : 805854
+\Update:Voxels to process : 752321
+\Update:Voxels to process : 701856
+\Update:Voxels to process : 676358
+\Update:Voxels to process : 624330
+\Update:Voxels to process : 565171
+\Update:Voxels to process : 530682
+\Update:Voxels to process : 475444
+\Update:Voxels to process : 410263
+\Update:Voxels to process : 366761
+\Update:Voxels to process : 304227
+\Update:Voxels to process : 249587
+\Update:Voxels to process : 189847
+\Update:Voxels to process : 128442
+\Update:Voxels to process : 61056
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38495 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_19750_SEG.tif
+Loading image: C6-NUC.tif__1_11850_19750_SEG.tif
+C6-NUC.tif__1_11850_19750_SEG.tif:   max:   10921  min: 0  mean: 2583.8565  area: 16000000  std:3473.5731
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1386228
+\Update:Voxels to process : 1356488
+\Update:Voxels to process : 1323872
+\Update:Voxels to process : 1292719
+\Update:Voxels to process : 1260574
+\Update:Voxels to process : 1228648
+\Update:Voxels to process : 1192567
+\Update:Voxels to process : 1156247
+\Update:Voxels to process : 1132943
+\Update:Voxels to process : 1110318
+\Update:Voxels to process : 1086679
+\Update:Voxels to process : 1044469
+\Update:Voxels to process : 1002141
+\Update:Voxels to process : 963647
+\Update:Voxels to process : 940887
+\Update:Voxels to process : 916200
+\Update:Voxels to process : 872317
+\Update:Voxels to process : 825654
+\Update:Voxels to process : 794295
+\Update:Voxels to process : 773054
+\Update:Voxels to process : 729823
+\Update:Voxels to process : 681986
+\Update:Voxels to process : 632432
+\Update:Voxels to process : 609134
+\Update:Voxels to process : 597260
+\Update:Voxels to process : 546844
+\Update:Voxels to process : 492700
+\Update:Voxels to process : 456417
+\Update:Voxels to process : 399744
+\Update:Voxels to process : 357676
+\Update:Voxels to process : 301289
+\Update:Voxels to process : 251754
+\Update:Voxels to process : 199688
+\Update:Voxels to process : 146820
+\Update:Voxels to process : 99354
+\Update:Voxels to process : 55390
+\Update:Voxels to process : 26366
+\Update:Voxels to process : 15863
+\Update:Voxels to process : 10043
+\Update:Voxels to process : 7739
+\Update:Voxels to process : 6448
+\Update:Voxels to process : 5688
+\Update:Voxels to process : 4797
+\Update:Voxels to process : 3933
+\Update:Voxels to process : 3073
+\Update:Voxels to process : 1842
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39022 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_23700_SEG.tif
+Loading image: C6-NUC.tif__1_11850_23700_SEG.tif
+C6-NUC.tif__1_11850_23700_SEG.tif:   max:   622  min: 0  mean: 15.2885  area: 8880000  std:78.3741
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 71439
+\Update:Voxels to process : 57556
+\Update:Voxels to process : 40698
+\Update:Voxels to process : 29839
+\Update:Voxels to process : 25242
+\Update:Voxels to process : 20353
+\Update:Voxels to process : 17563
+\Update:Voxels to process : 15961
+\Update:Voxels to process : 13740
+\Update:Voxels to process : 11953
+\Update:Voxels to process : 10463
+\Update:Voxels to process : 9263
+\Update:Voxels to process : 8213
+\Update:Voxels to process : 6795
+\Update:Voxels to process : 6606
+\Update:Voxels to process : 6245
+\Update:Voxels to process : 5804
+\Update:Voxels to process : 5687
+\Update:Voxels to process : 5548
+\Update:Voxels to process : 5466
+\Update:Voxels to process : 5405
+\Update:Voxels to process : 5344
+\Update:Voxels to process : 5331
+\Update:Voxels to process : 5308
+\Update:Voxels to process : 5287
+\Update:Voxels to process : 5284
+\Update:Voxels to process : 5255
+\Update:Voxels to process : 5238
+\Update:Voxels to process : 5223
+\Update:Voxels to process : 4756
+\Update:Voxels to process : 4325
+\Update:Voxels to process : 3762
+\Update:Voxels to process : 3189
+\Update:Voxels to process : 2739
+\Update:Voxels to process : 2335
+\Update:Voxels to process : 1931
+\Update:Voxels to process : 1477
+\Update:Voxels to process : 876
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 15199 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_3950_SEG.tif
+Loading image: C6-NUC.tif__1_11850_3950_SEG.tif
+C6-NUC.tif__1_11850_3950_SEG.tif:   max:   10090  min: 0  mean: 2339.175  area: 16000000  std:3182.3355
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1332134
+\Update:Voxels to process : 1309546
+\Update:Voxels to process : 1283997
+\Update:Voxels to process : 1258810
+\Update:Voxels to process : 1228673
+\Update:Voxels to process : 1199657
+\Update:Voxels to process : 1170672
+\Update:Voxels to process : 1146279
+\Update:Voxels to process : 1134633
+\Update:Voxels to process : 1117549
+\Update:Voxels to process : 1093999
+\Update:Voxels to process : 1059553
+\Update:Voxels to process : 1028525
+\Update:Voxels to process : 999535
+\Update:Voxels to process : 994019
+\Update:Voxels to process : 973143
+\Update:Voxels to process : 938008
+\Update:Voxels to process : 902131
+\Update:Voxels to process : 880516
+\Update:Voxels to process : 872734
+\Update:Voxels to process : 840872
+\Update:Voxels to process : 808361
+\Update:Voxels to process : 772380
+\Update:Voxels to process : 737332
+\Update:Voxels to process : 729018
+\Update:Voxels to process : 695403
+\Update:Voxels to process : 657512
+\Update:Voxels to process : 633904
+\Update:Voxels to process : 610551
+\Update:Voxels to process : 572044
+\Update:Voxels to process : 538006
+\Update:Voxels to process : 519840
+\Update:Voxels to process : 483023
+\Update:Voxels to process : 443077
+\Update:Voxels to process : 425816
+\Update:Voxels to process : 389547
+\Update:Voxels to process : 365636
+\Update:Voxels to process : 331322
+\Update:Voxels to process : 303467
+\Update:Voxels to process : 276772
+\Update:Voxels to process : 255661
+\Update:Voxels to process : 232416
+\Update:Voxels to process : 201146
+\Update:Voxels to process : 177748
+\Update:Voxels to process : 153665
+\Update:Voxels to process : 131578
+\Update:Voxels to process : 107988
+\Update:Voxels to process : 83599
+\Update:Voxels to process : 60417
+\Update:Voxels to process : 37692
+\Update:Voxels to process : 16612
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39730 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_11850_7900_SEG.tif
+Loading image: C6-NUC.tif__1_11850_7900_SEG.tif
+C6-NUC.tif__1_11850_7900_SEG.tif:   max:   10222  min: 0  mean: 2259.4474  area: 16000000  std:3207.232
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1303202
+\Update:Voxels to process : 1270662
+\Update:Voxels to process : 1249310
+\Update:Voxels to process : 1229479
+\Update:Voxels to process : 1211850
+\Update:Voxels to process : 1193276
+\Update:Voxels to process : 1162654
+\Update:Voxels to process : 1137687
+\Update:Voxels to process : 1123802
+\Update:Voxels to process : 1118479
+\Update:Voxels to process : 1100730
+\Update:Voxels to process : 1072947
+\Update:Voxels to process : 1041750
+\Update:Voxels to process : 1017944
+\Update:Voxels to process : 1009295
+\Update:Voxels to process : 1004988
+\Update:Voxels to process : 977241
+\Update:Voxels to process : 943044
+\Update:Voxels to process : 913637
+\Update:Voxels to process : 924958
+\Update:Voxels to process : 899951
+\Update:Voxels to process : 867570
+\Update:Voxels to process : 833052
+\Update:Voxels to process : 802034
+\Update:Voxels to process : 794484
+\Update:Voxels to process : 773745
+\Update:Voxels to process : 740234
+\Update:Voxels to process : 705303
+\Update:Voxels to process : 698736
+\Update:Voxels to process : 668430
+\Update:Voxels to process : 630532
+\Update:Voxels to process : 597116
+\Update:Voxels to process : 585114
+\Update:Voxels to process : 563787
+\Update:Voxels to process : 526713
+\Update:Voxels to process : 501456
+\Update:Voxels to process : 468410
+\Update:Voxels to process : 430699
+\Update:Voxels to process : 412705
+\Update:Voxels to process : 377310
+\Update:Voxels to process : 342963
+\Update:Voxels to process : 322727
+\Update:Voxels to process : 298886
+\Update:Voxels to process : 268193
+\Update:Voxels to process : 245509
+\Update:Voxels to process : 216384
+\Update:Voxels to process : 191666
+\Update:Voxels to process : 166907
+\Update:Voxels to process : 141458
+\Update:Voxels to process : 117883
+\Update:Voxels to process : 92865
+\Update:Voxels to process : 66225
+\Update:Voxels to process : 42106
+\Update:Voxels to process : 16364
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 40408 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_0_SEG.tif
+Loading image: C6-NUC.tif__1_15800_0_SEG.tif
+C6-NUC.tif__1_15800_0_SEG.tif:   max:   10250  min: 0  mean: 2284.7256  area: 16000000  std:3192.0617
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1322208
+\Update:Voxels to process : 1286456
+\Update:Voxels to process : 1253489
+\Update:Voxels to process : 1219612
+\Update:Voxels to process : 1188664
+\Update:Voxels to process : 1160373
+\Update:Voxels to process : 1121837
+\Update:Voxels to process : 1092951
+\Update:Voxels to process : 1070400
+\Update:Voxels to process : 1049357
+\Update:Voxels to process : 1016697
+\Update:Voxels to process : 976440
+\Update:Voxels to process : 936376
+\Update:Voxels to process : 911029
+\Update:Voxels to process : 892864
+\Update:Voxels to process : 853266
+\Update:Voxels to process : 805839
+\Update:Voxels to process : 770456
+\Update:Voxels to process : 755530
+\Update:Voxels to process : 713934
+\Update:Voxels to process : 668916
+\Update:Voxels to process : 619141
+\Update:Voxels to process : 598004
+\Update:Voxels to process : 552783
+\Update:Voxels to process : 502442
+\Update:Voxels to process : 474964
+\Update:Voxels to process : 423438
+\Update:Voxels to process : 383279
+\Update:Voxels to process : 334099
+\Update:Voxels to process : 284311
+\Update:Voxels to process : 234868
+\Update:Voxels to process : 186983
+\Update:Voxels to process : 137694
+\Update:Voxels to process : 89444
+\Update:Voxels to process : 42223
+\Update:Voxels to process : 18439
+\Update:Voxels to process : 8973
+\Update:Voxels to process : 6213
+\Update:Voxels to process : 5853
+\Update:Voxels to process : 5731
+\Update:Voxels to process : 5633
+\Update:Voxels to process : 5151
+\Update:Voxels to process : 4555
+\Update:Voxels to process : 3708
+\Update:Voxels to process : 2895
+\Update:Voxels to process : 2187
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38594 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_11850_SEG.tif
+Loading image: C6-NUC.tif__1_15800_11850_SEG.tif
+C6-NUC.tif__1_15800_11850_SEG.tif:   max:   12505  min: 0  mean: 3490.2507  area: 16000000  std:4119.1448
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1608437
+\Update:Voxels to process : 1581076
+\Update:Voxels to process : 1549792
+\Update:Voxels to process : 1512112
+\Update:Voxels to process : 1479608
+\Update:Voxels to process : 1447635
+\Update:Voxels to process : 1415204
+\Update:Voxels to process : 1378901
+\Update:Voxels to process : 1340224
+\Update:Voxels to process : 1316764
+\Update:Voxels to process : 1289959
+\Update:Voxels to process : 1265936
+\Update:Voxels to process : 1235523
+\Update:Voxels to process : 1189112
+\Update:Voxels to process : 1147671
+\Update:Voxels to process : 1115245
+\Update:Voxels to process : 1084500
+\Update:Voxels to process : 1057877
+\Update:Voxels to process : 1011575
+\Update:Voxels to process : 956989
+\Update:Voxels to process : 902162
+\Update:Voxels to process : 888741
+\Update:Voxels to process : 849472
+\Update:Voxels to process : 800396
+\Update:Voxels to process : 749024
+\Update:Voxels to process : 694208
+\Update:Voxels to process : 668696
+\Update:Voxels to process : 618091
+\Update:Voxels to process : 561509
+\Update:Voxels to process : 523604
+\Update:Voxels to process : 473170
+\Update:Voxels to process : 410404
+\Update:Voxels to process : 366696
+\Update:Voxels to process : 307589
+\Update:Voxels to process : 253202
+\Update:Voxels to process : 191295
+\Update:Voxels to process : 129537
+\Update:Voxels to process : 64136
+\Update:Voxels to process : 8064
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38784 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_15800_SEG.tif
+Loading image: C6-NUC.tif__1_15800_15800_SEG.tif
+C6-NUC.tif__1_15800_15800_SEG.tif:   max:   11774  min: 0  mean: 3228.6415  area: 16000000  std:3884.0031
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1545954
+\Update:Voxels to process : 1511690
+\Update:Voxels to process : 1480078
+\Update:Voxels to process : 1448254
+\Update:Voxels to process : 1417916
+\Update:Voxels to process : 1390133
+\Update:Voxels to process : 1358648
+\Update:Voxels to process : 1322748
+\Update:Voxels to process : 1293217
+\Update:Voxels to process : 1271129
+\Update:Voxels to process : 1250306
+\Update:Voxels to process : 1230918
+\Update:Voxels to process : 1190832
+\Update:Voxels to process : 1151841
+\Update:Voxels to process : 1113099
+\Update:Voxels to process : 1082053
+\Update:Voxels to process : 1063784
+\Update:Voxels to process : 1041306
+\Update:Voxels to process : 1002416
+\Update:Voxels to process : 956999
+\Update:Voxels to process : 913539
+\Update:Voxels to process : 902485
+\Update:Voxels to process : 868744
+\Update:Voxels to process : 826216
+\Update:Voxels to process : 778844
+\Update:Voxels to process : 730325
+\Update:Voxels to process : 708095
+\Update:Voxels to process : 670423
+\Update:Voxels to process : 621445
+\Update:Voxels to process : 572703
+\Update:Voxels to process : 545493
+\Update:Voxels to process : 493439
+\Update:Voxels to process : 449146
+\Update:Voxels to process : 405944
+\Update:Voxels to process : 352417
+\Update:Voxels to process : 309461
+\Update:Voxels to process : 254282
+\Update:Voxels to process : 207419
+\Update:Voxels to process : 159325
+\Update:Voxels to process : 107211
+\Update:Voxels to process : 54844
+\Update:Voxels to process : 5368
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38915 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_19750_SEG.tif
+Loading image: C6-NUC.tif__1_15800_19750_SEG.tif
+C6-NUC.tif__1_15800_19750_SEG.tif:   max:   9629  min: 0  mean: 2055.9164  area: 16000000  std:2975.8438
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1261266
+\Update:Voxels to process : 1238826
+\Update:Voxels to process : 1209887
+\Update:Voxels to process : 1180150
+\Update:Voxels to process : 1151075
+\Update:Voxels to process : 1120760
+\Update:Voxels to process : 1087864
+\Update:Voxels to process : 1065949
+\Update:Voxels to process : 1045975
+\Update:Voxels to process : 1026695
+\Update:Voxels to process : 993808
+\Update:Voxels to process : 955917
+\Update:Voxels to process : 920327
+\Update:Voxels to process : 903753
+\Update:Voxels to process : 886019
+\Update:Voxels to process : 847541
+\Update:Voxels to process : 805836
+\Update:Voxels to process : 782549
+\Update:Voxels to process : 779732
+\Update:Voxels to process : 745764
+\Update:Voxels to process : 701594
+\Update:Voxels to process : 653449
+\Update:Voxels to process : 630308
+\Update:Voxels to process : 590151
+\Update:Voxels to process : 544207
+\Update:Voxels to process : 519853
+\Update:Voxels to process : 476824
+\Update:Voxels to process : 424274
+\Update:Voxels to process : 395518
+\Update:Voxels to process : 347798
+\Update:Voxels to process : 308926
+\Update:Voxels to process : 258952
+\Update:Voxels to process : 217908
+\Update:Voxels to process : 175535
+\Update:Voxels to process : 131819
+\Update:Voxels to process : 91248
+\Update:Voxels to process : 53251
+\Update:Voxels to process : 26224
+\Update:Voxels to process : 12544
+\Update:Voxels to process : 6203
+\Update:Voxels to process : 4854
+\Update:Voxels to process : 4181
+\Update:Voxels to process : 3589
+\Update:Voxels to process : 3308
+\Update:Voxels to process : 2842
+\Update:Voxels to process : 2471
+\Update:Voxels to process : 2153
+\Update:Voxels to process : 1627
+\Update:Voxels to process : 366
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39547 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_3950_SEG.tif
+Loading image: C6-NUC.tif__1_15800_3950_SEG.tif
+C6-NUC.tif__1_15800_3950_SEG.tif:   max:   13275  min: 0  mean: 3753.4208  area: 16000000  std:4359.5881
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1663827
+\Update:Voxels to process : 1629492
+\Update:Voxels to process : 1595537
+\Update:Voxels to process : 1562538
+\Update:Voxels to process : 1529651
+\Update:Voxels to process : 1495330
+\Update:Voxels to process : 1458988
+\Update:Voxels to process : 1421446
+\Update:Voxels to process : 1382852
+\Update:Voxels to process : 1350416
+\Update:Voxels to process : 1326616
+\Update:Voxels to process : 1301723
+\Update:Voxels to process : 1273781
+\Update:Voxels to process : 1230378
+\Update:Voxels to process : 1185349
+\Update:Voxels to process : 1143795
+\Update:Voxels to process : 1106991
+\Update:Voxels to process : 1085118
+\Update:Voxels to process : 1076371
+\Update:Voxels to process : 1030136
+\Update:Voxels to process : 976699
+\Update:Voxels to process : 920775
+\Update:Voxels to process : 899440
+\Update:Voxels to process : 863579
+\Update:Voxels to process : 812630
+\Update:Voxels to process : 761108
+\Update:Voxels to process : 708291
+\Update:Voxels to process : 678532
+\Update:Voxels to process : 631819
+\Update:Voxels to process : 576783
+\Update:Voxels to process : 526081
+\Update:Voxels to process : 479669
+\Update:Voxels to process : 417583
+\Update:Voxels to process : 367452
+\Update:Voxels to process : 304224
+\Update:Voxels to process : 245997
+\Update:Voxels to process : 178039
+\Update:Voxels to process : 114785
+\Update:Voxels to process : 39397
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38935 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_15800_7900_SEG.tif
+Loading image: C6-NUC.tif__1_15800_7900_SEG.tif
+C6-NUC.tif__1_15800_7900_SEG.tif:   max:   12560  min: 0  mean: 3444.5632  area: 16000000  std:4148.2729
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1579787
+\Update:Voxels to process : 1543858
+\Update:Voxels to process : 1509370
+\Update:Voxels to process : 1475985
+\Update:Voxels to process : 1446703
+\Update:Voxels to process : 1415026
+\Update:Voxels to process : 1381992
+\Update:Voxels to process : 1343396
+\Update:Voxels to process : 1310121
+\Update:Voxels to process : 1287118
+\Update:Voxels to process : 1265617
+\Update:Voxels to process : 1244541
+\Update:Voxels to process : 1205101
+\Update:Voxels to process : 1164022
+\Update:Voxels to process : 1123287
+\Update:Voxels to process : 1089533
+\Update:Voxels to process : 1070997
+\Update:Voxels to process : 1046500
+\Update:Voxels to process : 1004214
+\Update:Voxels to process : 957396
+\Update:Voxels to process : 913997
+\Update:Voxels to process : 903986
+\Update:Voxels to process : 868460
+\Update:Voxels to process : 826129
+\Update:Voxels to process : 780049
+\Update:Voxels to process : 732651
+\Update:Voxels to process : 705855
+\Update:Voxels to process : 666332
+\Update:Voxels to process : 616310
+\Update:Voxels to process : 563341
+\Update:Voxels to process : 536299
+\Update:Voxels to process : 481523
+\Update:Voxels to process : 435146
+\Update:Voxels to process : 391256
+\Update:Voxels to process : 335600
+\Update:Voxels to process : 290003
+\Update:Voxels to process : 231858
+\Update:Voxels to process : 180788
+\Update:Voxels to process : 126370
+\Update:Voxels to process : 73176
+\Update:Voxels to process : 25564
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38832 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_0_SEG.tif
+Loading image: C6-NUC.tif__1_19750_0_SEG.tif
+C6-NUC.tif__1_19750_0_SEG.tif:   max:   4122  min: 0  mean: 378.3809  area: 16000000  std:942.5586
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 535093
+\Update:Voxels to process : 505610
+\Update:Voxels to process : 479642
+\Update:Voxels to process : 452522
+\Update:Voxels to process : 430897
+\Update:Voxels to process : 396708
+\Update:Voxels to process : 376536
+\Update:Voxels to process : 342995
+\Update:Voxels to process : 316948
+\Update:Voxels to process : 283819
+\Update:Voxels to process : 247700
+\Update:Voxels to process : 214724
+\Update:Voxels to process : 178516
+\Update:Voxels to process : 138323
+\Update:Voxels to process : 103763
+\Update:Voxels to process : 71147
+\Update:Voxels to process : 49599
+\Update:Voxels to process : 38598
+\Update:Voxels to process : 31461
+\Update:Voxels to process : 25026
+\Update:Voxels to process : 18906
+\Update:Voxels to process : 13973
+\Update:Voxels to process : 11858
+\Update:Voxels to process : 10941
+\Update:Voxels to process : 10441
+\Update:Voxels to process : 10207
+\Update:Voxels to process : 10247
+\Update:Voxels to process : 9972
+\Update:Voxels to process : 10060
+\Update:Voxels to process : 10225
+\Update:Voxels to process : 10390
+\Update:Voxels to process : 10558
+\Update:Voxels to process : 10752
+\Update:Voxels to process : 9960
+\Update:Voxels to process : 8756
+\Update:Voxels to process : 8643
+\Update:Voxels to process : 8563
+\Update:Voxels to process : 8358
+\Update:Voxels to process : 8208
+\Update:Voxels to process : 8109
+\Update:Voxels to process : 7867
+\Update:Voxels to process : 7566
+\Update:Voxels to process : 7481
+\Update:Voxels to process : 7425
+\Update:Voxels to process : 7368
+\Update:Voxels to process : 7307
+\Update:Voxels to process : 7264
+\Update:Voxels to process : 7215
+\Update:Voxels to process : 7173
+\Update:Voxels to process : 7140
+\Update:Voxels to process : 6636
+\Update:Voxels to process : 6225
+\Update:Voxels to process : 5889
+\Update:Voxels to process : 5581
+\Update:Voxels to process : 5290
+\Update:Voxels to process : 5004
+\Update:Voxels to process : 4512
+\Update:Voxels to process : 3771
+\Update:Voxels to process : 3452
+\Update:Voxels to process : 3165
+\Update:Voxels to process : 2855
+\Update:Voxels to process : 2541
+\Update:Voxels to process : 2203
+\Update:Voxels to process : 1822
+\Update:Voxels to process : 1169
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 36586 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_11850_SEG.tif
+Loading image: C6-NUC.tif__1_19750_11850_SEG.tif
+C6-NUC.tif__1_19750_11850_SEG.tif:   max:   13552  min: 0  mean: 3811.1066  area: 16000000  std:4464.6038
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1676013
+\Update:Voxels to process : 1640226
+\Update:Voxels to process : 1602687
+\Update:Voxels to process : 1560658
+\Update:Voxels to process : 1524979
+\Update:Voxels to process : 1488692
+\Update:Voxels to process : 1456187
+\Update:Voxels to process : 1418311
+\Update:Voxels to process : 1376122
+\Update:Voxels to process : 1346099
+\Update:Voxels to process : 1315793
+\Update:Voxels to process : 1287073
+\Update:Voxels to process : 1261497
+\Update:Voxels to process : 1213158
+\Update:Voxels to process : 1167165
+\Update:Voxels to process : 1122721
+\Update:Voxels to process : 1088082
+\Update:Voxels to process : 1059758
+\Update:Voxels to process : 1026856
+\Update:Voxels to process : 978231
+\Update:Voxels to process : 923723
+\Update:Voxels to process : 882801
+\Update:Voxels to process : 862372
+\Update:Voxels to process : 815364
+\Update:Voxels to process : 763405
+\Update:Voxels to process : 707480
+\Update:Voxels to process : 659879
+\Update:Voxels to process : 624037
+\Update:Voxels to process : 568520
+\Update:Voxels to process : 505174
+\Update:Voxels to process : 469263
+\Update:Voxels to process : 405095
+\Update:Voxels to process : 358694
+\Update:Voxels to process : 286672
+\Update:Voxels to process : 216862
+\Update:Voxels to process : 148854
+\Update:Voxels to process : 70313
+\Update:Voxels to process : 3974
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39000 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_15800_SEG.tif
+Loading image: C6-NUC.tif__1_19750_15800_SEG.tif
+C6-NUC.tif__1_19750_15800_SEG.tif:   max:   11002  min: 0  mean: 2830.2585  area: 16000000  std:3566.5651
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1454643
+\Update:Voxels to process : 1428796
+\Update:Voxels to process : 1402895
+\Update:Voxels to process : 1380124
+\Update:Voxels to process : 1348904
+\Update:Voxels to process : 1317231
+\Update:Voxels to process : 1284934
+\Update:Voxels to process : 1252467
+\Update:Voxels to process : 1230490
+\Update:Voxels to process : 1217712
+\Update:Voxels to process : 1198503
+\Update:Voxels to process : 1169960
+\Update:Voxels to process : 1134266
+\Update:Voxels to process : 1097645
+\Update:Voxels to process : 1063543
+\Update:Voxels to process : 1051739
+\Update:Voxels to process : 1035399
+\Update:Voxels to process : 999063
+\Update:Voxels to process : 960796
+\Update:Voxels to process : 916939
+\Update:Voxels to process : 910839
+\Update:Voxels to process : 885406
+\Update:Voxels to process : 848622
+\Update:Voxels to process : 807866
+\Update:Voxels to process : 766020
+\Update:Voxels to process : 739610
+\Update:Voxels to process : 712344
+\Update:Voxels to process : 672005
+\Update:Voxels to process : 628789
+\Update:Voxels to process : 608839
+\Update:Voxels to process : 567624
+\Update:Voxels to process : 521493
+\Update:Voxels to process : 494018
+\Update:Voxels to process : 448058
+\Update:Voxels to process : 403265
+\Update:Voxels to process : 370327
+\Update:Voxels to process : 324304
+\Update:Voxels to process : 289189
+\Update:Voxels to process : 243483
+\Update:Voxels to process : 205504
+\Update:Voxels to process : 165965
+\Update:Voxels to process : 125103
+\Update:Voxels to process : 86373
+\Update:Voxels to process : 47911
+\Update:Voxels to process : 17370
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39217 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_19750_SEG.tif
+Loading image: C6-NUC.tif__1_19750_19750_SEG.tif
+C6-NUC.tif__1_19750_19750_SEG.tif:   max:   3779  min: 0  mean: 319.5506  area: 16000000  std:833.1273
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 489868
+\Update:Voxels to process : 463242
+\Update:Voxels to process : 435034
+\Update:Voxels to process : 411569
+\Update:Voxels to process : 380402
+\Update:Voxels to process : 354284
+\Update:Voxels to process : 319048
+\Update:Voxels to process : 293133
+\Update:Voxels to process : 251773
+\Update:Voxels to process : 214214
+\Update:Voxels to process : 173061
+\Update:Voxels to process : 127937
+\Update:Voxels to process : 72771
+\Update:Voxels to process : 25403
+\Update:Voxels to process : 9165
+\Update:Voxels to process : 7673
+\Update:Voxels to process : 7149
+\Update:Voxels to process : 6771
+\Update:Voxels to process : 6645
+\Update:Voxels to process : 6594
+\Update:Voxels to process : 6568
+\Update:Voxels to process : 6552
+\Update:Voxels to process : 6536
+\Update:Voxels to process : 6518
+\Update:Voxels to process : 6504
+\Update:Voxels to process : 6496
+\Update:Voxels to process : 6485
+\Update:Voxels to process : 6483
+\Update:Voxels to process : 6479
+\Update:Voxels to process : 6479
+\Update:Voxels to process : 6474
+\Update:Voxels to process : 6474
+\Update:Voxels to process : 6472
+\Update:Voxels to process : 6471
+\Update:Voxels to process : 6470
+\Update:Voxels to process : 6470
+\Update:Voxels to process : 6473
+\Update:Voxels to process : 6471
+\Update:Voxels to process : 6470
+\Update:Voxels to process : 6469
+\Update:Voxels to process : 6458
+\Update:Voxels to process : 6441
+\Update:Voxels to process : 6427
+\Update:Voxels to process : 6416
+\Update:Voxels to process : 6402
+\Update:Voxels to process : 6279
+\Update:Voxels to process : 5799
+\Update:Voxels to process : 5560
+\Update:Voxels to process : 5349
+\Update:Voxels to process : 5144
+\Update:Voxels to process : 4945
+\Update:Voxels to process : 4752
+\Update:Voxels to process : 4569
+\Update:Voxels to process : 4382
+\Update:Voxels to process : 4157
+\Update:Voxels to process : 3879
+\Update:Voxels to process : 3613
+\Update:Voxels to process : 3344
+\Update:Voxels to process : 3066
+\Update:Voxels to process : 2771
+\Update:Voxels to process : 2448
+\Update:Voxels to process : 2033
+\Update:Voxels to process : 1383
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39693 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_3950_SEG.tif
+Loading image: C6-NUC.tif__1_19750_3950_SEG.tif
+C6-NUC.tif__1_19750_3950_SEG.tif:   max:   11560  min: 0  mean: 2986.6176  area: 16000000  std:3747.8217
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1487548
+\Update:Voxels to process : 1455765
+\Update:Voxels to process : 1422930
+\Update:Voxels to process : 1390243
+\Update:Voxels to process : 1357723
+\Update:Voxels to process : 1325277
+\Update:Voxels to process : 1294557
+\Update:Voxels to process : 1257415
+\Update:Voxels to process : 1226749
+\Update:Voxels to process : 1204424
+\Update:Voxels to process : 1181865
+\Update:Voxels to process : 1156705
+\Update:Voxels to process : 1113381
+\Update:Voxels to process : 1072742
+\Update:Voxels to process : 1033236
+\Update:Voxels to process : 1011002
+\Update:Voxels to process : 991084
+\Update:Voxels to process : 947322
+\Update:Voxels to process : 900669
+\Update:Voxels to process : 856271
+\Update:Voxels to process : 843758
+\Update:Voxels to process : 805768
+\Update:Voxels to process : 793712
+\Update:Voxels to process : 741996
+\Update:Voxels to process : 686517
+\Update:Voxels to process : 656395
+\Update:Voxels to process : 609637
+\Update:Voxels to process : 555771
+\Update:Voxels to process : 523597
+\Update:Voxels to process : 476215
+\Update:Voxels to process : 416697
+\Update:Voxels to process : 378912
+\Update:Voxels to process : 322410
+\Update:Voxels to process : 275111
+\Update:Voxels to process : 217721
+\Update:Voxels to process : 170021
+\Update:Voxels to process : 121459
+\Update:Voxels to process : 65822
+\Update:Voxels to process : 20461
+\Update:Voxels to process : 7147
+\Update:Voxels to process : 2942
+\Update:Voxels to process : 2223
+\Update:Voxels to process : 1139
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39154 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_19750_7900_SEG.tif
+Loading image: C6-NUC.tif__1_19750_7900_SEG.tif
+C6-NUC.tif__1_19750_7900_SEG.tif:   max:   9225  min: 0  mean: 1905.4727  area: 16000000  std:2824.0181
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1199108
+\Update:Voxels to process : 1163111
+\Update:Voxels to process : 1131458
+\Update:Voxels to process : 1097843
+\Update:Voxels to process : 1064553
+\Update:Voxels to process : 1028999
+\Update:Voxels to process : 993491
+\Update:Voxels to process : 972614
+\Update:Voxels to process : 950440
+\Update:Voxels to process : 915147
+\Update:Voxels to process : 873331
+\Update:Voxels to process : 836198
+\Update:Voxels to process : 814648
+\Update:Voxels to process : 788940
+\Update:Voxels to process : 746748
+\Update:Voxels to process : 701956
+\Update:Voxels to process : 684546
+\Update:Voxels to process : 649964
+\Update:Voxels to process : 605182
+\Update:Voxels to process : 558057
+\Update:Voxels to process : 530558
+\Update:Voxels to process : 487274
+\Update:Voxels to process : 433018
+\Update:Voxels to process : 400744
+\Update:Voxels to process : 346082
+\Update:Voxels to process : 301873
+\Update:Voxels to process : 242076
+\Update:Voxels to process : 198421
+\Update:Voxels to process : 148060
+\Update:Voxels to process : 93637
+\Update:Voxels to process : 36968
+\Update:Voxels to process : 9037
+\Update:Voxels to process : 6374
+\Update:Voxels to process : 5867
+\Update:Voxels to process : 5710
+\Update:Voxels to process : 5660
+\Update:Voxels to process : 5627
+\Update:Voxels to process : 5583
+\Update:Voxels to process : 5527
+\Update:Voxels to process : 5459
+\Update:Voxels to process : 5084
+\Update:Voxels to process : 4738
+\Update:Voxels to process : 4356
+\Update:Voxels to process : 3993
+\Update:Voxels to process : 3669
+\Update:Voxels to process : 2945
+\Update:Voxels to process : 2548
+\Update:Voxels to process : 2204
+\Update:Voxels to process : 1854
+\Update:Voxels to process : 1399
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39072 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_23700_11850_SEG.tif
+Loading image: C6-NUC.tif__1_23700_11850_SEG.tif
+C6-NUC.tif__1_23700_11850_SEG.tif:   max:   7603  min: 0  mean: 1263.7193  area: 16000000  std:2191.3733
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 971111
+\Update:Voxels to process : 936921
+\Update:Voxels to process : 903337
+\Update:Voxels to process : 871259
+\Update:Voxels to process : 839324
+\Update:Voxels to process : 804114
+\Update:Voxels to process : 778811
+\Update:Voxels to process : 756487
+\Update:Voxels to process : 712317
+\Update:Voxels to process : 671780
+\Update:Voxels to process : 649185
+\Update:Voxels to process : 613874
+\Update:Voxels to process : 566224
+\Update:Voxels to process : 547335
+\Update:Voxels to process : 504406
+\Update:Voxels to process : 453860
+\Update:Voxels to process : 422471
+\Update:Voxels to process : 372204
+\Update:Voxels to process : 331733
+\Update:Voxels to process : 275304
+\Update:Voxels to process : 227509
+\Update:Voxels to process : 172897
+\Update:Voxels to process : 113699
+\Update:Voxels to process : 58994
+\Update:Voxels to process : 22136
+\Update:Voxels to process : 15239
+\Update:Voxels to process : 13105
+\Update:Voxels to process : 12475
+\Update:Voxels to process : 12212
+\Update:Voxels to process : 12154
+\Update:Voxels to process : 12114
+\Update:Voxels to process : 11957
+\Update:Voxels to process : 11378
+\Update:Voxels to process : 11047
+\Update:Voxels to process : 10538
+\Update:Voxels to process : 10265
+\Update:Voxels to process : 9837
+\Update:Voxels to process : 9463
+\Update:Voxels to process : 8727
+\Update:Voxels to process : 8073
+\Update:Voxels to process : 7543
+\Update:Voxels to process : 7151
+\Update:Voxels to process : 6415
+\Update:Voxels to process : 5389
+\Update:Voxels to process : 4983
+\Update:Voxels to process : 4833
+\Update:Voxels to process : 4722
+\Update:Voxels to process : 4589
+\Update:Voxels to process : 4472
+\Update:Voxels to process : 4340
+\Update:Voxels to process : 4142
+\Update:Voxels to process : 3916
+\Update:Voxels to process : 3305
+\Update:Voxels to process : 2572
+\Update:Voxels to process : 1469
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 40386 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_23700_15800_SEG.tif
+Loading image: C6-NUC.tif__1_23700_15800_SEG.tif
+C6-NUC.tif__1_23700_15800_SEG.tif:   max:   5637  min: 0  mean: 729.5218  area: 16000000  std:1487.4812
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 741561
+\Update:Voxels to process : 718832
+\Update:Voxels to process : 693043
+\Update:Voxels to process : 662273
+\Update:Voxels to process : 633713
+\Update:Voxels to process : 618236
+\Update:Voxels to process : 587889
+\Update:Voxels to process : 571838
+\Update:Voxels to process : 543775
+\Update:Voxels to process : 517134
+\Update:Voxels to process : 472966
+\Update:Voxels to process : 458145
+\Update:Voxels to process : 417787
+\Update:Voxels to process : 386705
+\Update:Voxels to process : 351661
+\Update:Voxels to process : 320099
+\Update:Voxels to process : 273628
+\Update:Voxels to process : 235391
+\Update:Voxels to process : 193289
+\Update:Voxels to process : 149242
+\Update:Voxels to process : 106101
+\Update:Voxels to process : 67876
+\Update:Voxels to process : 34242
+\Update:Voxels to process : 18552
+\Update:Voxels to process : 13558
+\Update:Voxels to process : 11886
+\Update:Voxels to process : 10319
+\Update:Voxels to process : 9089
+\Update:Voxels to process : 8549
+\Update:Voxels to process : 8237
+\Update:Voxels to process : 7862
+\Update:Voxels to process : 7771
+\Update:Voxels to process : 7686
+\Update:Voxels to process : 7618
+\Update:Voxels to process : 7569
+\Update:Voxels to process : 7527
+\Update:Voxels to process : 7485
+\Update:Voxels to process : 7464
+\Update:Voxels to process : 7436
+\Update:Voxels to process : 7406
+\Update:Voxels to process : 7105
+\Update:Voxels to process : 6947
+\Update:Voxels to process : 6774
+\Update:Voxels to process : 6644
+\Update:Voxels to process : 6507
+\Update:Voxels to process : 6167
+\Update:Voxels to process : 5719
+\Update:Voxels to process : 5481
+\Update:Voxels to process : 5289
+\Update:Voxels to process : 5106
+\Update:Voxels to process : 4881
+\Update:Voxels to process : 4671
+\Update:Voxels to process : 4468
+\Update:Voxels to process : 4227
+\Update:Voxels to process : 3996
+\Update:Voxels to process : 3127
+\Update:Voxels to process : 2737
+\Update:Voxels to process : 2368
+\Update:Voxels to process : 1980
+\Update:Voxels to process : 1537
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 40323 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_23700_3950_SEG.tif
+Loading image: C6-NUC.tif__1_23700_3950_SEG.tif
+C6-NUC.tif__1_23700_3950_SEG.tif:   max:   2511  min: 0  mean: 152.3116  area: 16000000  std:479.3938
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 337148
+\Update:Voxels to process : 316258
+\Update:Voxels to process : 302544
+\Update:Voxels to process : 280150
+\Update:Voxels to process : 267752
+\Update:Voxels to process : 254261
+\Update:Voxels to process : 231470
+\Update:Voxels to process : 208503
+\Update:Voxels to process : 188835
+\Update:Voxels to process : 167002
+\Update:Voxels to process : 148881
+\Update:Voxels to process : 126271
+\Update:Voxels to process : 108085
+\Update:Voxels to process : 91082
+\Update:Voxels to process : 77087
+\Update:Voxels to process : 68174
+\Update:Voxels to process : 64175
+\Update:Voxels to process : 58301
+\Update:Voxels to process : 54764
+\Update:Voxels to process : 48629
+\Update:Voxels to process : 44957
+\Update:Voxels to process : 41362
+\Update:Voxels to process : 37536
+\Update:Voxels to process : 34280
+\Update:Voxels to process : 31743
+\Update:Voxels to process : 29110
+\Update:Voxels to process : 25306
+\Update:Voxels to process : 21616
+\Update:Voxels to process : 18461
+\Update:Voxels to process : 15888
+\Update:Voxels to process : 13743
+\Update:Voxels to process : 11351
+\Update:Voxels to process : 9951
+\Update:Voxels to process : 9255
+\Update:Voxels to process : 8808
+\Update:Voxels to process : 8646
+\Update:Voxels to process : 8444
+\Update:Voxels to process : 8352
+\Update:Voxels to process : 8262
+\Update:Voxels to process : 8242
+\Update:Voxels to process : 8251
+\Update:Voxels to process : 8126
+\Update:Voxels to process : 7991
+\Update:Voxels to process : 7951
+\Update:Voxels to process : 7878
+\Update:Voxels to process : 7814
+\Update:Voxels to process : 7758
+\Update:Voxels to process : 7709
+\Update:Voxels to process : 7662
+\Update:Voxels to process : 7157
+\Update:Voxels to process : 7010
+\Update:Voxels to process : 6929
+\Update:Voxels to process : 6182
+\Update:Voxels to process : 5893
+\Update:Voxels to process : 5694
+\Update:Voxels to process : 5521
+\Update:Voxels to process : 5362
+\Update:Voxels to process : 5205
+\Update:Voxels to process : 5053
+\Update:Voxels to process : 4899
+\Update:Voxels to process : 4752
+\Update:Voxels to process : 4601
+\Update:Voxels to process : 4448
+\Update:Voxels to process : 4292
+\Update:Voxels to process : 4125
+\Update:Voxels to process : 3951
+\Update:Voxels to process : 3774
+\Update:Voxels to process : 3590
+\Update:Voxels to process : 3154
+\Update:Voxels to process : 2433
+\Update:Voxels to process : 1723
+\Update:Voxels to process : 608
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 37686 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_23700_7900_SEG.tif
+Loading image: C6-NUC.tif__1_23700_7900_SEG.tif
+C6-NUC.tif__1_23700_7900_SEG.tif:   max:   2744  min: 0  mean: 183.6276  area: 16000000  std:547.9946
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 373250
+\Update:Voxels to process : 356170
+\Update:Voxels to process : 342608
+\Update:Voxels to process : 323845
+\Update:Voxels to process : 314295
+\Update:Voxels to process : 294640
+\Update:Voxels to process : 277646
+\Update:Voxels to process : 262601
+\Update:Voxels to process : 241443
+\Update:Voxels to process : 217586
+\Update:Voxels to process : 198613
+\Update:Voxels to process : 177488
+\Update:Voxels to process : 156054
+\Update:Voxels to process : 137847
+\Update:Voxels to process : 120443
+\Update:Voxels to process : 105825
+\Update:Voxels to process : 92163
+\Update:Voxels to process : 80205
+\Update:Voxels to process : 72030
+\Update:Voxels to process : 64834
+\Update:Voxels to process : 59491
+\Update:Voxels to process : 55130
+\Update:Voxels to process : 53565
+\Update:Voxels to process : 50492
+\Update:Voxels to process : 47597
+\Update:Voxels to process : 43812
+\Update:Voxels to process : 40670
+\Update:Voxels to process : 35908
+\Update:Voxels to process : 31234
+\Update:Voxels to process : 26158
+\Update:Voxels to process : 22418
+\Update:Voxels to process : 18981
+\Update:Voxels to process : 16206
+\Update:Voxels to process : 14903
+\Update:Voxels to process : 12843
+\Update:Voxels to process : 11757
+\Update:Voxels to process : 9946
+\Update:Voxels to process : 8864
+\Update:Voxels to process : 8170
+\Update:Voxels to process : 8022
+\Update:Voxels to process : 7909
+\Update:Voxels to process : 7801
+\Update:Voxels to process : 7690
+\Update:Voxels to process : 7602
+\Update:Voxels to process : 7511
+\Update:Voxels to process : 7415
+\Update:Voxels to process : 7342
+\Update:Voxels to process : 7253
+\Update:Voxels to process : 7182
+\Update:Voxels to process : 7080
+\Update:Voxels to process : 6992
+\Update:Voxels to process : 6898
+\Update:Voxels to process : 6820
+\Update:Voxels to process : 6583
+\Update:Voxels to process : 5886
+\Update:Voxels to process : 5592
+\Update:Voxels to process : 5429
+\Update:Voxels to process : 5280
+\Update:Voxels to process : 5132
+\Update:Voxels to process : 4981
+\Update:Voxels to process : 4834
+\Update:Voxels to process : 4695
+\Update:Voxels to process : 4547
+\Update:Voxels to process : 4381
+\Update:Voxels to process : 4113
+\Update:Voxels to process : 3878
+\Update:Voxels to process : 3658
+\Update:Voxels to process : 3425
+\Update:Voxels to process : 2984
+\Update:Voxels to process : 2460
+\Update:Voxels to process : 1887
+\Update:Voxels to process : 1106
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 40172 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_3950_11850_SEG.tif
+Loading image: C6-NUC.tif__1_3950_11850_SEG.tif
+C6-NUC.tif__1_3950_11850_SEG.tif:   max:   12469  min: 0  mean: 3470.4346  area: 16000000  std:4083.5066
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1605525
+\Update:Voxels to process : 1599046
+\Update:Voxels to process : 1592924
+\Update:Voxels to process : 1586765
+\Update:Voxels to process : 1580755
+\Update:Voxels to process : 1574029
+\Update:Voxels to process : 1568330
+\Update:Voxels to process : 1562488
+\Update:Voxels to process : 1556567
+\Update:Voxels to process : 1550709
+\Update:Voxels to process : 1545740
+\Update:Voxels to process : 1539438
+\Update:Voxels to process : 1530119
+\Update:Voxels to process : 1519891
+\Update:Voxels to process : 1509146
+\Update:Voxels to process : 1498318
+\Update:Voxels to process : 1486987
+\Update:Voxels to process : 1475785
+\Update:Voxels to process : 1464137
+\Update:Voxels to process : 1452371
+\Update:Voxels to process : 1439719
+\Update:Voxels to process : 1425878
+\Update:Voxels to process : 1410958
+\Update:Voxels to process : 1396268
+\Update:Voxels to process : 1378055
+\Update:Voxels to process : 1358785
+\Update:Voxels to process : 1338387
+\Update:Voxels to process : 1318033
+\Update:Voxels to process : 1304048
+\Update:Voxels to process : 1290619
+\Update:Voxels to process : 1275956
+\Update:Voxels to process : 1260240
+\Update:Voxels to process : 1246220
+\Update:Voxels to process : 1230331
+\Update:Voxels to process : 1202902
+\Update:Voxels to process : 1172980
+\Update:Voxels to process : 1143888
+\Update:Voxels to process : 1116384
+\Update:Voxels to process : 1087446
+\Update:Voxels to process : 1068919
+\Update:Voxels to process : 1053084
+\Update:Voxels to process : 1037035
+\Update:Voxels to process : 1012048
+\Update:Voxels to process : 977971
+\Update:Voxels to process : 942917
+\Update:Voxels to process : 906111
+\Update:Voxels to process : 877275
+\Update:Voxels to process : 865769
+\Update:Voxels to process : 841613
+\Update:Voxels to process : 806642
+\Update:Voxels to process : 768201
+\Update:Voxels to process : 728777
+\Update:Voxels to process : 688846
+\Update:Voxels to process : 662355
+\Update:Voxels to process : 635643
+\Update:Voxels to process : 594317
+\Update:Voxels to process : 549098
+\Update:Voxels to process : 510026
+\Update:Voxels to process : 477178
+\Update:Voxels to process : 427572
+\Update:Voxels to process : 382790
+\Update:Voxels to process : 341955
+\Update:Voxels to process : 288740
+\Update:Voxels to process : 243279
+\Update:Voxels to process : 186074
+\Update:Voxels to process : 132142
+\Update:Voxels to process : 75761
+\Update:Voxels to process : 10860
+\Update:Voxels to process : 1464
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 50029 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_3950_15800_SEG.tif
+Loading image: C6-NUC.tif__1_3950_15800_SEG.tif
+C6-NUC.tif__1_3950_15800_SEG.tif:   max:   12614  min: 0  mean: 3504.9018  area: 16000000  std:4107.8525
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1616624
+\Update:Voxels to process : 1580299
+\Update:Voxels to process : 1545194
+\Update:Voxels to process : 1511853
+\Update:Voxels to process : 1476649
+\Update:Voxels to process : 1444199
+\Update:Voxels to process : 1413000
+\Update:Voxels to process : 1374685
+\Update:Voxels to process : 1337535
+\Update:Voxels to process : 1308614
+\Update:Voxels to process : 1284451
+\Update:Voxels to process : 1259549
+\Update:Voxels to process : 1228674
+\Update:Voxels to process : 1185093
+\Update:Voxels to process : 1141340
+\Update:Voxels to process : 1101767
+\Update:Voxels to process : 1072709
+\Update:Voxels to process : 1051280
+\Update:Voxels to process : 1013482
+\Update:Voxels to process : 965467
+\Update:Voxels to process : 916639
+\Update:Voxels to process : 886271
+\Update:Voxels to process : 883611
+\Update:Voxels to process : 847280
+\Update:Voxels to process : 794348
+\Update:Voxels to process : 735852
+\Update:Voxels to process : 679630
+\Update:Voxels to process : 649821
+\Update:Voxels to process : 597795
+\Update:Voxels to process : 543320
+\Update:Voxels to process : 509064
+\Update:Voxels to process : 457813
+\Update:Voxels to process : 396499
+\Update:Voxels to process : 354007
+\Update:Voxels to process : 293670
+\Update:Voxels to process : 240269
+\Update:Voxels to process : 182174
+\Update:Voxels to process : 119773
+\Update:Voxels to process : 54272
+\Update:Voxels to process : 9541
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 786664 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_3950_19750_SEG.tif
+Loading image: C6-NUC.tif__1_3950_19750_SEG.tif
+C6-NUC.tif__1_3950_19750_SEG.tif:   max:   10217  min: 0  mean: 2235.4367  area: 16000000  std:3195.4054
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1292112
+\Update:Voxels to process : 1273197
+\Update:Voxels to process : 1237777
+\Update:Voxels to process : 1206550
+\Update:Voxels to process : 1175961
+\Update:Voxels to process : 1144055
+\Update:Voxels to process : 1111041
+\Update:Voxels to process : 1075381
+\Update:Voxels to process : 1061258
+\Update:Voxels to process : 1036577
+\Update:Voxels to process : 1013362
+\Update:Voxels to process : 971793
+\Update:Voxels to process : 935499
+\Update:Voxels to process : 895755
+\Update:Voxels to process : 882807
+\Update:Voxels to process : 858551
+\Update:Voxels to process : 818227
+\Update:Voxels to process : 770015
+\Update:Voxels to process : 747610
+\Update:Voxels to process : 722609
+\Update:Voxels to process : 679355
+\Update:Voxels to process : 639091
+\Update:Voxels to process : 590602
+\Update:Voxels to process : 571317
+\Update:Voxels to process : 527935
+\Update:Voxels to process : 478342
+\Update:Voxels to process : 453546
+\Update:Voxels to process : 404992
+\Update:Voxels to process : 370463
+\Update:Voxels to process : 324385
+\Update:Voxels to process : 281314
+\Update:Voxels to process : 238284
+\Update:Voxels to process : 203789
+\Update:Voxels to process : 165518
+\Update:Voxels to process : 135295
+\Update:Voxels to process : 109251
+\Update:Voxels to process : 91106
+\Update:Voxels to process : 77640
+\Update:Voxels to process : 65743
+\Update:Voxels to process : 58626
+\Update:Voxels to process : 54062
+\Update:Voxels to process : 48488
+\Update:Voxels to process : 43229
+\Update:Voxels to process : 39459
+\Update:Voxels to process : 35526
+\Update:Voxels to process : 31849
+\Update:Voxels to process : 28642
+\Update:Voxels to process : 25253
+\Update:Voxels to process : 21285
+\Update:Voxels to process : 16484
+\Update:Voxels to process : 13155
+\Update:Voxels to process : 9983
+\Update:Voxels to process : 8536
+\Update:Voxels to process : 6291
+\Update:Voxels to process : 3947
+\Update:Voxels to process : 3225
+\Update:Voxels to process : 2619
+\Update:Voxels to process : 1799
+\Update:Voxels to process : 589
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 41219 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_3950_23700_SEG.tif
+Loading image: C6-NUC.tif__1_3950_23700_SEG.tif
+C6-NUC.tif__1_3950_23700_SEG.tif:   max:   449  min: 0  mean: 9.3613  area: 8880000  std:52.3063
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 55958
+\Update:Voxels to process : 42080
+\Update:Voxels to process : 28236
+\Update:Voxels to process : 18541
+\Update:Voxels to process : 13815
+\Update:Voxels to process : 11551
+\Update:Voxels to process : 10353
+\Update:Voxels to process : 10259
+\Update:Voxels to process : 10235
+\Update:Voxels to process : 10591
+\Update:Voxels to process : 10828
+\Update:Voxels to process : 10920
+\Update:Voxels to process : 10536
+\Update:Voxels to process : 10045
+\Update:Voxels to process : 9644
+\Update:Voxels to process : 9409
+\Update:Voxels to process : 9343
+\Update:Voxels to process : 9303
+\Update:Voxels to process : 9311
+\Update:Voxels to process : 9344
+\Update:Voxels to process : 9362
+\Update:Voxels to process : 9186
+\Update:Voxels to process : 9107
+\Update:Voxels to process : 8170
+\Update:Voxels to process : 7824
+\Update:Voxels to process : 7388
+\Update:Voxels to process : 6785
+\Update:Voxels to process : 6291
+\Update:Voxels to process : 5786
+\Update:Voxels to process : 4828
+\Update:Voxels to process : 4028
+\Update:Voxels to process : 3690
+\Update:Voxels to process : 3413
+\Update:Voxels to process : 3130
+\Update:Voxels to process : 2764
+\Update:Voxels to process : 2456
+\Update:Voxels to process : 2160
+\Update:Voxels to process : 1841
+\Update:Voxels to process : 1476
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 15798 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_3950_7900_SEG.tif
+Loading image: C6-NUC.tif__1_3950_7900_SEG.tif
+C6-NUC.tif__1_3950_7900_SEG.tif:   max:   3616  min: 0  mean: 293.5874  area: 16000000  std:784.818
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 462854
+\Update:Voxels to process : 439133
+\Update:Voxels to process : 413661
+\Update:Voxels to process : 400205
+\Update:Voxels to process : 366831
+\Update:Voxels to process : 350762
+\Update:Voxels to process : 320650
+\Update:Voxels to process : 294654
+\Update:Voxels to process : 269359
+\Update:Voxels to process : 231631
+\Update:Voxels to process : 195425
+\Update:Voxels to process : 155922
+\Update:Voxels to process : 117842
+\Update:Voxels to process : 76425
+\Update:Voxels to process : 41791
+\Update:Voxels to process : 17433
+\Update:Voxels to process : 9475
+\Update:Voxels to process : 8243
+\Update:Voxels to process : 7876
+\Update:Voxels to process : 7771
+\Update:Voxels to process : 7793
+\Update:Voxels to process : 7797
+\Update:Voxels to process : 7850
+\Update:Voxels to process : 7891
+\Update:Voxels to process : 7940
+\Update:Voxels to process : 8007
+\Update:Voxels to process : 8070
+\Update:Voxels to process : 8117
+\Update:Voxels to process : 8180
+\Update:Voxels to process : 8235
+\Update:Voxels to process : 8292
+\Update:Voxels to process : 8342
+\Update:Voxels to process : 8397
+\Update:Voxels to process : 8420
+\Update:Voxels to process : 7943
+\Update:Voxels to process : 7718
+\Update:Voxels to process : 7512
+\Update:Voxels to process : 7336
+\Update:Voxels to process : 7126
+\Update:Voxels to process : 6927
+\Update:Voxels to process : 6764
+\Update:Voxels to process : 6607
+\Update:Voxels to process : 6449
+\Update:Voxels to process : 6303
+\Update:Voxels to process : 6147
+\Update:Voxels to process : 5989
+\Update:Voxels to process : 5828
+\Update:Voxels to process : 5647
+\Update:Voxels to process : 5471
+\Update:Voxels to process : 5307
+\Update:Voxels to process : 5134
+\Update:Voxels to process : 4902
+\Update:Voxels to process : 4682
+\Update:Voxels to process : 4469
+\Update:Voxels to process : 4250
+\Update:Voxels to process : 4035
+\Update:Voxels to process : 3818
+\Update:Voxels to process : 3589
+\Update:Voxels to process : 3357
+\Update:Voxels to process : 3239
+\Update:Voxels to process : 3000
+\Update:Voxels to process : 2732
+\Update:Voxels to process : 2429
+\Update:Voxels to process : 2100
+\Update:Voxels to process : 1729
+\Update:Voxels to process : 1260
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 42146 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_0_SEG.tif
+Loading image: C6-NUC.tif__1_7900_0_SEG.tif
+C6-NUC.tif__1_7900_0_SEG.tif:   max:   468  min: 0  mean: 4.1652  area: 16000000  std:35.4715
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 38103
+\Update:Voxels to process : 9585
+\Update:Voxels to process : 4113
+\Update:Voxels to process : 2920
+\Update:Voxels to process : 3082
+\Update:Voxels to process : 3260
+\Update:Voxels to process : 3433
+\Update:Voxels to process : 3595
+\Update:Voxels to process : 3755
+\Update:Voxels to process : 3903
+\Update:Voxels to process : 4047
+\Update:Voxels to process : 4184
+\Update:Voxels to process : 4318
+\Update:Voxels to process : 4448
+\Update:Voxels to process : 4572
+\Update:Voxels to process : 4695
+\Update:Voxels to process : 4813
+\Update:Voxels to process : 4895
+\Update:Voxels to process : 5004
+\Update:Voxels to process : 5114
+\Update:Voxels to process : 5217
+\Update:Voxels to process : 5319
+\Update:Voxels to process : 5422
+\Update:Voxels to process : 5522
+\Update:Voxels to process : 5619
+\Update:Voxels to process : 5718
+\Update:Voxels to process : 5809
+\Update:Voxels to process : 5904
+\Update:Voxels to process : 5992
+\Update:Voxels to process : 6083
+\Update:Voxels to process : 6170
+\Update:Voxels to process : 6261
+\Update:Voxels to process : 6343
+\Update:Voxels to process : 6427
+\Update:Voxels to process : 6512
+\Update:Voxels to process : 6591
+\Update:Voxels to process : 6671
+\Update:Voxels to process : 6751
+\Update:Voxels to process : 6828
+\Update:Voxels to process : 6908
+\Update:Voxels to process : 6983
+\Update:Voxels to process : 7058
+\Update:Voxels to process : 7131
+\Update:Voxels to process : 7206
+\Update:Voxels to process : 7276
+\Update:Voxels to process : 7344
+\Update:Voxels to process : 7414
+\Update:Voxels to process : 7484
+\Update:Voxels to process : 7552
+\Update:Voxels to process : 7621
+\Update:Voxels to process : 7689
+\Update:Voxels to process : 7757
+\Update:Voxels to process : 7826
+\Update:Voxels to process : 7611
+\Update:Voxels to process : 7406
+\Update:Voxels to process : 7279
+\Update:Voxels to process : 7175
+\Update:Voxels to process : 6646
+\Update:Voxels to process : 6290
+\Update:Voxels to process : 5992
+\Update:Voxels to process : 5713
+\Update:Voxels to process : 5445
+\Update:Voxels to process : 5187
+\Update:Voxels to process : 4934
+\Update:Voxels to process : 4682
+\Update:Voxels to process : 4427
+\Update:Voxels to process : 4170
+\Update:Voxels to process : 3894
+\Update:Voxels to process : 3607
+\Update:Voxels to process : 3313
+\Update:Voxels to process : 2993
+\Update:Voxels to process : 2626
+\Update:Voxels to process : 2215
+\Update:Voxels to process : 1714
+\Update:Voxels to process : 1005
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 37175 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_11850_SEG.tif
+Loading image: C6-NUC.tif__1_7900_11850_SEG.tif
+C6-NUC.tif__1_7900_11850_SEG.tif:   max:   13119  min: 0  mean: 3809.7966  area: 16000000  std:4376.1305
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1660972
+\Update:Voxels to process : 1622142
+\Update:Voxels to process : 1582844
+\Update:Voxels to process : 1546325
+\Update:Voxels to process : 1511588
+\Update:Voxels to process : 1475168
+\Update:Voxels to process : 1443400
+\Update:Voxels to process : 1403225
+\Update:Voxels to process : 1362350
+\Update:Voxels to process : 1332476
+\Update:Voxels to process : 1306453
+\Update:Voxels to process : 1278481
+\Update:Voxels to process : 1247950
+\Update:Voxels to process : 1202722
+\Update:Voxels to process : 1156737
+\Update:Voxels to process : 1114119
+\Update:Voxels to process : 1083462
+\Update:Voxels to process : 1059120
+\Update:Voxels to process : 1020754
+\Update:Voxels to process : 971451
+\Update:Voxels to process : 919929
+\Update:Voxels to process : 884884
+\Update:Voxels to process : 860736
+\Update:Voxels to process : 813719
+\Update:Voxels to process : 762450
+\Update:Voxels to process : 707542
+\Update:Voxels to process : 665231
+\Update:Voxels to process : 626050
+\Update:Voxels to process : 571330
+\Update:Voxels to process : 512161
+\Update:Voxels to process : 475871
+\Update:Voxels to process : 414034
+\Update:Voxels to process : 365334
+\Update:Voxels to process : 301576
+\Update:Voxels to process : 242215
+\Update:Voxels to process : 173395
+\Update:Voxels to process : 108166
+\Update:Voxels to process : 34349
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38509 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_15800_SEG.tif
+Loading image: C6-NUC.tif__1_7900_15800_SEG.tif
+C6-NUC.tif__1_7900_15800_SEG.tif:   max:   11985  min: 0  mean: 3241.9843  area: 16000000  std:3918.5974
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1549623
+\Update:Voxels to process : 1516997
+\Update:Voxels to process : 1486666
+\Update:Voxels to process : 1450976
+\Update:Voxels to process : 1415966
+\Update:Voxels to process : 1381792
+\Update:Voxels to process : 1346269
+\Update:Voxels to process : 1308992
+\Update:Voxels to process : 1273356
+\Update:Voxels to process : 1250948
+\Update:Voxels to process : 1226553
+\Update:Voxels to process : 1201237
+\Update:Voxels to process : 1188391
+\Update:Voxels to process : 1139842
+\Update:Voxels to process : 1093511
+\Update:Voxels to process : 1051975
+\Update:Voxels to process : 1030063
+\Update:Voxels to process : 996382
+\Update:Voxels to process : 947864
+\Update:Voxels to process : 899192
+\Update:Voxels to process : 869150
+\Update:Voxels to process : 846927
+\Update:Voxels to process : 804091
+\Update:Voxels to process : 757552
+\Update:Voxels to process : 707850
+\Update:Voxels to process : 672086
+\Update:Voxels to process : 636077
+\Update:Voxels to process : 587983
+\Update:Voxels to process : 534854
+\Update:Voxels to process : 509371
+\Update:Voxels to process : 456596
+\Update:Voxels to process : 417290
+\Update:Voxels to process : 366841
+\Update:Voxels to process : 310619
+\Update:Voxels to process : 268595
+\Update:Voxels to process : 220544
+\Update:Voxels to process : 164965
+\Update:Voxels to process : 122947
+\Update:Voxels to process : 76534
+\Update:Voxels to process : 37648
+\Update:Voxels to process : 14462
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 38855 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_19750_SEG.tif
+Loading image: C6-NUC.tif__1_7900_19750_SEG.tif
+C6-NUC.tif__1_7900_19750_SEG.tif:   max:   10332  min: 0  mean: 2352.0964  area: 16000000  std:3238.7053
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1334906
+\Update:Voxels to process : 1311700
+\Update:Voxels to process : 1279039
+\Update:Voxels to process : 1246132
+\Update:Voxels to process : 1213111
+\Update:Voxels to process : 1181897
+\Update:Voxels to process : 1148241
+\Update:Voxels to process : 1119434
+\Update:Voxels to process : 1098771
+\Update:Voxels to process : 1076484
+\Update:Voxels to process : 1052367
+\Update:Voxels to process : 1010528
+\Update:Voxels to process : 974679
+\Update:Voxels to process : 945094
+\Update:Voxels to process : 926161
+\Update:Voxels to process : 899871
+\Update:Voxels to process : 861218
+\Update:Voxels to process : 816853
+\Update:Voxels to process : 800016
+\Update:Voxels to process : 775864
+\Update:Voxels to process : 737289
+\Update:Voxels to process : 695978
+\Update:Voxels to process : 650853
+\Update:Voxels to process : 635811
+\Update:Voxels to process : 594196
+\Update:Voxels to process : 549905
+\Update:Voxels to process : 529109
+\Update:Voxels to process : 488677
+\Update:Voxels to process : 439895
+\Update:Voxels to process : 415588
+\Update:Voxels to process : 372444
+\Update:Voxels to process : 341044
+\Update:Voxels to process : 300315
+\Update:Voxels to process : 268749
+\Update:Voxels to process : 228323
+\Update:Voxels to process : 197717
+\Update:Voxels to process : 187077
+\Update:Voxels to process : 164182
+\Update:Voxels to process : 141309
+\Update:Voxels to process : 120982
+\Update:Voxels to process : 107715
+\Update:Voxels to process : 95362
+\Update:Voxels to process : 84744
+\Update:Voxels to process : 74723
+\Update:Voxels to process : 65973
+\Update:Voxels to process : 57822
+\Update:Voxels to process : 48722
+\Update:Voxels to process : 39282
+\Update:Voxels to process : 29270
+\Update:Voxels to process : 16850
+\Update:Voxels to process : 3023
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39681 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_23700_SEG.tif
+Loading image: C6-NUC.tif__1_7900_23700_SEG.tif
+C6-NUC.tif__1_7900_23700_SEG.tif:   max:   322  min: 0  mean: 4.3215  area: 8880000  std:30.5141
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 30845
+\Update:Voxels to process : 23199
+\Update:Voxels to process : 17804
+\Update:Voxels to process : 14598
+\Update:Voxels to process : 12446
+\Update:Voxels to process : 9531
+\Update:Voxels to process : 7031
+\Update:Voxels to process : 5554
+\Update:Voxels to process : 5192
+\Update:Voxels to process : 4929
+\Update:Voxels to process : 4798
+\Update:Voxels to process : 4715
+\Update:Voxels to process : 4683
+\Update:Voxels to process : 4625
+\Update:Voxels to process : 4589
+\Update:Voxels to process : 4547
+\Update:Voxels to process : 4487
+\Update:Voxels to process : 4478
+\Update:Voxels to process : 4443
+\Update:Voxels to process : 4412
+\Update:Voxels to process : 4393
+\Update:Voxels to process : 4367
+\Update:Voxels to process : 4361
+\Update:Voxels to process : 4347
+\Update:Voxels to process : 4344
+\Update:Voxels to process : 4313
+\Update:Voxels to process : 4300
+\Update:Voxels to process : 4303
+\Update:Voxels to process : 4295
+\Update:Voxels to process : 4267
+\Update:Voxels to process : 4265
+\Update:Voxels to process : 4266
+\Update:Voxels to process : 4258
+\Update:Voxels to process : 4257
+\Update:Voxels to process : 4252
+\Update:Voxels to process : 4227
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 15326 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_3950_SEG.tif
+Loading image: C6-NUC.tif__1_7900_3950_SEG.tif
+C6-NUC.tif__1_7900_3950_SEG.tif:   max:   7903  min: 0  mean: 1424.0671  area: 16000000  std:2346.5029
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1031160
+\Update:Voxels to process : 1007628
+\Update:Voxels to process : 981102
+\Update:Voxels to process : 952629
+\Update:Voxels to process : 926060
+\Update:Voxels to process : 894827
+\Update:Voxels to process : 876538
+\Update:Voxels to process : 858825
+\Update:Voxels to process : 834158
+\Update:Voxels to process : 798599
+\Update:Voxels to process : 766115
+\Update:Voxels to process : 753752
+\Update:Voxels to process : 728423
+\Update:Voxels to process : 689728
+\Update:Voxels to process : 662570
+\Update:Voxels to process : 646469
+\Update:Voxels to process : 609750
+\Update:Voxels to process : 568626
+\Update:Voxels to process : 542179
+\Update:Voxels to process : 510653
+\Update:Voxels to process : 467327
+\Update:Voxels to process : 443496
+\Update:Voxels to process : 398492
+\Update:Voxels to process : 368714
+\Update:Voxels to process : 322745
+\Update:Voxels to process : 286293
+\Update:Voxels to process : 241067
+\Update:Voxels to process : 203062
+\Update:Voxels to process : 165431
+\Update:Voxels to process : 129086
+\Update:Voxels to process : 97579
+\Update:Voxels to process : 73968
+\Update:Voxels to process : 50488
+\Update:Voxels to process : 30521
+\Update:Voxels to process : 16275
+\Update:Voxels to process : 9394
+\Update:Voxels to process : 7966
+\Update:Voxels to process : 7526
+\Update:Voxels to process : 7243
+\Update:Voxels to process : 7000
+\Update:Voxels to process : 6827
+\Update:Voxels to process : 6594
+\Update:Voxels to process : 6367
+\Update:Voxels to process : 5693
+\Update:Voxels to process : 5444
+\Update:Voxels to process : 5115
+\Update:Voxels to process : 4377
+\Update:Voxels to process : 4146
+\Update:Voxels to process : 3947
+\Update:Voxels to process : 3757
+\Update:Voxels to process : 3566
+\Update:Voxels to process : 3363
+\Update:Voxels to process : 3153
+\Update:Voxels to process : 2916
+\Update:Voxels to process : 2623
+\Update:Voxels to process : 2290
+\Update:Voxels to process : 1035
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 40599 ms.
+====================================================================
+Cell zone detection, completed!
+_______________________________________
+
+C6-NUC.tif__1_7900_7900_SEG.tif
+Loading image: C6-NUC.tif__1_7900_7900_SEG.tif
+C6-NUC.tif__1_7900_7900_SEG.tif:   max:   9859  min: 0  mean: 2282.0695  area: 16000000  std:3093.6181
+====================================================================
+
+Computing EDT
+Computing Watershed
+Watershed...
+Setting minimum for raw image to 1.0
+
+\Update:Voxels to process : 1325991
+\Update:Voxels to process : 1292299
+\Update:Voxels to process : 1259293
+\Update:Voxels to process : 1231920
+\Update:Voxels to process : 1213786
+\Update:Voxels to process : 1194515
+\Update:Voxels to process : 1159730
+\Update:Voxels to process : 1136364
+\Update:Voxels to process : 1113287
+\Update:Voxels to process : 1101382
+\Update:Voxels to process : 1082348
+\Update:Voxels to process : 1047744
+\Update:Voxels to process : 1014812
+\Update:Voxels to process : 987844
+\Update:Voxels to process : 973014
+\Update:Voxels to process : 959951
+\Update:Voxels to process : 926078
+\Update:Voxels to process : 890219
+\Update:Voxels to process : 863746
+\Update:Voxels to process : 859037
+\Update:Voxels to process : 826446
+\Update:Voxels to process : 789193
+\Update:Voxels to process : 750003
+\Update:Voxels to process : 722295
+\Update:Voxels to process : 710632
+\Update:Voxels to process : 676044
+\Update:Voxels to process : 635515
+\Update:Voxels to process : 619815
+\Update:Voxels to process : 588249
+\Update:Voxels to process : 549239
+\Update:Voxels to process : 526054
+\Update:Voxels to process : 493047
+\Update:Voxels to process : 456377
+\Update:Voxels to process : 432593
+\Update:Voxels to process : 395736
+\Update:Voxels to process : 360499
+\Update:Voxels to process : 336287
+\Update:Voxels to process : 302203
+\Update:Voxels to process : 278605
+\Update:Voxels to process : 252890
+\Update:Voxels to process : 219535
+\Update:Voxels to process : 194447
+\Update:Voxels to process : 168815
+\Update:Voxels to process : 143341
+\Update:Voxels to process : 121251
+\Update:Voxels to process : 97206
+\Update:Voxels to process : 73372
+\Update:Voxels to process : 51821
+\Update:Voxels to process : 28992
+\Update:Voxels to process : 8546
+\Update:Voxels to process : 0
+Watershed completed.
+Computing Voronoi
+Finished in 39855 ms.
+====================================================================
+Cell zone detection, completed!
+Hura, completed!!!
+Nucleus Segmentation Completed!
+__________________________________
+

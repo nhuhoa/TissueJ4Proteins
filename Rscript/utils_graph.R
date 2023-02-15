@@ -736,6 +736,7 @@ get_celltype_v2 <- function(nodes_df, save_dir, datatag, save_data=T, thres_vol_
 # nodes_df <- data.table::fread(paste0(save_dir,datatag,'_nodes.csv')) %>% as.data.frame()
 # edges_df <- data.table::fread(paste0(save_dir,datatag,'_edges.csv')) %>% as.data.frame()
 # head(edges_df)
+
 get_celltype <- function(nodes_df, edges_df, 
                          save_dir, datatag, 
                          save_data=T, thres_vol_marker=0.2){
@@ -769,6 +770,74 @@ get_celltype <- function(nodes_df, edges_df,
     clone_label <- get_clone_label(nodes_df[i,'C1_BFP_mean_corerage'], nodes_df[i,'C2_tSapphire_mean_corerage'], 
                     nodes_df[i,'C3_Venus_mean_corerage'], nodes_df[i,'C4_Tomato_mean_corerage'], 
                     nodes_df[i,'C5_Katushka_mean_corerage'])
+    return(clone_label)
+  }, mc.cores = nbcores)
+  nodes_df$cluster_label <- unlist(labels)
+  # for(i in 1:dim(nodes_df)[1]){
+  #   # get_clone_label(e, ts, v, td, k) ##c('eBFP2','tSapphire','Venus','tdTomato','Katushka')
+  #   res <- get_clone_label(nodes_df[i,'C1_BFP_mean_corerage'], nodes_df[i,'C2_tSapphire_mean_corerage'], 
+  #                          nodes_df[i,'C3_Venus_mean_corerage'], nodes_df[i,'C4_Tomato_mean_corerage'], 
+  #                          nodes_df[i,'C5_Katushka_mean_corerage'])
+  #   nodes_df[i,'cluster_label'] <- res$clone_label
+  #   nodes_df[i,'clone_desc'] <- res$clone_desc
+  # }
+  print(summary(as.factor(nodes_df$cluster_label)))
+  
+  # data.table::fwrite(nodes_df, paste0(save_dir, datatag,'_nodes_allcells.csv'))
+  # nodes_df <- data.table::fread(paste0(save_dir, datatag,'_nodes_allcells.csv')) %>% as.data.frame()
+  nodes_df$cell_id <- paste0('V',nodes_df$cell_id)
+  nodes_df <- nodes_df %>%
+    dplyr::filter(cluster_label!='Clone_0')  # 0 is unlabelled cells
+  print(dim(nodes_df))
+  
+  
+  edges_df$from <- paste0('V',edges_df$from)
+  edges_df$to <- paste0('V',edges_df$to)
+  
+  edges_df <- edges_df %>%
+    dplyr::filter(from %in% nodes_df$cell_id & to %in% nodes_df$cell_id)
+  dim(edges_df)
+  res <- list(nodes=nodes_df, edges=edges_df)
+  if(save_data){
+    data.table::fwrite(nodes_df, paste0(save_dir, datatag,'_nodes_ct.csv.gz'))
+    data.table::fwrite(edges_df, paste0(save_dir, datatag,'_edges_ct.csv.gz'))
+  }
+  return(res)
+  
+}
+get_celltype_v4 <- function(nodes_df, edges_df, 
+                         save_dir, datatag, 
+                         save_data=T, thres_vol_marker=0.2){
+  if(!file.exists(save_dir)){
+    file.create(save_dir)
+  }
+  thrsBFP <- 20
+  thrstSapphire <- 50
+  thrsVenus <- 50
+  thrsTomato <- 70
+  thrsKatushka <- 20
+  # summary(nodes_df$C5_Katushka_mean_intensity)
+  nodes_df$C1_BFP_mean_corerage <- ifelse(nodes_df$C1_BFP_mean_corerage>=thres_vol_marker &
+                                            nodes_df$C1_BFP_mean_intensity>thrsBFP,1,0)
+  nodes_df$C2_tSapphire_mean_corerage <- ifelse(nodes_df$C2_tSapphire_mean_corerage>=thres_vol_marker &
+                                                  nodes_df$C2_tSapphire_mean_intensity>thrstSapphire
+                                                ,1,0)
+  nodes_df$C3_Venus_mean_corerage <- ifelse(nodes_df$C3_Venus_mean_corerage>=thres_vol_marker &
+                                              nodes_df$C3_Venus_mean_intensity>thrsVenus,1,0)
+  nodes_df$C4_Tomato_mean_corerage <- ifelse(nodes_df$C4_Tomato_mean_corerage>=thres_vol_marker &
+                                               nodes_df$C4_Tomato_mean_intensity>thrsTomato,1,0)
+  nodes_df$C5_Katushka_mean_corerage <- ifelse(nodes_df$C5_Katushka_mean_corerage>=thres_vol_marker &
+                                                 nodes_df$C5_Katushka_mean_intensity>thrsKatushka,1,0)
+  
+  # nodes_backup <- nodes_df  
+  # nodes_df <- nodes_backup
+  nodes_df$cluster_label <- 'unlabeled'
+  nodes_df$clone_desc <- 'unlabeled'
+  nbcores <- 8
+  labels <- parallel::mclapply(1:dim(nodes_df)[1], function(i) {
+    clone_label <- get_clone_label(nodes_df[i,'C1_BFP_mean_corerage'], nodes_df[i,'C2_tSapphire_mean_corerage'], 
+                                   nodes_df[i,'C3_Venus_mean_corerage'], nodes_df[i,'C4_Tomato_mean_corerage'], 
+                                   nodes_df[i,'C5_Katushka_mean_corerage'])
     return(clone_label)
   }, mc.cores = nbcores)
   nodes_df$cluster_label <- unlist(labels)
