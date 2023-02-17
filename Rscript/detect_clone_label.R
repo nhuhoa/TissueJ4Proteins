@@ -1,26 +1,37 @@
-
 library(dplyr)
 library(stringr)
 library(RColorBrewer)
 library(ggplot2)
 library(viridis)
 
+curr_dir <- getwd()
+source(paste0(curr_dir, '/utils_graph.R'))
 
 script_dir <- '/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/Rscript/'
 input_dir <- '/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/analysis/'
+
+script_dir <- '/Users/htran/Documents/storage_tmp/TissueJ4Proteins-main/Rscript/'
+input_dir <- '/Users/htran/Documents/storage_tmp/TissueJ4Proteins-main/analysis/'
+
 meta_clones_fn <- paste0(script_dir,'predefined_clones_v2.csv')
 datatag <- 'MultiPDXs_Ms1134'
 nodes_fn <- paste0(input_dir,datatag,'/cell_profiles.csv.gz')
 save_dir <- paste0(input_dir,datatag,'/results/')
 cell_profiles_fn <- paste0(save_dir,'filtered_cell_profiles.csv.gz')
+
+## size of input image:
 xmax=27864
 ymax=25920
 # edges_fn <- paste0(input_dir,datatag,'/cell_interactions.csv.gz')
+## Filtering out the small cells
 small_objs_area=50
-viz_cells <- function(nodes_fn, edges_fn, meta_clones_fn, datatag, small_objs_area=0){
+
+viz_cells <- function(nodes_fn, edges_fn, meta_clones_fn, datatag, save_dir, small_objs_area=0){
   meta_clones <- get_reference_clones(meta_clones_fn)
-  save_dir <- paste0(input_dir,'results/')
-  dir.create(save_dir)
+  if(!dir.exists(save_dir)){
+    dir.create(save_dir)  
+  }
+  
   nodes_df <- data.table::fread(nodes_fn) %>% as.data.frame()
   print(dim(nodes_df))
   # edges_df <- data.table::fread(edges_fn) %>% as.data.frame() ## To Do
@@ -34,11 +45,18 @@ viz_cells <- function(nodes_fn, edges_fn, meta_clones_fn, datatag, small_objs_ar
     print(dim(nodes_df)[1])
   }
   
-  res <- get_celltype(nodes_df, edges_df, save_dir, datatag, 
-                      save_data=T, thres_vol_marker=0.2)
   
-  viz_wholetissue(save_dir, datatag, xmax=NULL, ymax=NULL, 
-                  col=NULL, invert_coord=T)
+  res <- get_celltype_v4(nodes_df, edges_df, 
+                        save_dir=T, datatag, 
+                        celltype_by_pct=T, save_data=T, thres_vol_marker=15, 
+                        thrsBFP=20, thrstSapphire=50, thrsVenus=50,
+                        thrsTomato=70, thrsKatushka=20)
+  metaclone_df <- data.table::fread(paste0(script_dir,'predefined_clones_v2.csv')) %>% as.data.frame()
+  # head(metaclone_df)
+  cols_use <- metaclone_df$cluster_color
+  names(cols_use) <- metaclone_df$clone_id
+  viz_wholetissue(save_dir, datatag, xmax, ymax, 
+                  col=cols_use, invert_coord=T)
 }
 
 
