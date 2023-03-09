@@ -1,0 +1,14 @@
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"BLUR DETECTOR",mcib_testing.PreProcessing.BlurDetector_
+Plugins>Spatial3DTissueJ,"BLUR DETECTOR ENTIRE FOLDER",mcib_testing.PreProcessing.BlurDetectorEntireFolder_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"SLIDEJ SUB IMAGES",mcib_testing.lineage_tracing.SlideJ_v2_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"SPLIT CHANNELS COMPRESSED FILE",mcib_testing.PreProcessing.Pre_Filtering_BioFormat_proteins
+Plugins>Spatial3DTissueJ,"SPLIT CHANNELS STACK",mcib_testing.PreProcessing.Pre_Filtering_proteins
+Plugins>Spatial3DTissueJ,"NORMALIZING IMAGE",mcib_testing.PreProcessing.Normalise_Imgs_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"SEGMENTING NUCLEUS",mcib_testing.Segmentation.NucleiSegmentation_
+Plugins>Spatial3DTissueJ,"DETECTING CELL ZONE",mcib_testing.Segmentation.WatershedSegmentation_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"EXTRACTING CELL PROFILES",mcib_testing.CellType.DetectCellType_protein

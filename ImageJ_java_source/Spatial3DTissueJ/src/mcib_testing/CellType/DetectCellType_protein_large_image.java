@@ -121,23 +121,23 @@ public class DetectCellType_protein_large_image implements ij.plugin.PlugIn {
         gd.addMessage(" ");
 //        gd.addStringField("Save Dir: ", save_dir);
         gd.addDirectoryField("Save_Dir: ", save_dir, 30);
-        gd.addChoice("SEGMENTED NUC:  ", titles, titles[0]);
+        gd.addChoice("SEGMENTED_NUC:  ", titles, titles[0]);
         gd.addMessage(" ");
 //        gd.addChoice("Watershed: ", titles, titles[1]);
-        gd.addChoice("BINARY C1_BFP: ", titles, titles[0]);
-        gd.addChoice("RAW C1_BFP: ", titles, titles[0]);
+        gd.addChoice("BINARY_C1_BFP: ", titles, titles[0]);
+        gd.addChoice("RAW_C1_BFP: ", titles, titles[0]);
         gd.addMessage(" ");
-        gd.addChoice("BINARY C2_tSapphire: ", titles, titles[0]);
-        gd.addChoice("RAW C2_tSapphire: ", titles, titles[0]);
+        gd.addChoice("BINARY_C2_tSapphire: ", titles, titles[0]);
+        gd.addChoice("RAW_C2_tSapphire: ", titles, titles[0]);
         gd.addMessage(" ");
-        gd.addChoice("BINARY C3_Venus: ", titles, titles[0]);
-        gd.addChoice("RAW C3_Venus: ", titles, titles[0]);
+        gd.addChoice("BINARY_C3_Venus: ", titles, titles[0]);
+        gd.addChoice("RAW_C3_Venus: ", titles, titles[0]);
         gd.addMessage(" ");
-        gd.addChoice("BINARY C4_Tomato: ", titles, titles[0]);
-        gd.addChoice("RAW C4_Tomato: ", titles, titles[0]);
+        gd.addChoice("BINARY_C4_Tomato: ", titles, titles[0]);
+        gd.addChoice("RAW_C4_Tomato: ", titles, titles[0]);
         gd.addMessage(" ");
-        gd.addChoice("BINARY C5_Katushka: ", titles, titles[0]);
-        gd.addChoice("RAW C5_Katushka: ", titles, titles[0]);
+        gd.addChoice("BINARY_C5_Katushka: ", titles, titles[0]);
+        gd.addChoice("RAW_C5_Katushka: ", titles, titles[0]);
         gd.addMessage(" ");
         
 //        gd.addChoice("Region Observed : ", regionObs, regionObs[reg]);
@@ -339,19 +339,23 @@ public class DetectCellType_protein_large_image implements ij.plugin.PlugIn {
         for (Object3D nc : popNuclei.getObjectsList()) 
         {
 //            int nuc = (int) region.getPixModeNonZero(nucLabel);
-            int nuc = nc.getValue();
+//            int nuc = nc.getValue();
             //IJ.log("nuc " + nuc);
-            if(nuc==-1){ continue;}
-            else
-            {
-                Cell cell = new Cell();
-                cell.region = null;
-                cell.nucleus = popNuclei.getObjectByValue(nuc);
-                popCells.add(cell);
-                cell.id = c++;
-                
-            }
-            
+//            if(nuc==-1){ continue;}
+//            else
+//            {
+//                Cell cell = new Cell();
+//                cell.region = null;
+//                cell.nucleus = popNuclei.getObjectByValue(nuc);
+//                popCells.add(cell);
+//                cell.id = c++;
+//                
+//            }
+            Cell cell = new Cell();
+            cell.region = null;
+            cell.nucleus = nc;
+            popCells.add(cell);
+            cell.id = c++;
                   
         }
         IJ.log("DEBUG");

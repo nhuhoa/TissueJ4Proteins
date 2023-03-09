@@ -1,0 +1,42 @@
+run("Open...");
+run("Input/Output...", "jpeg=85 gif=-1 file=.csv use copy_row save_column save_row");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/C2-tSapphire_binary.zip");
+run("Open Next");
+close();
+selectWindow("C2-tSapphire_binary.tif");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/C1-BFP_binary.zip");
+selectWindow("C1-BFP_binary.tif");
+selectWindow("C2-tSapphire_binary.tif");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/C2-tSapphire_filtered.zip");
+selectWindow("C4-tomato_binary.tif");
+selectWindow("C4-tomato.tif");
+close();
+selectWindow("C3-venus_filtered.tif");
+selectWindow("C3-venus_binary.tif");
+selectWindow("C3-venus.tif");
+close();
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/C5-katushka_binary.zip");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/cell_zone_full/combined_C6-NUC.tif__1___WAT_SEG.tif.zip");
+run("Record...");
+run("EXTRACT CELL PROFILES LARGE");
+run("Open...");
+run("Open...");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/C6-NUC_SEG.zip");
+selectWindow("combined_C6-NUC.tif__1___WAT_SEG.tif");
+
+input_dir="/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/";
+open(input_dir+"C2-tSapphire_binary.zip");
+open(input_dir+"C2-tSapphire_filtered.zip");
+open(input_dir+"C3-venus_binary.zip");
+open(input_dir+"C3-venus_filtered.zip");
+open(input_dir+"C4-tomato_binary.zip");
+open(input_dir+"C4-tomato_filtered.zip");
+open(input_dir+"C5-katushka_binary.zip");
+open(input_dir+"C5-katushka_filtered.zip");
+open(input_dir+"C6-NUC_SEG.zip");
+open("/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/cell_zone_full/combined_C6-NUC.tif__1___WAT_SEG.tif.zip");
+open(input_dir+"C1-BFP_binary.zip");
+open(input_dir+"C1-BFP_filtered.zip");
+
+run("EXTRACT CELL PROFILES LARGE", "save_dir=/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/analysis/ segmented_nuc=C6-NUC_SEG.tif cell_zone=combined_C6-NUC.tif__1___WAT_SEG.tif binary_c1_bfp=C1-BFP_binary.tif raw_c1_bfp=C1-BFP_filtered.tif binary_c2_tsapphire=C2-tSapphire_binary.tif raw_c2_tsapphire=C2-tSapphire_filtered.tif binary_c3_venus=C3-venus_binary.tif raw_c3_venus=C3-venus_filtered.tif binary_c4_tomato=C4-tomato_binary.tif raw_c4_tomato=C4-tomato_filtered.tif binary_c5_katushka=C5-katushka_binary.tif raw_c5_katushka=C5-katushka_filtered.tif percent=0.15");
+

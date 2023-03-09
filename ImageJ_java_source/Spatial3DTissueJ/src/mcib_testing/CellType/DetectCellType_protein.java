@@ -32,6 +32,7 @@ import mcib_testing.Utils.Cell;
 //import DecimalFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import mcib3d.geom.Object3DVoxels;
 import mcib3d.geom.ObjectCreator3D;
 import mcib3d.geom.Vector3D;
 import mcib3d.image3d.ImageFloat;
@@ -384,7 +385,8 @@ public class DetectCellType_protein implements ij.plugin.PlugIn {
     private void initCells(ImageInt nucLabel, ImageInt regionLabel, String image_fn, String save_dir) 
     {
         popNuclei = new Objects3DPopulation(nucLabel);
-        popRegions = new Objects3DPopulation(regionLabel, 1); // exclude value 1 used by borders
+//        popRegions = new Objects3DPopulation(regionLabel, 1); // exclude value 1 used by borders
+        popRegions = new Objects3DPopulation(regionLabel); 
 
         popCells = new ArrayList<Cell>(popRegions.getNbObjects());
 

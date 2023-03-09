@@ -12,8 +12,13 @@ import fiji.util.gui.GenericDialogPlus;
 import ij.io.Opener;
 import ij.plugin.PlugIn;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import mcib3d.geom.Object3D;
 import mcib3d.geom.Object3DVoxels;
 import mcib3d.geom.Objects3DPopulation;
@@ -28,12 +33,13 @@ import mcib3d.image3d.ImageShort;
  */
 public class NucleiSegmentationLargeTissue_ implements PlugIn
 {
-    public String input_dir="", save_dir = "";
+    public String input_dir = "", save_dir = "";
+    public String prefix_img = "", suffix_img = "";
     public boolean verbose = false;
     int overlap_size = 50, tile_size = 300; //max_radius_nuc = 10, 
 //    String prefix_img = "NUC.tif__1_", suffix_img="_SEG.tif";
     int img_sizeX=0, img_sizeY=0; // TO DO: using code to get this values, fixed values for testing first
-
+    List<String[]> record_ids = new ArrayList<>();
     public void run(String arg) 
     {	
         if (IJ.versionLessThan("1.37f")) return;
@@ -64,7 +70,7 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
             }
         }
         
-        GenericDialogPlus gd = new GenericDialogPlus("Neighborhood Pixel Distance");
+        GenericDialogPlus gd = new GenericDialogPlus("Segment large tissue image");
 //        GenericDialog gd = new GenericDialog("3D Filtering");
         gd.addMessage("    TissueJ4Proteins  ");
 //        gd.addMessage("See and quote reference:\n A novel toolbox to investigate tissue\nspatial" +
@@ -117,9 +123,9 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
         IJ.log("====================================================================");
         IJ.log("Initializing...");
         ArrayList<String> seg_tiles = getFilesFromFolder(input_dir);
-        String suffix_img = getSuffixImage(seg_tiles);
-        String prefix_img = getPrefixImage(seg_tiles);
-        
+        suffix_img = getSuffixImage(seg_tiles);
+        prefix_img = getPrefixImage(seg_tiles);
+//        IJ.log("Suffix image: "+suffix_img + " prefix image: " + prefix_img);
         if(img_sizeX==0 || img_sizeY==0){
             int[] img_size = getCombinedImageSize(seg_tiles, prefix_img, suffix_img, input_dir);
             img_sizeX = img_size[0];
@@ -130,6 +136,12 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
         create_tile_number(seg_tiles, img_sizeX, img_sizeY, tile_size, tile_size, 
                            overlap_size, max_radius_nuc, prefix_img, suffix_img);
         // TO DO: get csv files of cells info
+        try {
+            String output_fn = save_dir + prefix_img+"_seg_objs_naming_tiles_merged.csv";
+            write2File(record_ids, output_fn);
+        } catch (IOException ex) {
+            Logger.getLogger(Testing.class.getName()).log(Level.SEVERE, null, ex);
+        }
         IJ.log("Completed!");
         IJ.log("====================================================================");
     }
@@ -161,6 +173,7 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
                 
                 if(x<img_sizeX & y < img_sizeY){
                     String tile = prefix_img +  x +"_"+ y + suffix_img;
+                    String tile_id = prefix_img +  x +"_"+ y;
 //                    imgs.add(tile);
 //                    IJ.log("Tile: "+tile);
                     if(seg_tiles.contains(tile)){
@@ -182,7 +195,12 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
                                         tmp = translation_coordinates(tmp, x, y);
                                     }
                                     df = tmp;
+                                    for (Object3D c1 : df.getObjectsList()) 
+                                    {
+                                        record_ids.add(new String[]{ tile_id, "tid_"+c1.getValue(), "mid_"+c1.getValue()});
+                                    }
                                 }
+                                
 //                                IJ.log("**** Testing first df: "+df.getNbObjects());
 //                                pop_df = null; 
                             }else{
@@ -190,7 +208,7 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
                                 pop_df = translation_coordinates(pop_df, x, y);
 //                                IJ.log("Testing pop_df: "+pop_df.getNbObjects());
                             }
-                            df = merging_given_blocks(df, pop_df, x, y, max_radius_nuc, overlap_size, 
+                            df = merging_given_blocks(tile_id, df, pop_df, x, y, max_radius_nuc, overlap_size, 
                                                       sizeX, sizeY, verbose);
                             
                             
@@ -203,9 +221,7 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
         }
         IJ.log("Number of processed tiles: "+count);
         if(df!=null){
-            df = reIndex(df);
-            String image_fn = "combined_"+prefix_img;
-            drawImage(df, img_sizeX, img_sizeY, save_dir, image_fn, verbose);
+            reIndex(df);
         }
         
     }
@@ -264,7 +280,7 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
 //        IJ.log("Debug translation done");
         return(new_pop);
     }
-    public Objects3DPopulation merging_blocks_XY(Objects3DPopulation df, Objects3DPopulation pop_df,
+    public Objects3DPopulation merging_blocks_XY(String tile_id, Objects3DPopulation df, Objects3DPopulation pop_df,
                                   int currX, int currY, String merge_direction,
                                   int sizeX, int sizeY, int overlap_size, boolean verbose){
         
@@ -361,8 +377,20 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
 
             }
             pop_ls.addAll(tmp_df);
+            // Recording the naming in tile image, noted in tile id tid, and in the merged image, as mid
+            for (int k=0; k<tmp_df.size(); k++) 
+            {
+                record_ids.add(new String[]{ tile_id, "tid_"+tmp_df.get(k).getValue(), "mid_"+tmp_df.get(k).getValue()});
+            }
         }else{
+//            record_ids
             pop_ls.addAll(df.getObjectsList());
+            
+            // Recording the naming in tile image, noted in tile id tid, and in the merged image, as mid
+            for (Object3D c1 : df.getObjectsList()) 
+            {
+                record_ids.add(new String[]{ tile_id, "tid_"+c1.getValue(), "mid_"+c1.getValue()});
+            }
         }
                 
         
@@ -378,8 +406,10 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
             
             for (Object3D o : pop_df1.getObjectsList()) 
             {
+                String tid = "tid_"+o.getValue();
                 o.setValue(curr_idx + o.getValue());
                 pop_ls.add(o);
+                record_ids.add(new String[]{ tile_id, "tid_"+tid, "mid_"+(curr_idx + o.getValue())});
             }
         }
         
@@ -390,35 +420,45 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
         
         return(combined_df);
     }
-    public Objects3DPopulation reIndex(Objects3DPopulation pop){
+    public void reIndex(Objects3DPopulation pop){
+        List<String[]> record_ids2 = new ArrayList<>();
         ArrayList<Object3D> pop_ls = new ArrayList<Object3D>();
         int ct = 0;
         for (Object3D o : pop.getObjectsList()) 
         {   
             ct++;
+            record_ids2.add(new String[]{"mid_"+o.getValue(), "mid2_"+ct});
             o.setValue(ct);
             pop_ls.add(o);
         }
             
         Objects3DPopulation new_pop = new Objects3DPopulation(pop_ls);
-        return(new_pop);
+        String image_fn = "combined_"+prefix_img+"_"+suffix_img;
+        drawImage(new_pop, img_sizeX, img_sizeY, save_dir, image_fn, verbose);
+        try {
+            String output_fn2 = save_dir + prefix_img+ "_seg_objs_naming_tiles_merged_reIndex.csv";
+            write2File(record_ids2, output_fn2);
+        } catch (IOException ex) {
+            Logger.getLogger(Testing.class.getName()).log(Level.SEVERE, null, ex);
+        }
+//        return(new_pop);
     }
     
-    public Objects3DPopulation merging_given_blocks(Objects3DPopulation df, Objects3DPopulation pop_df,
+    public Objects3DPopulation merging_given_blocks(String tile_id, Objects3DPopulation df, Objects3DPopulation pop_df,
                                   int startX, int startY, int max_radius, int overlap_size, 
                                   int sizeX, int sizeY, boolean verbose){
         if(startY==0 && startX==0){  //do not merge, starting block
             IJ.log("First block");
         }else if(startY==0 && startX>0 && df!=null & pop_df!=null && pop_df.getNbObjects()>0){  //merging X direction
             startX = startX + max_radius;
-            df = merging_blocks_XY(df, pop_df, startX, startY, "X", sizeX, sizeY, overlap_size, verbose);
+            df = merging_blocks_XY(tile_id, df, pop_df, startX, startY, "X", sizeX, sizeY, overlap_size, verbose);
         }else if(startY>0 && startX==0 && df!=null && pop_df!=null && pop_df.getNbObjects()>0){  //merging X direction
             startY = startY + max_radius;
-            df = merging_blocks_XY(df, pop_df, startX, startY, "Y", sizeX, sizeY, overlap_size, verbose);
+            df = merging_blocks_XY(tile_id, df, pop_df, startX, startY, "Y", sizeX, sizeY, overlap_size, verbose);
         }else if(startY>0 && startX>0 && df!=null && pop_df!=null && pop_df.getNbObjects()>0){  //merging X direction
             startX = startX + max_radius;
             startY = startY + max_radius;
-            df = merging_blocks_XY(df, pop_df, startX, startY, "XY", sizeX, sizeY, overlap_size, verbose);
+            df = merging_blocks_XY(tile_id, df, pop_df, startX, startY, "XY", sizeX, sizeY, overlap_size, verbose);
         }
         return(df);
     }
@@ -550,10 +590,14 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
 //        System.out.println("final output: "+suffix_tmp);
 
         suffix = suffix_tmp;
-        int idx = suffix.lastIndexOf("_");
-        if(idx>0){
-            suffix=suffix.substring(idx, suffix.length());
+        if(suffix.startsWith("0_")){
+            suffix=suffix.substring(1, suffix.length());
         }
+
+//        int idx = suffix.lastIndexOf("_");
+//        if(idx>0){
+//            suffix=suffix.substring(idx, suffix.length());
+//        }
         if(!"".equals(suffix)){
             IJ.log("Suffix images is: "+suffix);
             return(suffix);
@@ -637,6 +681,22 @@ public class NucleiSegmentationLargeTissue_ implements PlugIn
         return false;
     }
 
-    
+    public static void write2File(List<String[]> records, String output_fn) throws IOException{
+        File csvFile = new File(output_fn);
+        FileWriter fileWriter = new FileWriter(csvFile);
+        for (String[] data : records) {
+        StringBuilder line = new StringBuilder();
+        for (int i = 0; i < data.length; i++) {
+            line.append(data[i]);
+            if (i != data.length - 1) {
+                line.append(',');
+            }
+        }
+        line.append("\n");
+        fileWriter.write(line.toString());
+        }
+        fileWriter.close();
+        System.out.println("Writen output into file: "+output_fn);
+    }  
             
 }

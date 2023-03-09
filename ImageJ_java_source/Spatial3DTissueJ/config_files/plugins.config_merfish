@@ -1,0 +1,8 @@
+Plugins>TissueJ4Merfish,"-"
+Plugins>TissueJ4Merfish,"BLUR DETECTOR",mcib_testing.PreProcessing.BlurDetector_
+Plugins>TissueJ4Merfish,"BLUR DETECTOR ENTIRE FOLDER",mcib_testing.PreProcessing.BlurDetectorEntireFolder_
+Plugins>TissueJ4Merfish,"-"
+Plugins>TissueJ4Merfish,"SEGMENTING NUCLEUS",mcib_testing.Segmentation.NucleiSegmentation_
+Plugins>TissueJ4Merfish,"DETECTING CELL ZONE",mcib_testing.Segmentation.WatershedSegmentation_
+Plugins>TissueJ4Merfish,"SEGMENT LARGE TISSUE",mcib_testing.Segmentation.NucleiSegmentationLargeTissue_
+Plugins>TissueJ4Merfish,"-"

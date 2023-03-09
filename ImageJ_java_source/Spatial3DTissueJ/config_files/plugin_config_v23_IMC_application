@@ -1,0 +1,10 @@
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"PRE-FILTERING",mcib_testing.PreProcessing.Pre_Filtering_windows
+Plugins>Spatial3DTissueJ,"NORMALISE IMAGE",mcib_testing.PreProcessing.Normalise_Imgs_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"NUCLEI SEGMENTATION",mcib_testing.Segmentation.NucleiSegmentation_
+Plugins>Spatial3DTissueJ,"CELL ZONE ESTIMATION",mcib_testing.Segmentation.WatershedSegmentation_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"CELL ZONE ESTIMATION",mcib_testing.Segmentation.WatershedSegmentation_
+Plugins>Spatial3DTissueJ,"-"
+Plugins>Spatial3DTissueJ,"CELL PROFILES",mcib_testing.CellType.MarkersCoverage_IMC_
