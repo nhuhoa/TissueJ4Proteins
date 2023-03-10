@@ -29,12 +29,10 @@
 
 //======================================================================================
 //// STEP1: Splitting composite images into different channels using Bio-Formats plugins
-//// Example of windows input directory
-//// dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/small_tissue/";
-
 //// Noted: I name the images as: "C1-BFP.tif", "C2-tSapphire.tif", "C3-venus.tif", "C4-tomato.tif", "C5-katushka.tif", "C6-NUC.tif"
 //// just a naming convention, easy to remember it. 
 //// 6 channels image with channel 1: BFP / 2: tSapphire / 3:Venus / 4:Tomato/ 5:Katushka/ 6:Draq5 (nuclei staining)
+//// In case your input data lack of some channels, ex: no tSapphire, you can modify this macro or using interface mode to customize your input data.
 //// Save images as zip compressed format
 
 
