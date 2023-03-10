@@ -1,26 +1,26 @@
 //======================================================================================
 //// Installation
 //// See at https://github.com/nhuhoa/Spatial3DTissueJ/tree/master/ImageJ_plugins_jar/list_plugin_readme.txt
-//// First, you can copy these 3 folders into Fiji/plugins/ or ImageJ/plugins/ and quick check if there is any duplicate plugin, ex: 3DViewerXXXvXXX//// .jar, Fiji_PluginXXX.jar. You can keep only one version for each plugin. 
-//// To update plugins, you can delele the folder 3D_suite/ and replace by the most updated folder from my github, most updated plugin: Spatial3DTissueJ_v22_windows.jar
+//// First, you can copy these 3 folders into yourDir/Fiji/plugins/ or yourDir/ImageJ/plugins/ and quick check if there is any duplicated plugin, ex: //// 3DViewer_versionXX.jar, Fiji_Plugin_versionXX.jar. You can keep only one version for each plugin. 
+//// 3D_suite: contains core functions, developed by Thomas Boudier's group
+//// 3D_viewer: contains visualization functions
+//// utils: contains image processing functions
+//// If you use ImageJ platform instead of Fiji platform, you also need to add Bio-Format jar package into yourDir/ImageJ/plugins/ folder: download package from: https://downloads.openmicroscopy.org/bio-formats/6.12.0/artifacts/bioformats_package.jar
+//// To update plugins, you can replace the older version, ex: spatial3dtissuej_plugin/TissueJ4Protein_v21.jar by the most updated plugin from my github, ex: spatial3dtissuej_plugin/TissueJ4Protein_v25.jar
 
 //======================================================================================
 //// Preparation
-//// Create a folder for each islet, ex: H1536_islet1/ and put composite image of a given islet into this folder. 
-//// Copy the color mapping file into this folder H1536_islet1/: cell_type_colormap.lut
-////When you download github files, you have this file in the github folder: https://github.com/nhuhoa/Spatial3DTissueJ/tree/master/macro/macro_windows/cell_type_colormap.lut
-//// Noted: cell_type_colormap.lut is just a color map for visualization, if macro has an issue with this file, you can just remove the line 
+//// Create a folder for each tissue image and put composite image of a given tissue image of different channels into this folder, ex: TissueJ4Proteins-main/testing_dataset/small_tissue/ in this github. 
 
 //======================================================================================
 //// How to run a macro here
 //// I divide macro into many steps, you can run one by one step here
 //// And then when you don't see any error, you can try to run entire pipeline
-//// Macros works well in Linux, Mac. I fix some bugs in Windows system before, so I think macro works well with Windows too. If you see any issue, pls inform me to fix it.
+//// Macros works well in Linux, Mac, Windows system. If you encounter any issue, pls inform me to fix it.
 
-
-
-setBatchMode(true);
-print("___________________________________________");
+//// Change the input dir here by input dir, point to image in your directory and select the part from setBatchMode(true); to setBatchMode(false); and run selected script. 
+//// Input dir: ex: yourDir/testing_dataset/small_tissue/: contain composite input image
+//// Output dir: ex: yourDir/testing_dataset/testing_macros/: contain all results of computation
 
 
 //======================================================================================
@@ -29,7 +29,7 @@ print("___________________________________________");
 //// dir="C:/Users/SALAB VR/Documents/Hoa/Spatial3DTissueJ-master/small_tissue/";
 
 //// Noted: I name the images as: "C1-BFP.tif", "C2-tSapphire.tif", "C3-venus.tif", "C4-tomato.tif", "C5-katushka.tif", "C6-NUC.tif"
-//// just a convention, easy to remember it. 
+//// just a naming convention, easy to remember it. 
 //// 6 channels image with channel 1: BFP / 2: tSapphire / 3:Venus / 4:Tomato/ 5:Katushka/ 6:Draq5 (nuclei staining)
 //// Save images as zip compressed format
 
@@ -39,8 +39,8 @@ setBatchMode(true);
 print("_________________Step 1__________________________");
 
 // Please modify the dir input parameter here
-//dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/small_tissue/";
-dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/small_tissue/";
+//dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/small_tissue/";         //Mac, Linux
+dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/small_tissue/"; //Windows
 composite_image_fn="small_tissue.czi";
 
 
@@ -50,28 +50,28 @@ if(!File.exists(save_dir))
 
 run("Bio-Formats Importer", "open="+dir+composite_image_fn+" autoscale color_mode=Default split_channels view=Hyperstack stack_order=XYCZT");
 
-//selectWindow(composite_image_fn+" - C=0");
-selectWindow(dir+composite_image_fn+" - C=0");
+//selectWindow(composite_image_fn+" - C=0");     //Mac, Linux
+selectWindow(dir+composite_image_fn+" - C=0");   //Windows
 saveAs("ZIP", save_dir+"C1-BFP.zip");
 
 //selectWindow(composite_image_fn+" - C=1");
-selectWindow(dir+composite_image_fn+" - C=1");
+selectWindow(dir+composite_image_fn+" - C=1");    //Windows
 saveAs("ZIP", save_dir+"C2-tSapphire.zip");
 
 //selectWindow(composite_image_fn+" - C=2");
-selectWindow(dir+composite_image_fn+" - C=2");
+selectWindow(dir+composite_image_fn+" - C=2");    //Windows
 saveAs("ZIP", save_dir+"C3-venus.zip");
 
 //selectWindow(composite_image_fn+" - C=3");
-selectWindow(dir+composite_image_fn+" - C=3");
+selectWindow(dir+composite_image_fn+" - C=3");    //Windows
 saveAs("ZIP", save_dir+"C4-tomato.zip");
 
 //selectWindow(composite_image_fn+" - C=4");
-selectWindow(dir+composite_image_fn+" - C=4");
+selectWindow(dir+composite_image_fn+" - C=4");    //Windows
 saveAs("ZIP", save_dir+"C5-katushka.zip");
 
 //selectWindow(composite_image_fn+" - C=5");
-selectWindow(dir+composite_image_fn+" - C=5");
+selectWindow(dir+composite_image_fn+" - C=5");    //Windows
 saveAs("ZIP", save_dir+"C6-NUC.zip");
 
 print("Splitting images and save into folders with the naming convention: ");
@@ -153,14 +153,14 @@ print("Completed!");
 
 }
 
-
-
 //======================================================================================
 ////  STEP21: Hysteresis Threshold for background cut off 
 
+
+// Please modify the dir input parameter here, point to channel images folder
 ////Processing BFP marker channels, cut off background, background and intra tissue environment=0
-//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";             //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";     //Windows
 low_thrs=20;
 high_thrs=25;
 observed_marker_fn="C1-BFP.zip";
@@ -169,9 +169,10 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 //======================================================================================
 ////  STEP22: Hysteresis Threshold for background cut off 
 
+// Please modify the dir input parameter here, point to channel images folder
 ////Processing tSapphire marker channels, cut off background, background and intra tissue environment=0
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";     //Windows
 low_thrs=15;
 high_thrs=25;
 observed_marker_fn="C2-tSapphire.zip";
@@ -180,9 +181,9 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 
 //======================================================================================
 ////  STEP23: Hysteresis Threshold for background cut off 
-
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+// Please modify the dir input parameter here, point to channel images folder
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
 low_thrs=15;
 high_thrs=25;
 observed_marker_fn="C3-venus.zip";
@@ -193,8 +194,8 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 //======================================================================================
 ////  STEP24: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";             //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
 low_thrs=15;
 high_thrs=25;
 observed_marker_fn="C4-tomato.zip";
@@ -205,8 +206,8 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 //======================================================================================
 ////  STEP25: Hysteresis Threshold for background cut off 
 
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";             //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
 low_thrs=5;
 high_thrs=10;
 observed_marker_fn="C5-katushka.zip";
@@ -227,15 +228,15 @@ setBatchMode(false);
 //// For automatic threshold mode, program will calculate the mean value of image, and define the seeds threshold = mean + sd, I define a sd here is 500
 //// You can run automatic mode and observe the results, if as not you expected --> increase or decrease threshold and use manual threshold mode. See the log file to have an idea here. 
 //// It take ~ 3 mins for this step
-
+// Please modify the dir input parameter here, point to nucleus image folder
 
 setBatchMode(true);
 print("_______________Step 3____________________________");
 //// Set parameters
 small_nucleus_diameter_thrs=8;
 large_nucleus_diameter_thrs=14;
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
 nuc_image_fn_zip="C6-NUC.zip";
 
 
@@ -284,13 +285,15 @@ setBatchMode(false);
 //// Estimating a cell zone for each cell, from each nucleus, extend into space a radius R, ex: R=5 here, then obtained region will be a cell zone. I observe image of dapi and markers to define a max radius for region growing. 
 //// Then later, program will look into each cell zone and check the amount of marker that cover this cell zone. 
 //// It take ~ 1 mins for this step
+// Please modify the dir input parameter here, point to nucleus image folder
+
 
 setBatchMode(true);
 print("_______________Step 4____________________________");
 
 radius_extension_nuc_cellPeriphery = 3; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";               //Mac, Linux
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
 seg_nuc_image_fn="C6-NUC_SEG.tif";
 image_fn_short = substring(seg_nuc_image_fn,0,lastIndexOf(seg_nuc_image_fn,".tif"));
 open(save_dir+image_fn_short+".zip");
@@ -308,14 +311,15 @@ setBatchMode(false);
 
 //======================================================================================
 //// STEP5: Extracting cell profiles
+// Please modify the dir input parameter here, point to nucleus image and channels images folder
 
 setBatchMode(true);
 print("_______________Step 5____________________________");
 
 //// Set parameters here
-save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/"; 
-save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";
-percent_marker= 0.2;
+//save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux 
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";    //Windows
+percent_marker= 0.2; // just keep it here, will remove this parameter in future, in current version, using R script with different threshold of percent coverage.  
 radius_extension_nuc_cellPeriphery = 3; //change this threshold if your cell zone area in the image is smaller, depend on image resolution, in general 3 to 5 is a good one. 
 
 seg_nuc_image_fn="C6-NUC_SEG.zip";
