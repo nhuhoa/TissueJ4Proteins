@@ -44,9 +44,9 @@ print("_________________Step 1__________________________");
 //dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/small_tissue/";         //Mac, Linux
 dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/small_tissue/"; //Windows
 composite_image_fn="small_tissue.czi";
+save_dir="C:/Users/htran/Downloads/TissueJ4Proteins-main/TissueJ4Proteins-main/testing_dataset/testing_macros/";     //Windows
 
 
-save_dir=File.getParent(dir)+"/testing_macros/";
 if(!File.exists(save_dir)) 
       File.mkdir(save_dir);
 
