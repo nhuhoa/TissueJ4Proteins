@@ -1,16 +1,20 @@
 //======================================================================================
 //// Installation
-//// See at https://github.com/nhuhoa/Spatial3DTissueJ/tree/master/ImageJ_plugins_jar/list_plugin_readme.txt
-//// First, you can copy these 3 folders into yourDir/Fiji/plugins/ or yourDir/ImageJ/plugins/ and quick check if there is any duplicated plugin, ex: //// 3DViewer_versionXX.jar, Fiji_Plugin_versionXX.jar. You can keep only one version for each plugin. 
+//// First, you can copy 4 plugins folders '3D_suite', '3D_viewer', 'utils', 'spatial3dtissuej_plugin' from https://github.com/nhuhoa/TissueJ4Proteins/tree/main/ImageJ_plugins_jar/ into yourDir/Fiji/plugins/ or yourDir/ImageJ/plugins/ and quick check if there is any duplicated plugin, ex: //// 3DViewer_versionXX.jar, Fiji_Plugin_versionXX.jar. You can keep only one version for each plugin. 
+
 //// 3D_suite: contains core functions, developed by Thomas Boudier's group
 //// 3D_viewer: contains visualization functions
 //// utils: contains image processing functions
+//// ImageJ_plugins_jar: contains functions for protein marker processing
+
 //// If you use ImageJ platform instead of Fiji platform, you also need to add Bio-Format jar package into yourDir/ImageJ/plugins/ folder: download package from: https://downloads.openmicroscopy.org/bio-formats/6.12.0/artifacts/bioformats_package.jar
 //// To update plugins, you can replace the older version, ex: spatial3dtissuej_plugin/TissueJ4Protein_v21.jar by the most updated plugin from my github, ex: spatial3dtissuej_plugin/TissueJ4Protein_v25.jar
 
 //======================================================================================
 //// Preparation
 //// Create a folder for each tissue image and put composite image of a given tissue image of different channels into this folder, ex: TissueJ4Proteins-main/testing_dataset/small_tissue/ in this github. 
+//// You can download an testing data file from this github and test program
+//// Downloading github: https://github.com/nhuhoa/TissueJ4Proteins/tree/main which contains: testing_dataset/small_tissue/small_tissue.czi
 
 //======================================================================================
 //// How to run a macro here
@@ -18,7 +22,7 @@
 //// And then when you don't see any error, you can try to run entire pipeline
 //// Macros works well in Linux, Mac, Windows system. If you encounter any issue, pls inform me to fix it.
 
-//// Change the input dir here by input dir, point to image in your directory and select the part from setBatchMode(true); to setBatchMode(false); and run selected script. 
+//// Change the input dir here by input dir, point to image in your directory and select the script from setBatchMode(true); to setBatchMode(false); and run selected script. 
 //// Input dir: ex: yourDir/testing_dataset/small_tissue/: contain composite input image
 //// Output dir: ex: yourDir/testing_dataset/testing_macros/: contain all results of computation
 
@@ -93,7 +97,6 @@ setBatchMode(false);
 //// and reuse the set of parameters many times
 
 
-//======================================================================================
 ////  STEP21: Hysteresis Threshold for background cut off 
 
 setBatchMode(true);
@@ -153,7 +156,6 @@ print("Completed!");
 
 }
 
-//======================================================================================
 ////  STEP21: Hysteresis Threshold for background cut off 
 
 
@@ -166,9 +168,9 @@ high_thrs=25;
 observed_marker_fn="C1-BFP.zip";
 remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
-//======================================================================================
-////  STEP22: Hysteresis Threshold for background cut off 
 
+
+////  STEP22: Hysteresis Threshold for background cut off 
 // Please modify the dir input parameter here, point to channel images folder
 ////Processing tSapphire marker channels, cut off background, background and intra tissue environment=0
 //save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux
@@ -179,7 +181,6 @@ observed_marker_fn="C2-tSapphire.zip";
 remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
 
-//======================================================================================
 ////  STEP23: Hysteresis Threshold for background cut off 
 // Please modify the dir input parameter here, point to channel images folder
 //save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";              //Mac, Linux
@@ -191,7 +192,6 @@ remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_
 
 
 
-//======================================================================================
 ////  STEP24: Hysteresis Threshold for background cut off 
 
 //save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";             //Mac, Linux
@@ -202,8 +202,6 @@ observed_marker_fn="C4-tomato.zip";
 remove_background_using_hysteresis_threshold(observed_marker_fn, low_thrs, high_thrs, save_dir,"yes");
 
 
-
-//======================================================================================
 ////  STEP25: Hysteresis Threshold for background cut off 
 
 //save_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/testing_dataset/testing_macros/";             //Mac, Linux
