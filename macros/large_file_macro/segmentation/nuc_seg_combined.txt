@@ -1,0 +1,46 @@
+setBatchMode(true);
+print("___________________________________________");
+
+
+sizeX=27864;
+sizeY=25920;
+suffixe=".tif"; // change this setting if your image ends with .tiff
+
+//spot_seeds_threshold=30000; //improved, automatic defined as below
+background_threshold=30;	// [0,255] intensity value range, if no pixel value higher than this threshold means background objects, skip all functions.
+
+dir = getArgument;
+//dir = "/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/SEG_temporary_files/";  // for testing purpose, you can disable line above, and use this
+if (dir=="") 
+	exit ("No argument!");
+
+print("Working dir: "+dir+"\n");
+
+results_dir=File.getParent(dir)+"/";
+if(!File.exists(results_dir)) 
+      File.mkdir(results_dir);
+
+print("Creating results dir: "+results_dir+"\n");
+
+files=getFileList(dir);
+
+//print("Nb of processing images: "+files.length+"\n");
+if(files.length>0){
+  start = getTime();
+  run("SEGMENT LARGE TISSUE", "input=[/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/SEG_temporary_files/] save=[/Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/results/] overlapping=50 tile=4000 combined=27864 combined_0=25920");
+
+  print("Time of execution is: "+(getTime()-start)/1000+" seconds"); 
+}
+
+print("Segmented combined images result are saved into folder: "+results_dir+"\n");
+print("Hura, completed!!!");
+
+//if(!File.exists(dir+"log")) File.mkdir(dir+"log");
+//selectWindow("Log");
+//saveAs("Text", dir+ "segment_log.txt");
+setBatchMode(false);
+
+
+
+
+

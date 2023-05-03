@@ -1,0 +1,51 @@
+setBatchMode(true);
+print("\\Clear");
+print("___________________________________________");
+
+
+dir = getArgument;
+//dir = /Users/hoatran/Documents/others/jean_project/data/MultiPDXs_Ms1134/NUC_raw/; // can set directory here
+if (dir=="") 
+	exit ("No argument!");
+print(dir);
+
+// Parameter setting
+tile_size=4000;  // size of crop images
+overlap_distance=50;
+
+// Parameter setting
+macro_dir="/Users/hoatran/Documents/python_workspace/TissueJ4Proteins/macros/large_file_macro/";
+
+macro_fn = macro_dir+"slidej/SlideJdemo0.ijm";
+if(!File.exists(macro_fn))
+  exit ("Error, macro file does not exist!!!");
+
+
+  print("--------------Cropping large image into many block images------------------------------------ ");
+	input_dir = dir;
+	if(File.exists(input_dir)){
+		output_dir = File.getParent(input_dir)+"/"+File.getName(input_dir)+"_tiles/";
+		if(!File.exists(output_dir)) 
+	      	   File.mkdir(output_dir);
+    print("Input directory is: "+input_dir);
+    print("Output directory is: "+output_dir);
+    print("Cropping large image into many tiles...");
+		run("SlideJ ", "input="+input_dir+" output="+output_dir+" macro="+macro_fn+" tile="+tile_size+" overlap="+overlap_distance+" cancel=No");
+selectWindow("Results");
+saveAs("Results",output_dir+"SlideJ_info.csv");
+selectWindow("Results");
+run("Close");
+    print("Save cropped images into folder: "+output_dir);
+		print("-------------------------------------------------- ");
+	} 
+	
+
+
+print("Completed");
+
+//if(!File.exists(dir+"log")) File.mkdir(dir+"log");
+selectWindow("Log");
+saveAs("Text", output_dir+ "slideJ_tiles_log.txt");
+
+print("-------------------------------------------------- ");
+setBatchMode(false);
